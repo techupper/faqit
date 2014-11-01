@@ -1,16 +1,23 @@
 package com.faqit.storage;
 
 public class Entry {
-	private String faqId;
+	private String id;
 	private String domain;
 	private String question;
 	private String answer;
 	
-	public String getFaqId() {
-		return faqId;
+	public Entry(String id, String domain, String question, String answer){
+		this.id = id;
+		this.domain = domain;
+		this.question = question;
+		this.answer = answer;
 	}
-	public void setFaqId(String faqId) {
-		this.faqId = faqId;
+	
+	public String getId() {
+		return id;
+	}
+	public void setId(String faqId) {
+		this.id = faqId;
 	}
 	public String getDomain() {
 		return domain;
