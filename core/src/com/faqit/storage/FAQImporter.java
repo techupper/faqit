@@ -1,3 +1,4 @@
+package com.faqit.storage;
 
 //dom4j or other of the kind
 

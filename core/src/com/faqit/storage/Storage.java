@@ -1,3 +1,4 @@
+package com.faqit.storage;
 
 public interface Storage {
 	
