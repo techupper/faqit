@@ -6,6 +6,13 @@ public class Entry {
 	private String question;
 	private String answer;
 	
+	public Entry() {
+		this.id = null;
+		this.domain = null;
+		this.question = null;
+		this.answer = null;
+	}
+	
 	public Entry(String id, String domain, String question, String answer){
 		this.id = id;
 		this.domain = domain;

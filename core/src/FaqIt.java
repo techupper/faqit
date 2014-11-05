@@ -2,6 +2,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.xml.stream.XMLStreamException;
+
 import com.faqit.storage.*;
 
 public class FaqIt {
@@ -10,8 +12,19 @@ public class FaqIt {
 			StoreEntryException, RetrieveEntriesException {
 		// Entry point of the application
 		System.out.println("Starting the FaqIt engine...");
+		
+		Storage storageManager = new LuceneStorage(null);
 
 		// 1. Start importing FAQs from xml
+		
+		try {
+			FAQImporter.importFAQ(storageManager);
+		} catch (XMLStreamException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		storageManager.RetrieveTopEntries("I am ca, i wanna do any rcgnzd course for entering in share market");
 
 		// 2. Store each entry in storage (lucene)
 
@@ -41,10 +54,10 @@ public class FaqIt {
 				"who is the father of computer science?", "alan turing"));
 		entries.add(new Entry("4", "social", "are you alive?", "of course I am"));
 
-		StorageInterface storageManager = new LuceneStorage(null);
+		Storage storageManager = new LuceneStorage(null);
 
 		for (Entry entry : entries) {
-			storageManager.StoreEntry(entry);
+			storageManager.storeEntry(entry);
 		}
 
 		storageManager.RetrieveTopEntries(test_query);

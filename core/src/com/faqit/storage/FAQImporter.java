@@ -1,9 +1,63 @@
 package com.faqit.storage;
 
-//dom4j or other of the kind
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamConstants;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.XMLStreamReader;
 
 public class FAQImporter {
-	public void importFAQ(){
-		//Storage.storeEntry()
+	public static void importFAQ(Storage storage) throws StoreEntryException,
+			XMLStreamException {
+		ClassLoader classLoader = Thread.currentThread()
+				.getContextClassLoader();
+		Entry currEntry = null;
+		String tagContent = null;
+		XMLInputFactory factory = XMLInputFactory.newInstance();
+		XMLStreamReader reader = factory.createXMLStreamReader(classLoader
+				.getResourceAsStream("corpus/_ENG_faq.xml"));
+
+		while (reader.hasNext()) {
+			int event = reader.next();
+
+			switch (event) {
+			case XMLStreamConstants.START_ELEMENT:
+				if ("FAQ".equals(reader.getLocalName())) {
+					currEntry = new Entry();
+				}
+				if ("FAQS".equals(reader.getLocalName())) {
+					// empList = new ArrayList<>();
+				}
+				break;
+
+			case XMLStreamConstants.CHARACTERS:
+				tagContent = reader.getText().trim();
+				break;
+
+			case XMLStreamConstants.END_ELEMENT:
+				switch (reader.getLocalName()) {
+				case "FAQ":
+					storage.storeEntry(currEntry);
+					break;
+				case "FAQID":
+					currEntry.setId(tagContent);
+					break;
+				case "DOMAIN":
+					currEntry.setDomain(tagContent);
+					break;
+				case "QUESTION":
+					currEntry.setQuestion(tagContent);
+					break;
+				case "ANSWER":
+					currEntry.setAnswer(tagContent);
+					break;
+				}
+				break;
+
+			case XMLStreamConstants.START_DOCUMENT:
+				// empList = new ArrayList<>();
+				break;
+			}
+
+		}
 	}
 }

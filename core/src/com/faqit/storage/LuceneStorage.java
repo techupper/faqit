@@ -23,7 +23,7 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
 
-public class LuceneStorage implements StorageInterface {
+public class LuceneStorage implements Storage {
 	private static final String DOC_FIELD_RETRIEVE = "question";
 	private static final int NUMBER_OF_HITS = 20;
 
@@ -50,7 +50,7 @@ public class LuceneStorage implements StorageInterface {
 		indexWriter = new IndexWriter(directory, config);
 	}
 
-	public void StoreEntry(Entry entry) throws StoreEntryException {
+	public void storeEntry(Entry entry) throws StoreEntryException {
 
 		try {
 			
