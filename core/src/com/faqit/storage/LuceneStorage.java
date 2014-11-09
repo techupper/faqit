@@ -2,6 +2,8 @@ package com.faqit.storage;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
@@ -24,8 +26,11 @@ import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
 
 public class LuceneStorage implements Storage {
-	private static final String DOC_FIELD_RETRIEVE = "question";
-	private static final int NUMBER_OF_HITS = 20;
+	private static final int NUMBER_OF_HITS = 10;
+	private static final String ID_FIELD = "id";
+	private static final String DOMAIN_FIELD = "domain";
+	private static final String QUESTION_FIELD = "question";
+	private static final String ANSWER_FIELD = "answer";
 
 	private Analyzer analyzer = null;
 	private Directory directory = null;
@@ -34,7 +39,7 @@ public class LuceneStorage implements Storage {
 	private DirectoryReader directoryReader = null;
 	private IndexSearcher indexSearcher = null;
 
-	public LuceneStorage(String pathToStorage) throws IOException{
+	public LuceneStorage(String pathToStorage) throws IOException {
 
 		analyzer = new StandardAnalyzer();
 
@@ -53,51 +58,62 @@ public class LuceneStorage implements Storage {
 	public void storeEntry(Entry entry) throws StoreEntryException {
 
 		try {
-			
+
 			Document doc = new Document();
 			doc.add(new Field("id", entry.getId(), TextField.TYPE_STORED));
-			doc.add(new Field("domain", entry.getDomain(), TextField.TYPE_STORED));
-			doc.add(new Field("question", entry.getQuestion(), TextField.TYPE_STORED));
-			doc.add(new Field("answer", entry.getAnswer(), TextField.TYPE_STORED));
-			
+			doc.add(new Field("domain", entry.getDomain(),
+					TextField.TYPE_STORED));
+			doc.add(new Field("question", entry.getQuestion(),
+					TextField.TYPE_STORED));
+			doc.add(new Field("answer", entry.getAnswer(),
+					TextField.TYPE_STORED));
+
 			indexWriter.addDocument(doc);
 			indexWriter.commit();
 		} catch (IOException e) {
-			throw new StoreEntryException("Failed to store the entry with id=" + entry.getId() + ".");
+			throw new StoreEntryException("Failed to store the entry with id="
+					+ entry.getId() + ".");
 		}
 	}
 
 	@SuppressWarnings("static-access")
-	public Entry[] RetrieveTopEntries(String userInput) throws RetrieveEntriesException {
-		
+	public List<Entry> RetrieveTopEntries(String userInput)
+			throws RetrieveEntriesException {
+		List<Entry> topEntries = new ArrayList<Entry>();
+
 		try {
-			Query query = new QueryParser(DOC_FIELD_RETRIEVE, analyzer).parse(userInput);
-			
+			Query query = new QueryParser(QUESTION_FIELD, analyzer)
+					.parse(userInput);
+
 			IndexReader indexReader = directoryReader.open(directory);
 			indexSearcher = new IndexSearcher(indexReader);
-			
-			TopScoreDocCollector collector = TopScoreDocCollector.create(NUMBER_OF_HITS, true);
-			
+
+			TopScoreDocCollector collector = TopScoreDocCollector.create(
+					NUMBER_OF_HITS, true);
+
 			indexSearcher.search(query, collector);
-			
+
 			ScoreDoc[] hits = collector.topDocs().scoreDocs;
-			
-			//TODO test purposes
-			System.out.println("Found " + hits.length + " hits.");
-			for(int i=0;i<hits.length;i++){
+
+			//System.out.println("Found " + hits.length + " hits.");
+			for (int i = 0; i < hits.length; i++) {
+				
 				int docId = hits[i].doc;
 				Document document = indexSearcher.doc(docId);
-				System.out.println((i + 1) + ". " + document.get("question"));
+				
+				//System.out.println((i + 1) + ". " + document.get(QUESTION_FIELD));
+				
+				topEntries.add(new Entry(document.get(ID_FIELD), document
+						.get(DOMAIN_FIELD), document.get(QUESTION_FIELD),
+						document.get(ANSWER_FIELD)));
 			}
-			//TODO end of test
-			
-			
+
 		} catch (ParseException e) {
 			throw new RetrieveEntriesException("Parse Exception occurred.");
 		} catch (IOException e) {
 			throw new RetrieveEntriesException("Could not access the index.");
 		}
-		
-		return null;
+
+		return topEntries;
 	}
 }

@@ -1,4 +1,6 @@
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,16 +9,19 @@ import javax.xml.stream.XMLStreamException;
 import com.faqit.storage.*;
 
 public class FaqIt {
+	private static final boolean DEBUG = true;
 
 	public static void main(String[] args) throws IOException,
 			StoreEntryException, RetrieveEntriesException {
-		// Entry point of the application
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String query = null;
+
 		System.out.println("Starting the FaqIt engine...");
 		
 		Storage storageManager = new LuceneStorage(null);
 
-		// 1. Start importing FAQs from xml
-		
+		// 1. Start importing FAQs from xml to lucene 
 		try {
 			FAQImporter.importFAQ(storageManager);
 		} catch (XMLStreamException e) {
@@ -24,17 +29,40 @@ public class FaqIt {
 			e.printStackTrace();
 		}
 		
-		storageManager.RetrieveTopEntries("I am ca, i wanna do any rcgnzd course for entering in share market");
+		// 2. Wait for user query and retrieve N most similar entries based on IF-IDF
+		List<Entry> topEntries = null;
+		
+		while(true){
+			System.out.print("<Enter 'q' to quit>\nQuery: ");
+			query = br.readLine();
+			if(query.compareToIgnoreCase("q") == 0){
+				break;
+			}
+			else{
+				topEntries = storageManager.RetrieveTopEntries(query);				
+			}
+		
+			if(DEBUG){
+				String storageResults = "Results retrieved by Storage: ";
+				
+				if(topEntries.isEmpty()){
+					storageResults += "<No similar entries for " + query +">";
+				}
+				else{
+					int i = 1;
+					for(Entry e : topEntries){
+						storageResults += "\t" + i + ": " + e.getQuestion() + "\n";
+						i++;
+					}					
+				}
+				System.out.println(storageResults + "\n");
+			}
+		}
 
-		// 2. Store each entry in storage (lucene)
-
-		// 3. Wait for user query
-
-		// 4. If there is user input, retrieve from storage the top N best
-		// documents
-
-		// 5. Apply similarity measures to rank the previously retrieved
-		// documents
+		// 3. Apply similarity measures to rank retrieved documents
+		
+		
+		// 4. Apply Learning to rank algorithm to learn weights
 
 		System.out.println("Stopping the FaqIt engine...");
 	}

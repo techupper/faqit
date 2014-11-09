@@ -1,10 +1,9 @@
 package com.faqit.similarity;
 
-import java.util.List;
 import com.faqit.storage.Entry;
 
 public class Ranker {
-	private List<SimilarityMeasure> measures;
+	//private List<SimilarityMeasure> measures;
 
 	public Entry[] performQuery(String query) {
 		//TODO

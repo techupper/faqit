@@ -1,10 +1,10 @@
 package com.faqit.storage;
 
-import java.io.IOException;
+import java.util.List;
 
 public interface Storage {
 	void storeEntry(Entry entry) throws StoreEntryException;
 
-	Entry[] RetrieveTopEntries(String userInput)
+	List<Entry> RetrieveTopEntries(String userInput)
 			throws RetrieveEntriesException;
 }

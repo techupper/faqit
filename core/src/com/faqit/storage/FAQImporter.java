@@ -1,5 +1,8 @@
 package com.faqit.storage;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
@@ -7,15 +10,12 @@ import javax.xml.stream.XMLStreamReader;
 
 public class FAQImporter {
 	public static void importFAQ(Storage storage) throws StoreEntryException,
-			XMLStreamException {
-		ClassLoader classLoader = Thread.currentThread()
-				.getContextClassLoader();
+			XMLStreamException, FileNotFoundException {
 		Entry currEntry = null;
 		String tagContent = null;
 		XMLInputFactory factory = XMLInputFactory.newInstance();
-		XMLStreamReader reader = factory.createXMLStreamReader(classLoader
-				.getResourceAsStream("corpus/_ENG_faq.xml"));
-
+		XMLStreamReader reader = factory.createXMLStreamReader(new FileInputStream("corpus/_ENG_faq.xml"));
+		
 		while (reader.hasNext()) {
 			int event = reader.next();
 
