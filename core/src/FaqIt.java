@@ -14,7 +14,7 @@ public class FaqIt {
 		String result = null;
 		
 		try {
-			Ranker.Init(DEBUG);
+			Ranker.init(DEBUG);
 			
 			while(true){
 				System.out.print("<Enter 'q' to quit>\nQuery: ");

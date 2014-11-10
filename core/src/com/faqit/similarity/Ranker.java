@@ -2,6 +2,8 @@ package com.faqit.similarity;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import javax.xml.stream.XMLStreamException;
@@ -14,81 +16,109 @@ import com.faqit.storage.Storage;
 import com.faqit.storage.StoreEntryException;
 
 public class Ranker {
-	
-	private static Ranker INSTANCE = new Ranker();
-	
+
+	private static final Ranker INSTANCE = new Ranker();
+	private static final Float ANSWER_WEIGHT = 0.2f;
+	private static final Float QUESTION_WEIGHT = 1 - ANSWER_WEIGHT;
+	private static final String STANDARD_EXCEPTION_MSG = "At the moment it is not possible to process your query: ";
+
 	private static Storage storageManager;
 	private static boolean initialized = false;
 	private static boolean debug;
-	
-	//private List<SimilarityMeasure> measures;
-	
-	private Ranker(){
+
+	private static List<SimilarityMeasure> measures;
+
+	private Ranker() {
+		measures = new ArrayList<SimilarityMeasure>(); 
+		// TODO should we make this parameterized by using an xml config file?
+		SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
+		measures.add(sm1);
 	}
-	
-	public static Ranker getInstance(){
+
+	public static Ranker getInstance() {
 		return INSTANCE;
 	}
-	
-	public static void Init(boolean onDebug) throws RankerGeneralException{
+
+	public static void init(boolean onDebug) throws RankerGeneralException {
 		try {
-			storageManager = new LuceneStorage(null);		
+			storageManager = new LuceneStorage(null);
 			debug = onDebug;
-			
-			// 1. Start importing FAQs from xml to lucene 
+
+			// 1. Start importing FAQs from xml to lucene
 			FAQImporter.importFAQ(storageManager);
-			
+
 			initialized = true;
 		} catch (FileNotFoundException e) {
-			throw new RankerGeneralException("I have lost something, not sure what, but...");
+			throw new RankerGeneralException(
+					"I have lost something, not sure what, but...");
 		} catch (IOException e) {
-			throw new RankerGeneralException("I feel like there is a wall between us...");
+			throw new RankerGeneralException(
+					"I feel like there is a wall between us...");
 		} catch (StoreEntryException e) {
-			throw new RankerGeneralException("I fear I will not remember what you have just told me about...");
+			throw new RankerGeneralException(
+					"I fear I will not remember what you have just told me about...");
 		} catch (XMLStreamException e) {
 			throw new RankerGeneralException("I cannot see clearly!");
 		}
 	}
 
-	public static String performQuery(String query) throws RankerGeneralException{
-		if(!initialized){
-			throw new RankerGeneralException("Ranker was not initialized. Call Ranker.Init()");
+	public static String performQuery(String query)
+			throws RankerGeneralException {
+		if (!initialized) {
+			throw new RankerGeneralException(
+					"Ranker was not initialized. Call Ranker.Init()");
 		}
 		String result = null;
 		try {
-			// 2. Wait for user query and retrieve N most similar entries based on IF-IDF
+			// 2. Wait for user query and retrieve N most similar entries based
+			// on IF-IDF
 			List<Entry> topEntries = storageManager.RetrieveTopEntries(query);
-			
-			if(debug){
-				String storageResults = "Results retrieved by Storage: \n";
-				
-				if(topEntries.isEmpty()){
-					storageResults += "<No similar entries for " + query +">";
-				}
-				else{
-					int i = 1;
-					for(Entry e : topEntries){
-						storageResults += "\t" + i + ": " + e.getQuestion() + "\n";
-						i++;
-					}					
-				}
-				System.out.println(storageResults + "\n");
-			}
-			
+
 			// 3. Apply similarity measures to rank retrieved documents
-			
+			if (!measures.isEmpty()) {
+				for (Entry entry : topEntries) {
+					for (SimilarityMeasure sm : measures) {
+						entry.setScore(sm.score(entry.getAnswer(), query)
+								* ANSWER_WEIGHT
+								+ sm.score(entry.getQuestion(), query)
+								* QUESTION_WEIGHT);
+					}
+				}
+			}
 			// 4. Apply Learning to rank algorithm to learn weights
-			
+
 			// 5. Return the top 1 similar question
-			if(topEntries.size() > 0){
-				result = topEntries.get(0).getQuestion();				
+			Collections.sort(topEntries);
+			if (topEntries.size() > 0) {
+				result = topEntries.get(0).getQuestion();
+			}
+
+			if (debug) {
+				dumpEntries(query, topEntries);
 			}
 			
-		} catch (RetrieveEntriesException e1) {
-			throw new RankerGeneralException("At the moment it is not possible to process your query.");
+		} catch (RetrieveEntriesException | SimilarityMeasureException e) {
+			throw new RankerGeneralException(STANDARD_EXCEPTION_MSG
+					+ e.getMessage());
 		}
-		
+
 		return result;
+	}
+
+	private static void dumpEntries(String query, List<Entry> topEntries) {
+		String storageResults = "Results retrieved by Storage: \n";
+
+		if (topEntries.isEmpty()) {
+			storageResults += "<No similar entries for " + query + ">";
+		} else {
+			int i = 1;
+			for (Entry e : topEntries) {
+				storageResults += "\t" + i + ": " + "score = " + e.getScore()
+						+ " : " + e.getQuestion() + "\n";
+				i++;
+			}
+		}
+		System.out.println(storageResults + "\n");
 	}
 
 }

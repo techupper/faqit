@@ -26,7 +26,6 @@ import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
 
 public class LuceneStorage implements Storage {
-	private static final int NUMBER_OF_HITS = 10;
 	private static final String ID_FIELD = "id";
 	private static final String DOMAIN_FIELD = "domain";
 	private static final String QUESTION_FIELD = "question";
@@ -95,17 +94,22 @@ public class LuceneStorage implements Storage {
 
 			ScoreDoc[] hits = collector.topDocs().scoreDocs;
 
-			//System.out.println("Found " + hits.length + " hits.");
+			// System.out.println("Found " + hits.length + " hits.");
 			for (int i = 0; i < hits.length; i++) {
-				
+
 				int docId = hits[i].doc;
 				Document document = indexSearcher.doc(docId);
-				
-				//System.out.println((i + 1) + ". " + document.get(QUESTION_FIELD));
-				
-				topEntries.add(new Entry(document.get(ID_FIELD), document
-						.get(DOMAIN_FIELD), document.get(QUESTION_FIELD),
-						document.get(ANSWER_FIELD)));
+
+				// System.out.println((i + 1) + ". " +
+				// document.get(QUESTION_FIELD));
+
+				if (document.get(QUESTION_FIELD).compareTo("") != 0
+						&& document.get(ANSWER_FIELD).compareTo("") != 0) {
+					topEntries.add(new Entry(document.get(ID_FIELD), document
+							.get(DOMAIN_FIELD), document.get(QUESTION_FIELD),
+							document.get(ANSWER_FIELD)));
+				}
+
 			}
 
 		} catch (ParseException e) {
