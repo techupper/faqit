@@ -31,7 +31,7 @@ public class Ranker {
 	private Ranker() {
 		measures = new ArrayList<SimilarityMeasure>(); 
 		// TODO should we make this parameterized by using an xml config file?
-		SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
+		SimilarityMeasure sm1 = new NGramOverlapMeasure(0.5f);
 		measures.add(sm1);
 		LSAMeasure sm2 = new LSAMeasure(0.5f);
 		measures.add(sm2);
