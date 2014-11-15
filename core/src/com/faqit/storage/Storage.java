@@ -3,7 +3,7 @@ package com.faqit.storage;
 import java.util.List;
 
 public interface Storage {
-	public static final int NUMBER_OF_HITS = 10;
+	public static final int NUMBER_OF_HITS = 5;
 	
 	void storeEntry(Entry entry) throws StoreEntryException;
 

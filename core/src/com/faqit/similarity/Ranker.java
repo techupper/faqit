@@ -33,6 +33,8 @@ public class Ranker {
 		// TODO should we make this parameterized by using an xml config file?
 		SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
 		measures.add(sm1);
+		//LSAMeasure sm2 = new LSAMeasure(0.5f);
+		//measures.add(sm2);
 	}
 
 	public static Ranker getInstance() {
@@ -68,7 +70,7 @@ public class Ranker {
 			throw new RankerGeneralException(
 					"Ranker was not initialized. Call Ranker.Init()");
 		}
-		String result = null;
+		String result = "<Empty>";
 		try {
 			// 2. Wait for user query and retrieve N most similar entries based
 			// on IF-IDF
@@ -78,7 +80,7 @@ public class Ranker {
 			if (!measures.isEmpty()) {
 				for (Entry entry : topEntries) {
 					for (SimilarityMeasure sm : measures) {
-						entry.setScore(sm.score(entry.getAnswer(), query)
+						entry.setScore(entry.getScore() + sm.score(entry.getAnswer(), query)
 								* ANSWER_WEIGHT
 								+ sm.score(entry.getQuestion(), query)
 								* QUESTION_WEIGHT);
@@ -86,9 +88,9 @@ public class Ranker {
 				}
 			}
 			// 4. Apply Learning to rank algorithm to learn weights
+			rank(topEntries);
 
 			// 5. Return the top 1 similar question
-			Collections.sort(topEntries);
 			if (topEntries.size() > 0) {
 				result = topEntries.get(0).getQuestion();
 			}
@@ -103,6 +105,11 @@ public class Ranker {
 		}
 
 		return result;
+	}
+
+	//TODO to use a learning to rank approach
+	private static void rank(List<Entry> topEntries) {
+		Collections.sort(topEntries);
 	}
 
 	private static void dumpEntries(String query, List<Entry> topEntries) {

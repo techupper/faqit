@@ -7,9 +7,7 @@ abstract class SimilarityMeasure {
 		this.weight = weight;
 	}
 	
-	public Float score(String t1, String t2) throws SimilarityMeasureException{
-		return new Float(0);
-	}
+	public abstract Float score(String t1, String t2) throws SimilarityMeasureException;
 	
 	public Float getWeight() {
 		return weight;

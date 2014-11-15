@@ -1,8 +1,10 @@
 faqit
 =====
 
-Steps:
+Mandatory:
+1. Download the SEMILAR main package (SEMILAR API) from http://www.semanticsimilarity.org/
+2. Extract the files to core/external libs/semilar/
 
-1. Build database from xml files.
-2. Given a query return the top N pairs question-answer in respect to a similarity measure (tf-idf)
-3. Use another set of similarity measures to compute a score (equally-weighted mean)
+To use LSA in sentence similarity, do the following steps:
+1. Download LSA models (any of your choice) from http://www.semanticsimilarity.org/
+2. Extract both files from the model to core/external libs/semilar/LSA-MODELS/LSA-MODEL-TASA-LEMMATIZED-DIM300/
