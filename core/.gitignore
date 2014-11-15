@@ -28,3 +28,4 @@ local.properties
 /bin
 
 external libs/semilar/*
+WordNet-JWI/*

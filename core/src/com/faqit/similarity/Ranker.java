@@ -33,8 +33,8 @@ public class Ranker {
 		// TODO should we make this parameterized by using an xml config file?
 		SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
 		measures.add(sm1);
-		//LSAMeasure sm2 = new LSAMeasure(0.5f);
-		//measures.add(sm2);
+		LSAMeasure sm2 = new LSAMeasure(0.5f);
+		measures.add(sm2);
 	}
 
 	public static Ranker getInstance() {
