@@ -1,4 +1,6 @@
-package com.faqit.similarity;
+package com.faqit.similarity.measures;
+
+import com.faqit.similarity.measures.exception.SimilarityMeasureException;
 
 import semilar.config.ConfigManager;
 import semilar.data.Sentence;

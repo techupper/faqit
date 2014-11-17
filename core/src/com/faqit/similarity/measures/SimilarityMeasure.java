@@ -1,6 +1,9 @@
-package com.faqit.similarity;
+package com.faqit.similarity.measures;
 
-abstract class SimilarityMeasure {
+import com.faqit.similarity.measures.exception.SimilarityMeasureException;
+
+
+public abstract class SimilarityMeasure {
 	private Float weight = 0f;
 	
 	public SimilarityMeasure(Float weight){

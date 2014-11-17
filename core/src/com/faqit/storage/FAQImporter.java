@@ -8,14 +8,18 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
+import com.faqit.storage.exception.StoreEntryException;
+
 public class FAQImporter {
-	public static void importFAQ(Storage storage) throws StoreEntryException,
-			XMLStreamException, FileNotFoundException {
+	public static void importFAQ(Storage storage) throws XMLStreamException,
+			FileNotFoundException, StoreEntryException {
 		Entry currEntry = null;
 		String tagContent = null;
 		XMLInputFactory factory = XMLInputFactory.newInstance();
-		XMLStreamReader reader = factory.createXMLStreamReader(new FileInputStream("corpus/_ENG_faq.xml"));
-		
+		XMLStreamReader reader = factory
+				.createXMLStreamReader(new FileInputStream(
+						"corpus/_ENG_faq.xml"));
+
 		while (reader.hasNext()) {
 			int event = reader.next();
 

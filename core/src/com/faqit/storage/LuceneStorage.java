@@ -14,6 +14,7 @@ import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.index.Term;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
@@ -25,6 +26,11 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
 
+import com.faqit.storage.exception.RetrieveEntriesException;
+import com.faqit.storage.exception.StoreEntryException;
+import com.faqit.storage.exception.SumTotalTermFreqException;
+import com.faqit.storage.exception.TotalTermFreqException;
+
 public class LuceneStorage implements Storage {
 	private static final String ID_FIELD = "id";
 	private static final String DOMAIN_FIELD = "domain";
@@ -35,7 +41,7 @@ public class LuceneStorage implements Storage {
 	private Directory directory = null;
 	private IndexWriter indexWriter = null;
 	private IndexWriterConfig config = null;
-	private DirectoryReader directoryReader = null;
+	// private DirectoryReader directoryReader = null;
 	private IndexSearcher indexSearcher = null;
 
 	public LuceneStorage(String pathToStorage) throws IOException {
@@ -70,12 +76,11 @@ public class LuceneStorage implements Storage {
 			indexWriter.addDocument(doc);
 			indexWriter.commit();
 		} catch (IOException e) {
-			throw new StoreEntryException("Failed to store the entry with id="
-					+ entry.getId() + ".");
+			throw new StoreEntryException(entry.getId());
 		}
 	}
 
-	@SuppressWarnings("static-access")
+	// @SuppressWarnings("static-access")
 	public List<Entry> RetrieveTopEntries(String userInput)
 			throws RetrieveEntriesException {
 		List<Entry> topEntries = new ArrayList<Entry>();
@@ -84,7 +89,7 @@ public class LuceneStorage implements Storage {
 			Query query = new QueryParser(QUESTION_FIELD, analyzer)
 					.parse(userInput);
 
-			IndexReader indexReader = directoryReader.open(directory);
+			IndexReader indexReader = DirectoryReader.open(directory);
 			indexSearcher = new IndexSearcher(indexReader);
 
 			TopScoreDocCollector collector = TopScoreDocCollector.create(
@@ -113,11 +118,33 @@ public class LuceneStorage implements Storage {
 			}
 
 		} catch (ParseException e) {
-			throw new RetrieveEntriesException("Parse Exception occurred.");
+			throw new RetrieveEntriesException(e.getMessage());
 		} catch (IOException e) {
-			throw new RetrieveEntriesException("Could not access the index.");
+			throw new RetrieveEntriesException(e.getMessage());
 		}
 
 		return topEntries;
+	}
+
+	@Override
+	public Long getSumTotalTermFreq() throws SumTotalTermFreqException {
+		try {
+			IndexReader indexReader = DirectoryReader.open(directory);
+			return indexReader.getSumTotalTermFreq(ANSWER_FIELD)
+					+ indexReader.getSumTotalTermFreq(QUESTION_FIELD);
+		} catch (IOException e) {
+			throw new SumTotalTermFreqException();
+		}
+	}
+
+	@Override
+	public Long getTotalTermFreq(String termText) throws TotalTermFreqException {
+		try {
+			IndexReader indexReader = DirectoryReader.open(directory);
+			return indexReader.totalTermFreq(new Term(ANSWER_FIELD, termText))
+					+ indexReader.totalTermFreq(new Term(QUESTION_FIELD, termText));
+		} catch (IOException e) {
+			throw new TotalTermFreqException();
+		}
 	}
 }

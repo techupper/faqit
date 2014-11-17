@@ -1,4 +1,4 @@
-package com.faqit.similarity;
+package com.faqit.similarity.exception;
 
 public class RankerGeneralException extends Exception{
 	private static final long serialVersionUID = 1L;

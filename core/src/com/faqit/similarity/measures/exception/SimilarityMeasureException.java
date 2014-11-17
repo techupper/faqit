@@ -1,4 +1,4 @@
-package com.faqit.similarity;
+package com.faqit.similarity.measures.exception;
 
 public class SimilarityMeasureException extends Exception{
 	private static final long serialVersionUID = 1L;

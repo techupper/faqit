@@ -8,12 +8,18 @@ import java.util.List;
 
 import javax.xml.stream.XMLStreamException;
 
+import com.faqit.similarity.exception.RankerGeneralException;
+import com.faqit.similarity.measures.ICWeightedOverlapMeasure;
+import com.faqit.similarity.measures.LSAMeasure;
+import com.faqit.similarity.measures.NGramOverlapMeasure;
+import com.faqit.similarity.measures.SimilarityMeasure;
+import com.faqit.similarity.measures.exception.SimilarityMeasureException;
 import com.faqit.storage.Entry;
 import com.faqit.storage.FAQImporter;
 import com.faqit.storage.LuceneStorage;
-import com.faqit.storage.RetrieveEntriesException;
 import com.faqit.storage.Storage;
-import com.faqit.storage.StoreEntryException;
+import com.faqit.storage.exception.RetrieveEntriesException;
+import com.faqit.storage.exception.StoreEntryException;
 
 public class Ranker {
 
@@ -29,12 +35,14 @@ public class Ranker {
 	private static List<SimilarityMeasure> measures;
 
 	private Ranker() {
-		measures = new ArrayList<SimilarityMeasure>(); 
+		measures = new ArrayList<SimilarityMeasure>();
 		// TODO should we make this parameterized by using an xml config file?
-		SimilarityMeasure sm1 = new NGramOverlapMeasure(0.5f);
-		measures.add(sm1);
-		LSAMeasure sm2 = new LSAMeasure(0.5f);
-		measures.add(sm2);
+		//SimilarityMeasure sm1 = new NGramOverlapMeasure(0.5f);
+		//measures.add(sm1);
+		// LSAMeasure sm2 = new LSAMeasure(0.5f);
+		// measures.add(sm2);
+		SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(1f);
+		measures.add(sm3);
 	}
 
 	public static Ranker getInstance() {
@@ -80,7 +88,8 @@ public class Ranker {
 			if (!measures.isEmpty()) {
 				for (Entry entry : topEntries) {
 					for (SimilarityMeasure sm : measures) {
-						entry.setScore(entry.getScore() + sm.score(entry.getAnswer(), query)
+						entry.setScore(entry.getScore()
+								+ sm.score(entry.getAnswer(), query)
 								* ANSWER_WEIGHT
 								+ sm.score(entry.getQuestion(), query)
 								* QUESTION_WEIGHT);
@@ -98,7 +107,7 @@ public class Ranker {
 			if (debug) {
 				dumpEntries(query, topEntries);
 			}
-			
+
 		} catch (RetrieveEntriesException | SimilarityMeasureException e) {
 			throw new RankerGeneralException(STANDARD_EXCEPTION_MSG
 					+ e.getMessage());
@@ -107,7 +116,11 @@ public class Ranker {
 		return result;
 	}
 
-	//TODO to use a learning to rank approach
+	public static Storage getStorageManager() {
+		return storageManager;
+	}
+
+	// TODO to use a learning to rank approach
 	private static void rank(List<Entry> topEntries) {
 		Collections.sort(topEntries);
 	}

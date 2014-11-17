@@ -1,8 +1,9 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
 import com.faqit.similarity.Ranker;
-import com.faqit.similarity.RankerGeneralException;
+import com.faqit.similarity.exception.RankerGeneralException;
 
 public class FaqIt {
 	private static final boolean DEBUG = true;
