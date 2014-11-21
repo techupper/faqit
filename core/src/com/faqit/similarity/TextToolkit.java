@@ -32,4 +32,8 @@ public class TextToolkit {
 	    tokenStream.close();
 	    return sb.toString();
 	}
+	
+	public static Float computeIC(String s){
+		return 1f;
+	}
 }

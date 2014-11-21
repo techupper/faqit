@@ -9,9 +9,8 @@ import java.util.List;
 import javax.xml.stream.XMLStreamException;
 
 import com.faqit.similarity.exception.RankerGeneralException;
+import com.faqit.similarity.measures.AlignedLemmaOverlapMeasure;
 import com.faqit.similarity.measures.ICWeightedOverlapMeasure;
-import com.faqit.similarity.measures.LSAMeasure;
-import com.faqit.similarity.measures.NGramOverlapMeasure;
 import com.faqit.similarity.measures.SimilarityMeasure;
 import com.faqit.similarity.measures.exception.SimilarityMeasureException;
 import com.faqit.storage.Entry;
@@ -37,12 +36,14 @@ public class Ranker {
 	private Ranker() {
 		measures = new ArrayList<SimilarityMeasure>();
 		// TODO should we make this parameterized by using an xml config file?
-		//SimilarityMeasure sm1 = new NGramOverlapMeasure(0.5f);
-		//measures.add(sm1);
-		// LSAMeasure sm2 = new LSAMeasure(0.5f);
+		// SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
+		// measures.add(sm1);
+		// LSAMeasure sm2 = new LSAMeasure(1f);
 		// measures.add(sm2);
-		SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(1f);
-		measures.add(sm3);
+		//SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(1f);
+		//measures.add(sm3);
+		SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
+		measures.add(sm4);
 	}
 
 	public static Ranker getInstance() {

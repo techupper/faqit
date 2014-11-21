@@ -41,7 +41,6 @@ public class LuceneStorage implements Storage {
 	private Directory directory = null;
 	private IndexWriter indexWriter = null;
 	private IndexWriterConfig config = null;
-	// private DirectoryReader directoryReader = null;
 	private IndexSearcher indexSearcher = null;
 
 	public LuceneStorage(String pathToStorage) throws IOException {
@@ -80,7 +79,6 @@ public class LuceneStorage implements Storage {
 		}
 	}
 
-	// @SuppressWarnings("static-access")
 	public List<Entry> RetrieveTopEntries(String userInput)
 			throws RetrieveEntriesException {
 		List<Entry> topEntries = new ArrayList<Entry>();
@@ -99,14 +97,10 @@ public class LuceneStorage implements Storage {
 
 			ScoreDoc[] hits = collector.topDocs().scoreDocs;
 
-			// System.out.println("Found " + hits.length + " hits.");
 			for (int i = 0; i < hits.length; i++) {
 
 				int docId = hits[i].doc;
 				Document document = indexSearcher.doc(docId);
-
-				// System.out.println((i + 1) + ". " +
-				// document.get(QUESTION_FIELD));
 
 				if (document.get(QUESTION_FIELD).compareTo("") != 0
 						&& document.get(ANSWER_FIELD).compareTo("") != 0) {
