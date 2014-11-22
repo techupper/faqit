@@ -25,7 +25,6 @@ public class LSAMeasure extends SimilarityMeasure {
 		// is a word 2 word similarity metric used with Optimum and Greedy
 		// methods.
 		lsaComparer = new LSAComparer("LSA-MODEL-TASA-LEMMATIZED-DIM300");
-		//lsaComparer = new LSAComparer("LSA-MODEL-WIKI-6");
 		preprocessor = new SentencePreprocessor(
 				SentencePreprocessor.TokenizerType.STANFORD,
 				SentencePreprocessor.TaggerType.STANFORD,

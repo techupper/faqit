@@ -33,6 +33,18 @@ public class TextToolkit {
 	    return sb.toString();
 	}
 	
+	public static String getTokenizedString(String input){
+		String[] words = input.split("[\\.|\\,|\\?|\\!|\\s]+");
+		
+		StringBuilder builder = new StringBuilder();
+		
+		for(String s : words) {
+		    builder.append(s);
+		    builder.append(" ");
+		}
+		return builder.toString();
+	}
+	
 	public static Float computeIC(String s){
 		return 1f;
 	}

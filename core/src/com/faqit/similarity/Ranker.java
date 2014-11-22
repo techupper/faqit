@@ -11,6 +11,8 @@ import javax.xml.stream.XMLStreamException;
 import com.faqit.similarity.exception.RankerGeneralException;
 import com.faqit.similarity.measures.AlignedLemmaOverlapMeasure;
 import com.faqit.similarity.measures.ICWeightedOverlapMeasure;
+import com.faqit.similarity.measures.LSAMeasure;
+import com.faqit.similarity.measures.NGramOverlapMeasure;
 import com.faqit.similarity.measures.SimilarityMeasure;
 import com.faqit.similarity.measures.exception.SimilarityMeasureException;
 import com.faqit.storage.Entry;
@@ -23,8 +25,8 @@ import com.faqit.storage.exception.StoreEntryException;
 public class Ranker {
 
 	private static final Ranker INSTANCE = new Ranker();
-	private static final Float ANSWER_WEIGHT = 0.2f;
-	private static final Float QUESTION_WEIGHT = 1 - ANSWER_WEIGHT;
+	private static final Float ANSWER_WEIGHT = 0f;
+	private static final Float QUESTION_WEIGHT = 1f - ANSWER_WEIGHT;
 	private static final String STANDARD_EXCEPTION_MSG = "At the moment it is not possible to process your query: ";
 
 	private static Storage storageManager;
@@ -36,14 +38,14 @@ public class Ranker {
 	private Ranker() {
 		measures = new ArrayList<SimilarityMeasure>();
 		// TODO should we make this parameterized by using an xml config file?
-		// SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
-		// measures.add(sm1);
-		// LSAMeasure sm2 = new LSAMeasure(1f);
+		SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
+		measures.add(sm1);
+		//SimilarityMeasure sm2 = new LSAMeasure(1f);
 		// measures.add(sm2);
-		//SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(1f);
+		SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(1f);
 		//measures.add(sm3);
-		SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
-		measures.add(sm4);
+		//SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
+		//measures.add(sm4);
 	}
 
 	public static Ranker getInstance() {

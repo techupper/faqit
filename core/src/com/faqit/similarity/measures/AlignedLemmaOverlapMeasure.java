@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import semilar.config.ConfigManager;
+import semilar.data.Sentence;
+import semilar.data.Word;
+import semilar.tools.preprocessing.SentencePreprocessor;
 import semilar.wordmetrics.LSAWordMetric;
 
 import com.faqit.similarity.TextToolkit;
@@ -12,12 +15,19 @@ import com.faqit.similarity.measures.exception.SimilarityMeasureException;
 public class AlignedLemmaOverlapMeasure extends SimilarityMeasure {
 	private static final String SEMILAR_DATA_PATH = "./external libs/semilar/";
 	private LSAWordMetric lsaMetricTasa;
+	private SentencePreprocessor preprocessor = null;
 
 	public AlignedLemmaOverlapMeasure(Float weight) {
 		super(weight);
+		// TODO this could also go to TextToolkit
 		ConfigManager.setSemilarHomeFolder(SEMILAR_DATA_PATH);
 		ConfigManager.setSemilarDataRootFolder(SEMILAR_DATA_PATH);
 		lsaMetricTasa = new LSAWordMetric("LSA-MODEL-TASA-LEMMATIZED-DIM300");
+		preprocessor = new SentencePreprocessor(
+				SentencePreprocessor.TokenizerType.STANFORD,
+				SentencePreprocessor.TaggerType.STANFORD,
+				SentencePreprocessor.StemmerType.STANFORD,
+				SentencePreprocessor.ParserType.STANFORD);
 	}
 
 	@Override
@@ -49,30 +59,58 @@ public class AlignedLemmaOverlapMeasure extends SimilarityMeasure {
 	private List<WordPair> extractBestPairsOfWords(String t1, String t2) {
 		List<WordPair> pairs = new ArrayList<WordPair>();
 
-		String[] words1 = t1.split(" ");
-		String[] words2 = t2.split(" ");
+		// TODO put preprocessor in TextToolkit.java, since it is common in this
+		// measure and in LSAMeasure
+		Sentence sentence = preprocessor.preprocessSentence(TextToolkit
+				.getTokenizedString(t1 + " " + t2));
+
+		ArrayList<Word> words = sentence.getWords();
+		Word[] wordsArray = new Word[words.size()];
+		words.toArray(wordsArray);
 
 		Float previousBestSSIM = 0f;
+		Word previousBestWordPair = null;
 		Float tempSSIM = 0f;
 		int w2Index = 0;
-		for (String w1 : words1) {
-			for (int i = 0; i < words2.length; i++) {
-				if (words2[i] == null) {
+		for (int j = 0; j < wordsArray.length; j++) {
+			if (wordsArray[j] == null) {
+				continue;
+			}
+			for (int i = j + 1; i < wordsArray.length; i++) {
+				if (wordsArray[i] == null) {
 					continue;
 				} else {
-					tempSSIM = computeSSIM(w1, words2[i]);
+					tempSSIM = computeSSIM(wordsArray[j].getRawForm(),
+							wordsArray[i].getRawForm());
 					if (tempSSIM > previousBestSSIM) {
-						w2Index = i;
-						words2[i] = null;
+						if (previousBestWordPair != null) {
+							wordsArray[w2Index] = previousBestWordPair; // replace
+																		// the
+																		// previous
+																		// pair
+																		// taken
+						}
+						w2Index = i; // remember the index of the best pair so
+										// far
+						previousBestWordPair = wordsArray[i]; // and the
+																// corresponding
+																// best word
+																// pair
+						wordsArray[i] = null; // reserve the new best pair
 						previousBestSSIM = tempSSIM;
 					}
 				}
 			}
-			pairs.add(new WordPair(w1, words2[w2Index], previousBestSSIM));
+			pairs.add(new WordPair(wordsArray[j].getRawForm(),
+					wordsArray[w2Index] == null ? "" : wordsArray[w2Index]
+							.getRawForm(), previousBestSSIM));
 		}
-		for(WordPair wp : pairs){
-			System.out.println("PAIR : " + wp.w1 + "::::" + wp.w2 + ":::: SCORE="+wp.lsaSim);
-		}
+
+		/*
+		 * for (WordPair wp : pairs) { System.out.println("PAIR : " + "\t\t" +
+		 * wp.w1 + "\t\t" + wp.w2 + "\t\t SCORE=" + wp.lsaSim); }
+		 */
+
 		return pairs;
 	}
 
