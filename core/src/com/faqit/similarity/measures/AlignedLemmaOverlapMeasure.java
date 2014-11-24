@@ -3,31 +3,22 @@ package com.faqit.similarity.measures;
 import java.util.ArrayList;
 import java.util.List;
 
-import semilar.config.ConfigManager;
 import semilar.data.Sentence;
 import semilar.data.Word;
-import semilar.tools.preprocessing.SentencePreprocessor;
 import semilar.wordmetrics.LSAWordMetric;
 
 import com.faqit.similarity.TextToolkit;
 import com.faqit.similarity.measures.exception.SimilarityMeasureException;
 
 public class AlignedLemmaOverlapMeasure extends SimilarityMeasure {
-	private static final String SEMILAR_DATA_PATH = "./external libs/semilar/";
+
 	private LSAWordMetric lsaMetricTasa;
-	private SentencePreprocessor preprocessor = null;
 
 	public AlignedLemmaOverlapMeasure(Float weight) {
 		super(weight);
-		// TODO this could also go to TextToolkit
-		ConfigManager.setSemilarHomeFolder(SEMILAR_DATA_PATH);
-		ConfigManager.setSemilarDataRootFolder(SEMILAR_DATA_PATH);
-		lsaMetricTasa = new LSAWordMetric("LSA-MODEL-TASA-LEMMATIZED-DIM300");
-		preprocessor = new SentencePreprocessor(
-				SentencePreprocessor.TokenizerType.STANFORD,
-				SentencePreprocessor.TaggerType.STANFORD,
-				SentencePreprocessor.StemmerType.STANFORD,
-				SentencePreprocessor.ParserType.STANFORD);
+
+		// semilar related
+		lsaMetricTasa = new LSAWordMetric(TextToolkit.getLsaModelPath());
 	}
 
 	@Override
@@ -59,10 +50,8 @@ public class AlignedLemmaOverlapMeasure extends SimilarityMeasure {
 	private List<WordPair> extractBestPairsOfWords(String t1, String t2) {
 		List<WordPair> pairs = new ArrayList<WordPair>();
 
-		// TODO put preprocessor in TextToolkit.java, since it is common in this
-		// measure and in LSAMeasure
-		Sentence sentence = preprocessor.preprocessSentence(TextToolkit
-				.getTokenizedString(t1 + " " + t2));
+		Sentence sentence = TextToolkit.getPreprocessor().preprocessSentence(
+				TextToolkit.getTokenizedString(t1 + " " + t2));
 
 		ArrayList<Word> words = sentence.getWords();
 		Word[] wordsArray = new Word[words.size()];
@@ -130,6 +119,8 @@ public class AlignedLemmaOverlapMeasure extends SimilarityMeasure {
 	}
 
 	private Float computeSIM(WordPair pair) {
+		// TODO computeIC should be placed in storage. the current call is just
+		// a stub
 		Float a1 = TextToolkit.computeIC(pair.w1);
 		Float a2 = TextToolkit.computeIC(pair.w2) * pair.lsaSim;
 		return Math.max(a1, a2);
