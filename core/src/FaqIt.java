@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
 import com.faqit.similarity.Ranker;
 import com.faqit.similarity.exception.RankerGeneralException;
 

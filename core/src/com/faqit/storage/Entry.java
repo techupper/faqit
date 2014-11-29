@@ -7,6 +7,7 @@ public class Entry implements Comparable<Entry>{
 	private String answer;
 	
 	private Float score;
+	private Float baseScore; //based on if idf
 	
 	public Entry() {
 		this.id = null;
@@ -14,14 +15,16 @@ public class Entry implements Comparable<Entry>{
 		this.question = null;
 		this.answer = null;
 		this.score = 0f;
+		this.baseScore = 0f;
 	}
 	
-	public Entry(String id, String domain, String question, String answer){
+	public Entry(String id, String domain, String question, String answer, Float baseScore){
 		this.id = id;
 		this.domain = domain;
 		this.question = question;
 		this.answer = answer;
 		this.score = 0f;
+		this.baseScore = baseScore;
 	}
 	
 	public String getId() {
@@ -55,6 +58,10 @@ public class Entry implements Comparable<Entry>{
 
 	public void setScore(Float score) {
 		this.score = score;
+	}
+	
+	public Float getBaseScore() {
+		return baseScore;
 	}
 
 	@Override

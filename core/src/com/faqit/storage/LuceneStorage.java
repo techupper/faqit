@@ -106,7 +106,7 @@ public class LuceneStorage implements Storage {
 						&& document.get(ANSWER_FIELD).compareTo("") != 0) {
 					topEntries.add(new Entry(document.get(ID_FIELD), document
 							.get(DOMAIN_FIELD), document.get(QUESTION_FIELD),
-							document.get(ANSWER_FIELD)));
+							document.get(ANSWER_FIELD), hits[i].score));
 				}
 
 			}

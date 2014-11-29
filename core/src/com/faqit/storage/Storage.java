@@ -8,7 +8,7 @@ import com.faqit.storage.exception.SumTotalTermFreqException;
 import com.faqit.storage.exception.TotalTermFreqException;
 
 public interface Storage {
-	public static final int NUMBER_OF_HITS = 5;
+	public static final int NUMBER_OF_HITS = 10;
 
 	void storeEntry(Entry entry) throws StoreEntryException;
 

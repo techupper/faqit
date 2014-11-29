@@ -30,8 +30,8 @@ public class ICWeightedOverlapMeasure extends SimilarityMeasure {
 			extractor.extract(t2, 1);
 			List<String> uniqueNGramsT2 = extractor.getUniqueNGrams();
 
-			return (wwc(uniqueNGramsT1, uniqueNGramsT2) + wwc(uniqueNGramsT2,
-					uniqueNGramsT1)) / 2;
+			return ((wwc(uniqueNGramsT1, uniqueNGramsT2) + wwc(uniqueNGramsT2,
+					uniqueNGramsT1)) / 2) * getWeight();
 		} catch (SumTotalTermFreqException e) {
 			throw new SimilarityMeasureException(e);
 		} catch (FileNotFoundException e) {

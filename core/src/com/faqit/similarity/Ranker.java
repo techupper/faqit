@@ -8,6 +8,10 @@ import java.util.List;
 
 import javax.xml.stream.XMLStreamException;
 
+import ciir.umass.edu.learning.DataPoint;
+import ciir.umass.edu.learning.RankList;
+import ciir.umass.edu.learning.RankerFactory;
+
 import com.faqit.similarity.exception.RankerGeneralException;
 import com.faqit.similarity.measures.AlignedLemmaOverlapMeasure;
 import com.faqit.similarity.measures.ICWeightedOverlapMeasure;
@@ -28,24 +32,27 @@ public class Ranker {
 	private static final Float ANSWER_WEIGHT = 0f;
 	private static final Float QUESTION_WEIGHT = 1f - ANSWER_WEIGHT;
 	private static final String STANDARD_EXCEPTION_MSG = "At the moment it is not possible to process your query: ";
+	// private static final String L2R_MODEL_PATH =
+	// "./external libs/ranklib/model/standard.model";
 
 	private static Storage storageManager;
 	private static boolean initialized = false;
 	private static boolean debug;
+	// private static boolean l2r = false;
 
 	private static List<SimilarityMeasure> measures;
 
 	private Ranker() {
 		measures = new ArrayList<SimilarityMeasure>();
 		// TODO should we make this parameterized by using an xml config file?
-		//SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
-		//measures.add(sm1);
-		//SimilarityMeasure sm2 = new LSAMeasure(1f);
-		//measures.add(sm2);
-		//SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(1f);
-		//measures.add(sm3);
-		SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
-		measures.add(sm4);
+		SimilarityMeasure sm1 = new NGramOverlapMeasure(0.33f);
+		measures.add(sm1);
+		SimilarityMeasure sm2 = new LSAMeasure(0.33f);
+		measures.add(sm2);
+		SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(0.33f);
+		measures.add(sm3);
+		// SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
+		// measures.add(sm4);
 	}
 
 	public static Ranker getInstance() {
@@ -91,6 +98,8 @@ public class Ranker {
 			if (!measures.isEmpty()) {
 				for (Entry entry : topEntries) {
 					for (SimilarityMeasure sm : measures) {
+						if (sm.getWeight() == 0f)
+							continue;
 						entry.setScore(entry.getScore()
 								+ sm.score(entry.getAnswer(), query)
 								* ANSWER_WEIGHT
@@ -125,7 +134,21 @@ public class Ranker {
 
 	// TODO to use a learning to rank approach
 	private static void rank(List<Entry> topEntries) {
+		// if(l2r != true){
 		Collections.sort(topEntries);
+		/*
+		 * }else{ List<RankList> samples = new ArrayList();
+		 * 
+		 * RankerFactory rankerFactory = new RankerFactory();
+		 * ciir.umass.edu.learning.Ranker l2rRanker =
+		 * rankerFactory.loadRanker(L2R_MODEL_PATH);
+		 * 
+		 * //para cada faq possivel do topEntries DataPoint qp = new
+		 * DataPoint("feature vector: 3 qid:1 1:1 2:1 3:0 4:0.2 5:0 # 1A");
+		 * RankList rl = new RankList(); samples.add(rl); rl.add(qp);
+		 * 
+		 * //para cada sample do samples }
+		 */
 	}
 
 	private static void dumpEntries(String query, List<Entry> topEntries) {
@@ -137,7 +160,8 @@ public class Ranker {
 			int i = 1;
 			for (Entry e : topEntries) {
 				storageResults += "\t" + i + ": " + "score = " + e.getScore()
-						+ " : " + e.getQuestion() + "\n";
+						+ " : " + " ifidf = " + e.getBaseScore() + " : "
+						+ e.getQuestion() + "\n";
 				i++;
 			}
 		}
