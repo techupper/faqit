@@ -8,10 +8,6 @@ import java.util.List;
 
 import javax.xml.stream.XMLStreamException;
 
-import ciir.umass.edu.learning.DataPoint;
-import ciir.umass.edu.learning.RankList;
-import ciir.umass.edu.learning.RankerFactory;
-
 import com.faqit.similarity.exception.RankerGeneralException;
 import com.faqit.similarity.measures.AlignedLemmaOverlapMeasure;
 import com.faqit.similarity.measures.ICWeightedOverlapMeasure;
@@ -49,10 +45,10 @@ public class Ranker {
 		measures.add(sm1);
 		SimilarityMeasure sm2 = new LSAMeasure(0.33f);
 		measures.add(sm2);
-		SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(0.33f);
+		SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(1f);
 		measures.add(sm3);
-		// SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
-		// measures.add(sm4);
+		SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
+		measures.add(sm4);
 	}
 
 	public static Ranker getInstance() {

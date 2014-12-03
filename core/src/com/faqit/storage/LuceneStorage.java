@@ -120,8 +120,7 @@ public class LuceneStorage implements Storage {
 		return topEntries;
 	}
 
-	@Override
-	public Long getSumTotalTermFreq() throws SumTotalTermFreqException {
+	private Long getSumTotalTermFreq() throws SumTotalTermFreqException {
 		try {
 			IndexReader indexReader = DirectoryReader.open(directory);
 			return indexReader.getSumTotalTermFreq(ANSWER_FIELD)
@@ -131,14 +130,22 @@ public class LuceneStorage implements Storage {
 		}
 	}
 
-	@Override
-	public Long getTotalTermFreq(String termText) throws TotalTermFreqException {
+	private Long getTotalTermFreq(String termText)
+			throws TotalTermFreqException {
 		try {
 			IndexReader indexReader = DirectoryReader.open(directory);
 			return indexReader.totalTermFreq(new Term(ANSWER_FIELD, termText))
-					+ indexReader.totalTermFreq(new Term(QUESTION_FIELD, termText));
+					+ indexReader.totalTermFreq(new Term(QUESTION_FIELD,
+							termText));
 		} catch (IOException e) {
 			throw new TotalTermFreqException();
 		}
+	}
+
+	@Override
+	public Double computeIC(String term) throws SumTotalTermFreqException,
+			TotalTermFreqException {
+		return Math.log(this.getSumTotalTermFreq()
+				/ this.getTotalTermFreq(term));
 	}
 }

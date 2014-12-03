@@ -7,8 +7,11 @@ import semilar.data.Sentence;
 import semilar.data.Word;
 import semilar.wordmetrics.LSAWordMetric;
 
+import com.faqit.similarity.Ranker;
 import com.faqit.similarity.TextToolkit;
 import com.faqit.similarity.measures.exception.SimilarityMeasureException;
+import com.faqit.storage.exception.SumTotalTermFreqException;
+import com.faqit.storage.exception.TotalTermFreqException;
 
 public class AlignedLemmaOverlapMeasure extends SimilarityMeasure {
 
@@ -23,7 +26,11 @@ public class AlignedLemmaOverlapMeasure extends SimilarityMeasure {
 
 	@Override
 	public Float score(String t1, String t2) throws SimilarityMeasureException {
-		return computeALO(t1, t2);
+		try {
+			return computeALO(t1, t2);
+		} catch (SumTotalTermFreqException | TotalTermFreqException e) {
+			throw new SimilarityMeasureException(e);
+		}
 	}
 
 	private class WordPair {
@@ -38,7 +45,8 @@ public class AlignedLemmaOverlapMeasure extends SimilarityMeasure {
 		}
 	}
 
-	private Float computeALO(String t1, String t2) {
+	private Float computeALO(String t1, String t2)
+			throws SumTotalTermFreqException, TotalTermFreqException {
 		List<WordPair> pairs = extractBestPairsOfWords(t1, t2);
 
 		Float numerator = computePairsSum(pairs);
@@ -103,7 +111,8 @@ public class AlignedLemmaOverlapMeasure extends SimilarityMeasure {
 		return pairs;
 	}
 
-	private Float computePairsSum(List<WordPair> pairs) {
+	private Float computePairsSum(List<WordPair> pairs)
+			throws SumTotalTermFreqException, TotalTermFreqException {
 		Float sum = 0f;
 		for (WordPair pair : pairs) {
 			sum += computeSIM(pair);
@@ -118,11 +127,11 @@ public class AlignedLemmaOverlapMeasure extends SimilarityMeasure {
 		return (float) lsaMetricTasa.computeWordSimilarityNoPos(w1, w2);
 	}
 
-	private Float computeSIM(WordPair pair) {
-		// TODO computeIC should be placed in storage. the current call is just
-		// a stub
-		Float a1 = TextToolkit.computeIC(pair.w1);
-		Float a2 = TextToolkit.computeIC(pair.w2) * pair.lsaSim;
+	private Float computeSIM(WordPair pair) throws SumTotalTermFreqException,
+			TotalTermFreqException {
+		Float a1 = Ranker.getStorageManager().computeIC(pair.w1).floatValue();
+		Float a2 = Ranker.getStorageManager().computeIC(pair.w2).floatValue()
+				* pair.lsaSim;
 		return Math.max(a1, a2);
 	}
 

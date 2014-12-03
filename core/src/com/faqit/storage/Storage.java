@@ -13,8 +13,6 @@ public interface Storage {
 	void storeEntry(Entry entry) throws StoreEntryException;
 
 	List<Entry> RetrieveTopEntries(String userInput) throws RetrieveEntriesException;
-
-	Long getSumTotalTermFreq() throws SumTotalTermFreqException;
-
-	Long getTotalTermFreq(String termText) throws TotalTermFreqException;
+	
+	Double computeIC(String term) throws SumTotalTermFreqException, TotalTermFreqException;
 }
