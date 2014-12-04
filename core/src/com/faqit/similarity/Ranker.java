@@ -41,14 +41,14 @@ public class Ranker {
 	private Ranker() {
 		measures = new ArrayList<SimilarityMeasure>();
 		// TODO should we make this parameterized by using an xml config file?
-		SimilarityMeasure sm1 = new NGramOverlapMeasure(0.33f);
+		SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
 		measures.add(sm1);
-		SimilarityMeasure sm2 = new LSAMeasure(0.33f);
-		measures.add(sm2);
+		//SimilarityMeasure sm2 = new LSAMeasure(0.33f);
+		//measures.add(sm2);
 		//SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(0.33f);
 		//measures.add(sm3);
-		SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
-		measures.add(sm4);
+		//SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
+		//measures.add(sm4);
 	}
 
 	public static Ranker getInstance() {
