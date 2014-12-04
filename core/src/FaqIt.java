@@ -1,8 +1,14 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
+import javax.xml.stream.XMLStreamException;
+
 import com.faqit.similarity.Ranker;
 import com.faqit.similarity.exception.RankerGeneralException;
+import com.faqit.similarity.measures.exception.SimilarityMeasureException;
+import com.faqit.storage.FAQImporter;
+import com.faqit.storage.exception.RetrieveEntriesException;
 
 public class FaqIt {
 	private static final boolean DEBUG = true;
@@ -13,24 +19,29 @@ public class FaqIt {
 		String query = null;
 		String result = null;
 		
-		try {
-			Ranker.init(DEBUG);
-			
-			while(true){
-				System.out.print("<Enter 'q' to quit>\nQuery: ");
-				query = br.readLine();
-				if(query.compareToIgnoreCase("q") == 0){
-					break;
+			try {
+				Ranker.init(DEBUG);
+				if(args.length == 0){
+					while(true){
+						System.out.print("<Enter 'q' to quit>\nQuery: ");
+						query = br.readLine();
+						if(query.compareToIgnoreCase("q") == 0){
+							break;
+						}
+						else{
+							result = Ranker.performQuery(query);		
+						}
+						System.out.println("Result: " + result);
+					}
+				}else{
+					if(args.length == 2 && args[0].equalsIgnoreCase("l2rinput")){
+						FAQImporter.produceL2RInput(Ranker.getStorageManager(), args[1], Ranker.getNumFeatures());
+					}
 				}
-				else{
-					result = Ranker.performQuery(query);		
-				}
-				System.out.println("Result: " + result);
+			} catch (RankerGeneralException | XMLStreamException | RetrieveEntriesException | SimilarityMeasureException e) {
+				System.out.println(e.getMessage());
+			}finally{
+				System.out.println("Goodbye!");			
 			}
-		} catch (RankerGeneralException e1) {
-			System.out.println(e1.getMessage());
-		}finally{
-			System.out.println("Goodbye!");			
-		}
 	}
 }

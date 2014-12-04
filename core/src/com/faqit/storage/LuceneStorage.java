@@ -111,13 +111,27 @@ public class LuceneStorage implements Storage {
 
 			}
 
-		} catch (ParseException e) {
-			throw new RetrieveEntriesException(e.getMessage());
-		} catch (IOException e) {
+		} catch (ParseException | IOException e) {
 			throw new RetrieveEntriesException(e.getMessage());
 		}
-
+		
 		return topEntries;
+	}
+	
+	public String getQuestionByFaqId(String faqid) throws RetrieveEntriesException{
+		String result = null;
+		try {
+			IndexReader indexReader;
+			Query query = new QueryParser(ID_FIELD, analyzer).parse(faqid);
+			indexReader = DirectoryReader.open(directory);
+			indexSearcher = new IndexSearcher(indexReader);
+			TopScoreDocCollector collector = TopScoreDocCollector.create(NUMBER_OF_HITS, true);
+			indexSearcher.search(query, collector);
+			result = indexSearcher.doc(collector.topDocs().scoreDocs[0].doc).get(QUESTION_FIELD);
+		} catch (IOException | ParseException e) {
+			throw new RetrieveEntriesException(e.getMessage());
+		}
+		return result;
 	}
 
 	@Override

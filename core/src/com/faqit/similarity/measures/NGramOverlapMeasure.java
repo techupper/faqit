@@ -43,7 +43,7 @@ public class NGramOverlapMeasure extends SimilarityMeasure {
 					"An error occurred while applying the ngram overlap similarity measure.");
 		}
 
-		return result * getWeight();
+		return result;
 	}
 
 	private Float coverage(String t1, String t2, int ngram)

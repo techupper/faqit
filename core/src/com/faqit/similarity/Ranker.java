@@ -49,14 +49,18 @@ public class Ranker {
 		measures.add(sm1);
 		SimilarityMeasure sm2 = new LSAMeasure(0.33f);
 		measures.add(sm2);
-		SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(0.33f);
-		measures.add(sm3);
-		// SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
-		// measures.add(sm4);
+		//SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(0.33f);
+		//measures.add(sm3);
+		SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
+		measures.add(sm4);
 	}
 
 	public static Ranker getInstance() {
 		return INSTANCE;
+	}
+	
+	public static int getNumFeatures(){
+		return measures.size();
 	}
 
 	public static void init(boolean onDebug) throws RankerGeneralException {
@@ -101,10 +105,10 @@ public class Ranker {
 						if (sm.getWeight() == 0f)
 							continue;
 						entry.setScore(entry.getScore()
-								+ sm.score(entry.getAnswer(), query)
+								+ (sm.score(entry.getAnswer(), query)
 								* ANSWER_WEIGHT
 								+ sm.score(entry.getQuestion(), query)
-								* QUESTION_WEIGHT);
+								* QUESTION_WEIGHT)*sm.getWeight());
 					}
 				}
 			}
@@ -130,6 +134,10 @@ public class Ranker {
 
 	public static Storage getStorageManager() {
 		return storageManager;
+	}
+	
+	public static Float getFeature(String st1, String st2, int numFeature) throws SimilarityMeasureException{
+		return measures.get(numFeature - 1).score(st1, st2);
 	}
 
 	// TODO to use a learning to rank approach

@@ -31,7 +31,7 @@ public class ICWeightedOverlapMeasure extends SimilarityMeasure {
 			List<String> uniqueNGramsT2 = extractor.getUniqueNGrams();
 
 			return ((wwc(uniqueNGramsT1, uniqueNGramsT2) + wwc(uniqueNGramsT2,
-					uniqueNGramsT1)) / 2) * getWeight();
+					uniqueNGramsT1)) / 2);
 		} catch (SumTotalTermFreqException e) {
 			throw new SimilarityMeasureException(e);
 		} catch (FileNotFoundException e) {
@@ -45,6 +45,7 @@ public class ICWeightedOverlapMeasure extends SimilarityMeasure {
 
 	private Float wwc(List<String> S1, List<String> S2)
 			throws TotalTermFreqException {
+
 		return (float) (computeICSum(intersection(S1, S2)) / computeICSum(S2));
 	}
 
@@ -58,7 +59,7 @@ public class ICWeightedOverlapMeasure extends SimilarityMeasure {
 	private Double computeICSum(List<String> list)
 			throws TotalTermFreqException {
 		Double result = 0d;
-
+		
 		for (String s : list) {
 			result += Math.log(sumTotalTermFreq
 					/ Ranker.getStorageManager().getTotalTermFreq(s));

@@ -23,7 +23,7 @@ public class LSAMeasure extends SimilarityMeasure {
 		Sentence s1 = TextToolkit.getPreprocessor().preprocessSentence(t1);
 		Sentence s2 = TextToolkit.getPreprocessor().preprocessSentence(t2);
 		Float result = new Float(lsaComparer.computeSimilarity(s1, s2));
-		return result.isNaN() ? 0f : result * getWeight();
+		return result.isNaN() ? 0f : result;
 	}
 
 }
