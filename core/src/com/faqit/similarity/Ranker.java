@@ -8,10 +8,6 @@ import java.util.List;
 
 import javax.xml.stream.XMLStreamException;
 
-import ciir.umass.edu.learning.DataPoint;
-import ciir.umass.edu.learning.RankList;
-import ciir.umass.edu.learning.RankerFactory;
-
 import com.faqit.similarity.exception.RankerGeneralException;
 import com.faqit.similarity.measures.AlignedLemmaOverlapMeasure;
 import com.faqit.similarity.measures.ICWeightedOverlapMeasure;

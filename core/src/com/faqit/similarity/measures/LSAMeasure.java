@@ -1,6 +1,5 @@
 package com.faqit.similarity.measures;
 
-import semilar.config.ConfigManager;
 import semilar.data.Sentence;
 import semilar.sentencemetrics.LSAComparer;
 
@@ -8,12 +7,12 @@ import com.faqit.similarity.TextToolkit;
 import com.faqit.similarity.measures.exception.SimilarityMeasureException;
 
 public class LSAMeasure extends SimilarityMeasure {
-	
+
 	private LSAComparer lsaComparer = null;
 
 	public LSAMeasure(Float weight) {
 		super(weight);
-		
+
 		// semilar related
 		lsaComparer = new LSAComparer(TextToolkit.getLsaModelPath());
 	}

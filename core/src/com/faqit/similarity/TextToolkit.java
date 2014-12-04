@@ -2,7 +2,6 @@ package com.faqit.similarity;
 
 import java.io.IOException;
 import java.io.StringReader;
-import java.util.List;
 
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.core.StopFilter;
@@ -10,9 +9,6 @@ import org.apache.lucene.analysis.en.EnglishAnalyzer;
 import org.apache.lucene.analysis.standard.StandardTokenizer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.analysis.util.CharArraySet;
-
-import com.faqit.storage.exception.SumTotalTermFreqException;
-import com.faqit.storage.exception.TotalTermFreqException;
 
 import semilar.config.ConfigManager;
 import semilar.tools.preprocessing.SentencePreprocessor;
@@ -30,15 +26,8 @@ public final class TextToolkit {
 			SentencePreprocessor.StemmerType.STANFORD,
 			SentencePreprocessor.ParserType.STANFORD);
 	private static boolean isSemilarOn = false;
-	private Long sumTotalTermFreq = null;
 
 	private TextToolkit() {
-		try {
-			sumTotalTermFreq = Ranker.getStorageManager().getSumTotalTermFreq();
-		} catch (SumTotalTermFreqException e) {
-			// TODO temporary, remove this
-			e.printStackTrace();
-		}
 	}
 
 	private static void initSemilar() {
@@ -47,7 +36,7 @@ public final class TextToolkit {
 	}
 
 	public static String getLsaModelPath() {
-		if(!isSemilarOn){
+		if (!isSemilarOn) {
 			initSemilar();
 			isSemilarOn = true;
 		}
@@ -84,22 +73,6 @@ public final class TextToolkit {
 			builder.append(" ");
 		}
 		return builder.toString();
-	}
-
-	public static Float computeIC(String s) {
-		return 1f;
-	}
-	
-	public Double computeICSum(List<String> list)
-			throws TotalTermFreqException {
-		Double result = 0d;
-
-		for (String s : list) {
-			result += Math.log(sumTotalTermFreq
-					/ Ranker.getStorageManager().getTotalTermFreq(s));
-		}
-
-		return result;
 	}
 
 	public static SentencePreprocessor getPreprocessor() {

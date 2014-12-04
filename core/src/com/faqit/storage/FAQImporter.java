@@ -76,7 +76,7 @@ public class FAQImporter {
 	
 	public static void produceL2RInput(Storage storage, String filePath, int numFeatures) throws XMLStreamException, IOException, RetrieveEntriesException, SimilarityMeasureException{
 		int idCounter = 1;
-		int lineOrderPerQuery = storage.NUMBER_OF_HITS;
+		int lineOrderPerQuery = Storage.NUMBER_OF_HITS;
 		String query = null;
 		String tagContent = null;
 		StringBuilder sb = null; //line example: 3 qid:1 1:1 2:1 3:0 4:0.2
@@ -101,7 +101,7 @@ public class FAQImporter {
 					sb.append(" ");
 					break;
 				case "SMS":
-					lineOrderPerQuery = storage.NUMBER_OF_HITS;
+					lineOrderPerQuery = Storage.NUMBER_OF_HITS;
 					break;
 				}
 				break;
