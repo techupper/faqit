@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
@@ -19,7 +20,7 @@ import com.faqit.storage.exception.StoreEntryException;
 
 public class FAQImporter {
 	private static final int CHARS_PER_LINE = 100;
-	
+
 	public static void importFAQ(Storage storage) throws XMLStreamException,
 			FileNotFoundException, StoreEntryException {
 		Entry currEntry = null;
@@ -73,28 +74,121 @@ public class FAQImporter {
 
 		}
 	}
-	
-	public static void produceL2RInput(Storage storage, String filePath, int numFeatures) throws XMLStreamException, IOException, RetrieveEntriesException, SimilarityMeasureException{
+
+	public static void produceTrainingInput(Storage storage, String filePath)
+			throws XMLStreamException, IOException, RetrieveEntriesException,
+			SimilarityMeasureException {
+		String query = null;
+		String tagContent = null;
+		StringBuilder sb = null;
+		XMLInputFactory factory = XMLInputFactory.newInstance();
+		XMLStreamReader reader = factory
+				.createXMLStreamReader(new FileInputStream(filePath));
+
+		File trainingInput = new File("train.in");
+		BufferedWriter writer = new BufferedWriter(
+				new FileWriter(trainingInput));
+
+		System.out.println("File is being written to "
+				+ trainingInput.getCanonicalPath());
+
+		sb = new StringBuilder(CHARS_PER_LINE).append("<QUERIES>");
+		sb.append("\n");
+		writer.write(sb.toString());
+		writer.flush();
+
+		while (reader.hasNext()) {
+			int event = reader.next();
+
+			switch (event) {
+			case XMLStreamConstants.START_ELEMENT:
+				switch (reader.getLocalName()) {
+				case "QUERIES":
+					break;
+				case "SMS":
+					sb = new StringBuilder(CHARS_PER_LINE).append("<SMS>");
+					sb.append("\n");
+					break;
+				case "SMS_QUERY_ID":
+					sb.append("<SMS_QUERY_ID>");
+					break;
+				case "SMS_TEXT":
+					sb.append("<SMS_TEXT>");
+					break;
+				case "MATCHES":
+					sb.append("<MATCHES>");
+					sb.append("\n");
+					break;
+				}
+				break;
+			case XMLStreamConstants.CHARACTERS:
+				tagContent = reader.getText().trim();
+				break;
+			case XMLStreamConstants.END_ELEMENT:
+				switch (reader.getLocalName()) {
+				case "QUERIES":
+					break;
+				case "SMS":
+					sb.append("</SMS>");
+					sb.append("\n");
+					writer.write(sb.toString());
+					writer.flush();
+					break;
+				case "SMS_QUERY_ID":
+					sb.append(tagContent);
+					sb.append("</SMS_QUERY_ID>");
+					sb.append("\n");
+					break;
+				case "SMS_TEXT":
+					query = tagContent;
+					sb.append(tagContent);
+					sb.append("</SMS_TEXT>");
+					sb.append("\n");
+					break;
+				case "MATCHES":
+					sb.append(produceMatchesStr(storage
+							.RetrieveTopEntries(query)));
+					sb.append("</MATCHES>");
+					sb.append("\n");
+					break;
+				}
+				break;
+			case XMLStreamConstants.START_DOCUMENT:
+				break;
+			}
+		}
+
+		sb = new StringBuilder(CHARS_PER_LINE).append("</QUERIES>");
+		sb.append("\n");
+		writer.write(sb.toString());
+		writer.flush();
+		writer.close();
+	}
+
+	public static void produceL2RInput(Storage storage, String filePath,
+			int numFeatures) throws XMLStreamException, IOException,
+			RetrieveEntriesException, SimilarityMeasureException {
 		int idCounter = 1;
 		int lineOrderPerQuery = Storage.NUMBER_OF_HITS;
 		String query = null;
 		String tagContent = null;
-		StringBuilder sb = null; //line example: 3 qid:1 1:1 2:1 3:0 4:0.2
+		StringBuilder sb = null; // line example: 3 qid:1 1:1 2:1 3:0 4:0.2
 		XMLInputFactory factory = XMLInputFactory.newInstance();
 		XMLStreamReader reader = factory
 				.createXMLStreamReader(new FileInputStream(filePath));
 
 		File l2rInput = new File("l2r.in");
 		BufferedWriter writer = new BufferedWriter(new FileWriter(l2rInput));
-		
-		System.out.println("File is being written to " + l2rInput.getCanonicalPath());
-		
+
+		System.out.println("File is being written to "
+				+ l2rInput.getCanonicalPath());
+
 		while (reader.hasNext()) {
 			int event = reader.next();
 
 			switch (event) {
 			case XMLStreamConstants.START_ELEMENT:
-				switch(reader.getLocalName()){
+				switch (reader.getLocalName()) {
 				case "ENGLISH":
 					sb = new StringBuilder(CHARS_PER_LINE).append("qid:");
 					sb.append(idCounter);
@@ -123,7 +217,8 @@ public class FAQImporter {
 					break;
 				case "ENGLISH":
 					sb.insert(0, lineOrderPerQuery-- + " ");
-					sb.append(getFeatures(query, storage.getQuestionByFaqId(tagContent), numFeatures));
+					sb.append(getFeatures(query,
+							storage.getQuestionByFaqId(tagContent), numFeatures));
 					sb.append("\n");
 					writer.write(sb.toString());
 					break;
@@ -135,17 +230,31 @@ public class FAQImporter {
 		}
 		writer.close();
 	}
-	
-	private static String getFeatures(String st1, String st2, int numFeatures) throws SimilarityMeasureException{
+
+	private static String produceMatchesStr(List<Entry> matches) {
+		StringBuilder sb = new StringBuilder();
+
+		for (Entry e : matches) {
+			sb.append("<ENGLISH>");
+			sb.append(e.getId());
+			sb.append("</ENGLISH>");
+			sb.append("\n");
+		}
+
+		return sb.toString();
+	}
+
+	private static String getFeatures(String st1, String st2, int numFeatures)
+			throws SimilarityMeasureException {
 		StringBuilder sb = new StringBuilder(CHARS_PER_LINE);
-		
-		for(int i=0;i<numFeatures;i++){
-			sb.append(i+1);
+
+		for (int i = 0; i < numFeatures; i++) {
+			sb.append(i + 1);
 			sb.append(":");
-			sb.append(Ranker.getFeature(st1, st2, i+1));
+			sb.append(Ranker.getFeature(st1, st2, i + 1));
 			sb.append(" ");
 		}
-		
+
 		return sb.toString();
 	}
 }
