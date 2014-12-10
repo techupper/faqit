@@ -33,7 +33,7 @@ public class FaqIt {
 					System.out.println("Result: " + result);
 				}
 			} else {
-				if (args.length == 2 && args[0].equalsIgnoreCase("l2rinput")) {
+				if (args.length == 2 && args[0].equalsIgnoreCase("l2rInput")) {
 					FAQImporter.produceL2RInput(Ranker.getStorageManager(),
 							args[1], Ranker.getNumFeatures());
 				} else if (args.length == 2

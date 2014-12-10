@@ -85,7 +85,7 @@ public class LuceneStorage implements Storage {
 
 		try {
 			Query query = new QueryParser(QUESTION_FIELD, analyzer)
-					.parse(userInput);
+					.parse(QueryParser.escape(userInput));
 
 			IndexReader indexReader = DirectoryReader.open(directory);
 			indexSearcher = new IndexSearcher(indexReader);
@@ -144,16 +144,18 @@ public class LuceneStorage implements Storage {
 		}
 	}
 
-	private Long getTotalTermFreq(String termText)
+	private Double getTotalTermFreq(String termText)
 			throws TotalTermFreqException {
+		double result;
 		try {
 			IndexReader indexReader = DirectoryReader.open(directory);
-			return indexReader.totalTermFreq(new Term(ANSWER_FIELD, termText))
+			result = indexReader.totalTermFreq(new Term(ANSWER_FIELD, termText))
 					+ indexReader.totalTermFreq(new Term(QUESTION_FIELD,
 							termText));
 		} catch (IOException e) {
 			throw new TotalTermFreqException();
-		}
+		} 
+		return (double) ((result != 0l)? result : 0.000001) ;
 	}
 
 	@Override

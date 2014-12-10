@@ -85,7 +85,7 @@ public class FAQImporter {
 		XMLStreamReader reader = factory
 				.createXMLStreamReader(new FileInputStream(filePath));
 
-		File trainingInput = new File("train.in");
+		File trainingInput = new File("to_order.xml");
 		BufferedWriter writer = new BufferedWriter(
 				new FileWriter(trainingInput));
 
