@@ -79,6 +79,7 @@ public class FAQImporter {
 			throws XMLStreamException, IOException, RetrieveEntriesException,
 			SimilarityMeasureException {
 		String query = null;
+		String bestMatch = null;
 		String tagContent = null;
 		StringBuilder sb = null;
 		XMLInputFactory factory = XMLInputFactory.newInstance();
@@ -145,9 +146,12 @@ public class FAQImporter {
 					sb.append("</SMS_TEXT>");
 					sb.append("\n");
 					break;
+				case "ENGLISH":
+					bestMatch = tagContent;
+					break;
 				case "MATCHES":
-					sb.append(produceMatchesStr(storage
-							.RetrieveTopEntries(query)));
+					sb.append(produceMatchesStr(bestMatch,
+							storage.RetrieveTopEntries(query)));
 					sb.append("</MATCHES>");
 					sb.append("\n");
 					break;
@@ -170,6 +174,7 @@ public class FAQImporter {
 			RetrieveEntriesException, SimilarityMeasureException {
 		int idCounter = 1;
 		int lineOrderPerQuery = Storage.NUMBER_OF_HITS;
+		boolean correctQA = false;
 		String query = null;
 		String tagContent = null;
 		StringBuilder sb = null; // line example: 3 qid:1 1:1 2:1 3:0 4:0.2
@@ -214,9 +219,16 @@ public class FAQImporter {
 					query = tagContent;
 					break;
 				case "MATCHES":
+					correctQA = false;
 					break;
 				case "ENGLISH":
-					sb.insert(0, lineOrderPerQuery-- + " ");
+					//sb.insert(0, lineOrderPerQuery-- + " ");
+					if(correctQA){
+						sb.insert(0, "1 ");
+					}else{
+						correctQA = true;
+						sb.insert(0, "5 ");
+					}
 					sb.append(getFeatures(query,
 							storage.getQuestionByFaqId(tagContent), numFeatures));
 					sb.append("\n");
@@ -231,14 +243,22 @@ public class FAQImporter {
 		writer.close();
 	}
 
-	private static String produceMatchesStr(List<Entry> matches) {
+	private static String produceMatchesStr(String bestMatch,
+			List<Entry> matches) {
 		StringBuilder sb = new StringBuilder();
 
+		sb.append("<ENGLISH>");
+		sb.append(bestMatch);
+		sb.append("</ENGLISH>");
+		sb.append("\n");
+
 		for (Entry e : matches) {
-			sb.append("<ENGLISH>");
-			sb.append(e.getId());
-			sb.append("</ENGLISH>");
-			sb.append("\n");
+			if (!e.getId().equals(bestMatch)) {
+				sb.append("<ENGLISH>");
+				sb.append(e.getId());
+				sb.append("</ENGLISH>");
+				sb.append("\n");
+			}
 		}
 
 		return sb.toString();
