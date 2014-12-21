@@ -224,10 +224,10 @@ public class FAQImporter {
 				case "ENGLISH":
 					//sb.insert(0, lineOrderPerQuery-- + " ");
 					if(correctQA){
-						sb.insert(0, "1 ");
+						sb.insert(0, "0 ");
 					}else{
 						correctQA = true;
-						sb.insert(0, "5 ");
+						sb.insert(0, "1 ");
 					}
 					sb.append(getFeatures(query,
 							storage.getQuestionByFaqId(tagContent), numFeatures));

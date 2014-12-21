@@ -8,12 +8,11 @@ import java.util.List;
 
 import javax.xml.stream.XMLStreamException;
 
+import uk.ac.shef.wit.simmetrics.similaritymetrics.ChapmanLengthDeviation;
+import uk.ac.shef.wit.simmetrics.similaritymetrics.JaroWinkler;
+
 import com.faqit.similarity.exception.RankerGeneralException;
-import com.faqit.similarity.measures.AlignedLemmaOverlapMeasure;
-import com.faqit.similarity.measures.ICWeightedOverlapMeasure;
-import com.faqit.similarity.measures.LSAMeasure;
-import com.faqit.similarity.measures.NGramOverlapMeasure;
-import com.faqit.similarity.measures.SimilarityMeasure;
+import com.faqit.similarity.measures.*;
 import com.faqit.similarity.measures.exception.SimilarityMeasureException;
 import com.faqit.storage.Entry;
 import com.faqit.storage.FAQImporter;
@@ -41,14 +40,22 @@ public class Ranker {
 	private Ranker() {
 		measures = new ArrayList<SimilarityMeasure>();
 		// TODO should we make this parameterized by using an xml config file?
-		SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
-		measures.add(sm1);
-		SimilarityMeasure sm2 = new LSAMeasure(1f);
-		measures.add(sm2);
-		SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(1f);
-		measures.add(sm3);
-		SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
-		measures.add(sm4);
+		//SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
+		//measures.add(sm1);
+		//SimilarityMeasure sm2 = new LSAMeasure(1f);
+		//measures.add(sm2);
+		//SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(1f);
+		//measures.add(sm3);
+		//SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
+		//measures.add(sm4);
+		//SimilarityMeasure sm5 = new SimonWhiteMeasure(1f);
+		//measures.add(sm5);
+		//SimilarityMeasure sm6 = new GreedyMatchingLinMeasure(1f);
+		//measures.add(sm6);
+		//SimilarityMeasure sm7 = new MongeElkanMeasure(1f);
+		//measures.add(sm7);
+		SimilarityMeasure sm8 = new ChapmanLengthDeviationMeasure(1f);
+		measures.add(sm8);
 	}
 
 	public static Ranker getInstance() {
