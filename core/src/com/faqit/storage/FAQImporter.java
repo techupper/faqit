@@ -170,7 +170,7 @@ public class FAQImporter {
 	}
 
 	public static void produceL2RInput(Storage storage, String filePath,
-			int numFeatures) throws XMLStreamException, IOException,
+			int numFeatures, boolean baseline) throws XMLStreamException, IOException,
 			RetrieveEntriesException, SimilarityMeasureException {
 		int idCounter = 1;
 		int lineOrderPerQuery = Storage.NUMBER_OF_HITS;
@@ -229,7 +229,7 @@ public class FAQImporter {
 						correctQA = true;
 						sb.insert(0, "1 ");
 					}
-					sb.append(getFeatures(query,
+					sb.append(baseline ? getIfIdf(storage.getIfIdfByFaqId(tagContent, query)) : getFeatures(query,
 							storage.getQuestionByFaqId(tagContent), numFeatures));
 					sb.append("\n");
 					writer.write(sb.toString());
@@ -262,6 +262,10 @@ public class FAQImporter {
 		}
 
 		return sb.toString();
+	}
+	
+	private static String getIfIdf(Float score){
+		return "1:" + score + " ";
 	}
 
 	private static String getFeatures(String st1, String st2, int numFeatures)

@@ -16,5 +16,7 @@ public interface Storage {
 	
 	String getQuestionByFaqId(String faqid) throws RetrieveEntriesException;
 	
+	Float getIfIdfByFaqId(String faqid, String query) throws RetrieveEntriesException;
+	
 	Double computeIC(String term) throws SumTotalTermFreqException, TotalTermFreqException;
 }

@@ -4,9 +4,6 @@
 <SMS_TEXT>I am CA, I wanna do any rcgnzd course for entering in share market.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_840</ENGLISH>
-<ENGLISH>ENG_CAREER_815</ENGLISH>
-<ENGLISH>ENG_CAREER_181</ENGLISH>
-<ENGLISH>ENG_CAREER_817</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -14,9 +11,6 @@
 <SMS_TEXT>Bloody Mary orig called?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_324</ENGLISH>
-<ENGLISH>ENG_RECIPES_691</ENGLISH>
-<ENGLISH>ENG_GK_368</ENGLISH>
-<ENGLISH>ENG_GK_35</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -24,9 +18,6 @@
 <SMS_TEXT>how 2 preapare Kfc Original Recipe Fried Chicken # 2</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_631</ENGLISH>
-<ENGLISH>ENG_RECIPES_630</ENGLISH>
-<ENGLISH>ENG_RECIPES_740</ENGLISH>
-<ENGLISH>ENG_RECIPES_625</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -34,10 +25,6 @@
 <SMS_TEXT>What 2 do if I have a technical difficulty during a webinar?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_246</ENGLISH>
-<ENGLISH>ENG_CAREER_236</ENGLISH>
-<ENGLISH>ENG_CAREER_237</ENGLISH>
-<ENGLISH>ENG_CAREER_247</ENGLISH>
-<ENGLISH>ENG_INSURANCE_812</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -45,9 +32,6 @@
 <SMS_TEXT>What cntry sent out 15,000 census wrkers to count it's homeless people, in 1990?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_357</ENGLISH>
-<ENGLISH>ENG_INSURANCE_345</ENGLISH>
-<ENGLISH>ENG_SPORTS_348</ENGLISH>
-<ENGLISH>ENG_VISA_502</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -55,9 +39,6 @@
 <SMS_TEXT>Why are you called career counselors? Should I have 2 talk abot my feelings?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_12</ENGLISH>
-<ENGLISH>ENG_CAREER_42</ENGLISH>
-<ENGLISH>ENG_CAREER_11</ENGLISH>
-<ENGLISH>ENG_CAREER_8</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -65,8 +46,6 @@
 <SMS_TEXT>Who buys agricultural forecasts</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_222</ENGLISH>
-<ENGLISH>ENG_SPORTS_448</ENGLISH>
-<ENGLISH>ENG_SPORTS_459</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -74,19 +53,13 @@
 <SMS_TEXT>antibiotics that CDC recommend for prEvention of inhalation anthrax?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_437</ENGLISH>
-<ENGLISH>ENG_HEALTH_446</ENGLISH>
-<ENGLISH>ENG_HEALTH_438</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
 <SMS_QUERY_ID>ENGLISH_NR_8</SMS_QUERY_ID>
-<SMS_TEXT>when did Vascoda Gama landed at Kappad :</SMS_TEXT>
+<SMS_TEXT> when did Vascoda Gama landed at Kappad :</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_359</ENGLISH>
-<ENGLISH>ENG_GK_360</ENGLISH>
-<ENGLISH>ENG_GK_344</ENGLISH>
-<ENGLISH>ENG_GK_351</ENGLISH>
-<ENGLISH>ENG_VISA_258</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -94,9 +67,6 @@
 <SMS_TEXT>line of latitude that divides much of Canada from the U.S.?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_964</ENGLISH>
-<ENGLISH>ENG_SPORTS_418</ENGLISH>
-<ENGLISH>ENG_INSURANCE_490</ENGLISH>
-<ENGLISH>ENG_GK_300</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -104,8 +74,6 @@
 <SMS_TEXT>How 2 prepare Baked Bread Rolls</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_59</ENGLISH>
-<ENGLISH>ENG_RECIPES_253</ENGLISH>
-<ENGLISH>ENG_RECIPES_768</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -113,10 +81,6 @@
 <SMS_TEXT>How Consumer Directed Health Care Riduces Health Spending?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_228</ENGLISH>
-<ENGLISH>ENG_INSURANCE_352</ENGLISH>
-<ENGLISH>ENG_INSURANCE_356</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_36</ENGLISH>
-<ENGLISH>ENG_INSURANCE_235</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -124,9 +88,6 @@
 <SMS_TEXT>Need an HIV test for another country?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_291</ENGLISH>
-<ENGLISH>ENG_VISA_425</ENGLISH>
-<ENGLISH>ENG_HEALTH_264</ENGLISH>
-<ENGLISH>ENG_VISA_136</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -134,8 +95,6 @@
 <SMS_TEXT>How long 2 apply for ServiceDisabled Veterans Insurance?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_845</ENGLISH>
-<ENGLISH>ENG_VISA_471</ENGLISH>
-<ENGLISH>ENG_INSURANCE_840</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -150,10 +109,6 @@
 <SMS_TEXT>Can I hide my accnt frm a connection?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_298</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1135</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_109</ENGLISH>
-<ENGLISH>ENG_INSURANCE_654</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_54</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -161,9 +116,6 @@
 <SMS_TEXT>What homeowners policy generally cover?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_939</ENGLISH>
-<ENGLISH>ENG_INSURANCE_938</ENGLISH>
-<ENGLISH>ENG_INSURANCE_937</ENGLISH>
-<ENGLISH>ENG_INSURANCE_728</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -171,9 +123,6 @@
 <SMS_TEXT>Is the report of India Govt Mint gonna be made available to me?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_370</ENGLISH>
-<ENGLISH>ENG_SPORTS_615</ENGLISH>
-<ENGLISH>ENG_CAREER_585</ENGLISH>
-<ENGLISH>ENG_CAREER_554</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -181,10 +130,6 @@
 <SMS_TEXT>Do I need insurance to pay off my mortgage if I die?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_699</ENGLISH>
-<ENGLISH>ENG_INSURANCE_394</ENGLISH>
-<ENGLISH>ENG_LOAN_638</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1100</ENGLISH>
-<ENGLISH>ENG_LOAN_28</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -192,10 +137,6 @@
 <SMS_TEXT>i,m doing BachBTS in IGNOU, Guwahati.i wanna do UGC /nternational recog.PG in airlines,tourism and hospitality in india.pls tell the institution n ful add.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_869</ENGLISH>
-<ENGLISH>ENG_CAREER_784</ENGLISH>
-<ENGLISH>ENG_CAREER_816</ENGLISH>
-<ENGLISH>ENG_CAREER_681</ENGLISH>
-<ENGLISH>ENG_CAREER_847</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -203,10 +144,6 @@
 <SMS_TEXT>full name of sachintendulkar?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_634</ENGLISH>
-<ENGLISH>ENG_SPORTS_575</ENGLISH>
-<ENGLISH>ENG_SPORTS_637</ENGLISH>
-<ENGLISH>ENG_SPORTS_676</ENGLISH>
-<ENGLISH>ENG_INSURANCE_84</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -214,10 +151,6 @@
 <SMS_TEXT>What is GPRS?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INDIAN_RAILWAYS_6</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_8</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_53</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_54</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_7</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -225,10 +158,6 @@
 <SMS_TEXT>What normally is the max period a British parliament  serves between elections?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_1038</ENGLISH>
-<ENGLISH>ENG_HEALTH_341</ENGLISH>
-<ENGLISH>ENG_HEALTH_490</ENGLISH>
-<ENGLISH>ENG_INSURANCE_33</ENGLISH>
-<ENGLISH>ENG_LOAN_80</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -236,9 +165,6 @@
 <SMS_TEXT>bank's Cheque Collection Policy ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_546</ENGLISH>
-<ENGLISH>ENG_BANK_562</ENGLISH>
-<ENGLISH>ENG_BANK_533</ENGLISH>
-<ENGLISH>ENG_BANK_544</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -246,10 +172,6 @@
 <SMS_TEXT>W/ a Congressional Continuing Resolution in effect nd areas of the counry still needing agricultural weather information why do you terminate the agricultural weather program at this time?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_452</ENGLISH>
-<ENGLISH>ENG_SPORTS_443</ENGLISH>
-<ENGLISH>ENG_SPORTS_459</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_229</ENGLISH>
-<ENGLISH>ENG_SPORTS_449</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -257,19 +179,13 @@
 <SMS_TEXT>How much the webinars?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_235</ENGLISH>
-<ENGLISH>ENG_CAREER_242</ENGLISH>
-<ENGLISH>ENG_CAREER_244</ENGLISH>
-<ENGLISH>ENG_CAREER_243</ENGLISH>
-<ENGLISH>ENG_LOAN_204</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
 <SMS_QUERY_ID>ENGLISH_NR_26</SMS_QUERY_ID>
-<SMS_TEXT>hstry of Bill the Goat?</SMS_TEXT>
+<SMS_TEXT>hstry of Bill the Goat? </SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_350</ENGLISH>
-<ENGLISH>ENG_BANK_141</ENGLISH>
-<ENGLISH>ENG_BANK_176</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -277,8 +193,6 @@
 <SMS_TEXT>foods produced using biotechnology and ones using traditional breeding practices equally safe?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_2</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_27</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_3</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -286,10 +200,6 @@
 <SMS_TEXT>Who regulates genetic eng?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_40</ENGLISH>
-<ENGLISH>ENG_SPORTS_426</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_207</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_39</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_42</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -297,9 +207,6 @@
 <SMS_TEXT>Can I book my air tckts online?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_65</ENGLISH>
-<ENGLISH>ENG_INSURANCE_412</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_185</ENGLISH>
-<ENGLISH>ENG_CAREER_295</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -307,9 +214,6 @@
 <SMS_TEXT>bring back the funds to India and hold them with separate accnt?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_75</ENGLISH>
-<ENGLISH>ENG_BANK_82</ENGLISH>
-<ENGLISH>ENG_BANK_85</ENGLISH>
-<ENGLISH>ENG_VISA_312</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -324,8 +228,6 @@
 <SMS_TEXT>What if my cheque bounces?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_643</ENGLISH>
-<ENGLISH>ENG_BANK_89</ENGLISH>
-<ENGLISH>ENG_BANK_544</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -333,9 +235,6 @@
 <SMS_TEXT>cars brands SBI finance?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_300</ENGLISH>
-<ENGLISH>ENG_LOAN_654</ENGLISH>
-<ENGLISH>ENG_BANK_122</ENGLISH>
-<ENGLISH>ENG_BANK_123</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -343,10 +242,6 @@
 <SMS_TEXT>longest highway in the world?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_8</ENGLISH>
-<ENGLISH>ENG_GK_141</ENGLISH>
-<ENGLISH>ENG_GK_9</ENGLISH>
-<ENGLISH>ENG_GK_142</ENGLISH>
-<ENGLISH>ENG_GK_7</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -354,9 +249,6 @@
 <SMS_TEXT>tow a trailer or horsebox under a private motor insurance policy? covered?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_663</ENGLISH>
-<ENGLISH>ENG_INSURANCE_648</ENGLISH>
-<ENGLISH>ENG_INSURANCE_646</ENGLISH>
-<ENGLISH>ENG_INSURANCE_665</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -364,10 +256,6 @@
 <SMS_TEXT>highest board in competition diving hight?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_500</ENGLISH>
-<ENGLISH>ENG_TOURISM_123</ENGLISH>
-<ENGLISH>ENG_TOURISM_119</ENGLISH>
-<ENGLISH>ENG_GK_10</ENGLISH>
-<ENGLISH>ENG_GK_99</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -375,10 +263,6 @@
 <SMS_TEXT>RTGS?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_549</ENGLISH>
-<ENGLISH>ENG_BANK_516</ENGLISH>
-<ENGLISH>ENG_BANK_522</ENGLISH>
-<ENGLISH>ENG_BANK_518</ENGLISH>
-<ENGLISH>ENG_BANK_517</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -386,10 +270,6 @@
 <SMS_TEXT>I am Sanjay Kumar. B.Tech in Coumpter Science and Engineering wanna do M.Tech Through Distance Education . Pls name of University Provides Degree in M.Tech in CSE or in IT?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_571</ENGLISH>
-<ENGLISH>ENG_CAREER_888</ENGLISH>
-<ENGLISH>ENG_CAREER_588</ENGLISH>
-<ENGLISH>ENG_CAREER_604</ENGLISH>
-<ENGLISH>ENG_CAREER_668</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -397,10 +277,6 @@
 <SMS_TEXT>NBA player deemed to be when he received the Maurice Podoloff Trophy?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_14</ENGLISH>
-<ENGLISH>ENG_SPORTS_16</ENGLISH>
-<ENGLISH>ENG_SPORTS_13</ENGLISH>
-<ENGLISH>ENG_VISA_307</ENGLISH>
-<ENGLISH>ENG_SPORTS_600</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -408,8 +284,6 @@
 <SMS_TEXT>alwayson' service? Will there be call charges ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TELECOMMUNICATION_94</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_8</ENGLISH>
-<ENGLISH>ENG_BANK_523</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -417,9 +291,6 @@
 <SMS_TEXT>Where 2 find more info?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_565</ENGLISH>
-<ENGLISH>ENG_VISA_104</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_85</ENGLISH>
-<ENGLISH>ENG_CAREER_611</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -427,9 +298,6 @@
 <SMS_TEXT>How 2 get visa that is not available on your site?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_478</ENGLISH>
-<ENGLISH>ENG_VISA_108</ENGLISH>
-<ENGLISH>ENG_WEB_87</ENGLISH>
-<ENGLISH>ENG_VISA_134</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -437,7 +305,6 @@
 <SMS_TEXT>How 2 pay for the tickets?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INDIAN_RAILWAYS_68</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_229</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -445,9 +312,6 @@
 <SMS_TEXT>measurement of Standard Cricket Game Pitch?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_561</ENGLISH>
-<ENGLISH>ENG_SPORTS_579</ENGLISH>
-<ENGLISH>ENG_SPORTS_661</ENGLISH>
-<ENGLISH>ENG_SPORTS_524</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -455,8 +319,6 @@
 <SMS_TEXT>how 2 preapare Entenmann's Pound Cake</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_497</ENGLISH>
-<ENGLISH>ENG_RECIPES_495</ENGLISH>
-<ENGLISH>ENG_RECIPES_816</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -464,8 +326,6 @@
 <SMS_TEXT>othermeans oftransfer of funds?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_548</ENGLISH>
-<ENGLISH>ENG_BANK_551</ENGLISH>
-<ENGLISH>ENG_BANK_749</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -473,10 +333,6 @@
 <SMS_TEXT>I want to know about my further education. complited my diploma in Civil Engg with distinction from Govt Polytechnic Delhi(2004 to 2007 Batch). Now I am wrking as a Junior engg with Delhi Metro Rail corporation Ltd. (PSU)from 2007. no experience. Hence the question is From which institute I should have to get my Degree in civil engg</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_682</ENGLISH>
-<ENGLISH>ENG_CAREER_628</ENGLISH>
-<ENGLISH>ENG_CAREER_580</ENGLISH>
-<ENGLISH>ENG_CAREER_604</ENGLISH>
-<ENGLISH>ENG_CAREER_632</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -484,9 +340,6 @@
 <SMS_TEXT>How mny Test runs did Brian Lara score in his career?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_689</ENGLISH>
-<ENGLISH>ENG_SPORTS_695</ENGLISH>
-<ENGLISH>ENG_SPORTS_499</ENGLISH>
-<ENGLISH>ENG_SPORTS_684</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -495,8 +348,6 @@
 I am a final year student and want to pursue computers as my career i am intrsted in web design and e-commerce, recommend some institutes in delhi. My aim is to get a good job in USA with a handsome salary</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_103</ENGLISH>
-<ENGLISH>ENG_CAREER_95</ENGLISH>
-<ENGLISH>ENG_CAREER_825</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -504,10 +355,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can I attend summer school program on a parttime basis?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_49</ENGLISH>
-<ENGLISH>ENG_HEALTH_48</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_55</ENGLISH>
-<ENGLISH>ENG_CAREER_437</ENGLISH>
-<ENGLISH>ENG_CAREER_241</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -515,7 +362,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>How 2 report a death?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_419</ENGLISH>
-<ENGLISH>ENG_RECIPES_511</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -523,7 +369,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>How 2 prepare Rasmalai</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_135</ENGLISH>
-<ENGLISH>ENG_RECIPES_511</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -538,9 +383,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>insurance prvdrs required to provide assistive services to people with visual or auditory disabilities?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_607</ENGLISH>
-<ENGLISH>ENG_VISA_64</ENGLISH>
-<ENGLISH>ENG_INSURANCE_616</ENGLISH>
-<ENGLISH>ENG_INSURANCE_731</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -548,8 +390,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>dwnldd the application form from your website. Can I fill it up and submit?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_439</ENGLISH>
-<ENGLISH>ENG_BANK_645</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_155</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -557,9 +397,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can a Daily Multivitamin Alone Provide the Same High levels of Antioxidants and Zinc as the AREDS Formulation?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_102</ENGLISH>
-<ENGLISH>ENG_HEALTH_103</ENGLISH>
-<ENGLISH>ENG_HEALTH_98</ENGLISH>
-<ENGLISH>ENG_HEALTH_105</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -567,7 +404,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>mutagens cause:</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_204</ENGLISH>
-<ENGLISH>ENG_HEALTH_169</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -575,10 +411,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Who scored 143 against England in 198at Birmingham from West Indies?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_694</ENGLISH>
-<ENGLISH>ENG_SPORTS_686</ENGLISH>
-<ENGLISH>ENG_SPORTS_697</ENGLISH>
-<ENGLISH>ENG_SPORTS_691</ENGLISH>
-<ENGLISH>ENG_SPORTS_607</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -586,9 +418,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>how 2 preapare Top Secret Mcdonald's Mcd.L.T.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_884</ENGLISH>
-<ENGLISH>ENG_RECIPES_883</ENGLISH>
-<ENGLISH>ENG_RECIPES_886</ENGLISH>
-<ENGLISH>ENG_RECIPES_665</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -596,9 +425,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>palestinians call Islamic Resistance Movement?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_249</ENGLISH>
-<ENGLISH>ENG_GK_23</ENGLISH>
-<ENGLISH>ENG_GK_156</ENGLISH>
-<ENGLISH>ENG_HEALTH_236</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -606,9 +432,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>i want to do a course in forex management.Wot's the benefit of this course.can it help me in finding better package.currently, i am working with ICICI bank as operations executive. +,which are the GOOD institutes in delhi providing this course..preferably,thru corresspondence</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_827</ENGLISH>
-<ENGLISH>ENG_CAREER_829</ENGLISH>
-<ENGLISH>ENG_CAREER_169</ENGLISH>
-<ENGLISH>ENG_CAREER_635</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -616,10 +439,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>all the IT jobs being offshored to India or China?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_189</ENGLISH>
-<ENGLISH>ENG_CAREER_201</ENGLISH>
-<ENGLISH>ENG_CAREER_218</ENGLISH>
-<ENGLISH>ENG_CAREER_118</ENGLISH>
-<ENGLISH>ENG_GK_56</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -627,10 +446,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>I Applied For A Policy;I Have Not Received It Via Email?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_597</ENGLISH>
-<ENGLISH>ENG_INSURANCE_878</ENGLISH>
-<ENGLISH>ENG_VISA_373</ENGLISH>
-<ENGLISH>ENG_BANK_145</ENGLISH>
-<ENGLISH>ENG_VISA_184</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -638,9 +453,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>What if I am a student at BYU Hawaii or BYU Idaho?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_73</ENGLISH>
-<ENGLISH>ENG_VISA_170</ENGLISH>
-<ENGLISH>ENG_CAREER_437</ENGLISH>
-<ENGLISH>ENG_CAREER_736</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -648,9 +460,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>What documents are req to apply for a UK student visa?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_368</ENGLISH>
-<ENGLISH>ENG_VISA_354</ENGLISH>
-<ENGLISH>ENG_VISA_388</ENGLISH>
-<ENGLISH>ENG_VISA_362</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -658,9 +467,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can I get my ornaments back at the time of maturity?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_368</ENGLISH>
-<ENGLISH>ENG_VISA_330</ENGLISH>
-<ENGLISH>ENG_VISA_153</ENGLISH>
-<ENGLISH>ENG_INSURANCE_131</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -668,7 +474,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can refund of application / earnest money / purchase consideration made by the house building agencies / seller on account of nonallotment of flat / plot / cancellation of bookings / deals for purchase of residential / commercial property together with interest, if any (net of income tax payable thereon) be credited to NRE account?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_46</ENGLISH>
-<ENGLISH>ENG_BANK_54</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -676,10 +481,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can income received from their overseas assets in the form of dividends etc., or sale proceeds of such assets be credited to RFC accounts?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_78</ENGLISH>
-<ENGLISH>ENG_BANK_77</ENGLISH>
-<ENGLISH>ENG_BANK_79</ENGLISH>
-<ENGLISH>ENG_BANK_58</ENGLISH>
-<ENGLISH>ENG_BANK_80</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -687,10 +488,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>the fastest bowler of india?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_636</ENGLISH>
-<ENGLISH>ENG_SPORTS_21</ENGLISH>
-<ENGLISH>ENG_SPORTS_582</ENGLISH>
-<ENGLISH>ENG_SPORTS_679</ENGLISH>
-<ENGLISH>ENG_SPORTS_693</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -705,7 +502,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>any other qualifications necessary for Naval Academy?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_339</ENGLISH>
-<ENGLISH>ENG_CAREER_355</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -713,10 +509,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>The fst woman judge in Supreme Court:</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_244</ENGLISH>
-<ENGLISH>ENG_GK_313</ENGLISH>
-<ENGLISH>ENG_GK_231</ENGLISH>
-<ENGLISH>ENG_GK_242</ENGLISH>
-<ENGLISH>ENG_GK_251</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -724,10 +516,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>How 2 post a position for MBA, GSFS, GPPI, or Law students or alumni?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_227</ENGLISH>
-<ENGLISH>ENG_CAREER_226</ENGLISH>
-<ENGLISH>ENG_CAREER_362</ENGLISH>
-<ENGLISH>ENG_CAREER_224</ENGLISH>
-<ENGLISH>ENG_VISA_409</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -735,10 +523,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>How is a connection considered valid?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_300</ENGLISH>
-<ENGLISH>ENG_INSURANCE_12</ENGLISH>
-<ENGLISH>ENG_BANK_441</ENGLISH>
-<ENGLISH>ENG_VISA_145</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_109</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -746,9 +530,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can I stay in a single rom ifi pay exra?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_192</ENGLISH>
-<ENGLISH>ENG_INSURANCE_482</ENGLISH>
-<ENGLISH>ENG_LOAN_351</ENGLISH>
-<ENGLISH>ENG_VISA_125</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -756,10 +537,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can I bk for all destins through IRCTC mob?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INDIAN_RAILWAYS_518</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_40</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_524</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_272</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_501</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -767,10 +544,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>View pts about nature and adventure at Dwarika residency Shelapani Shimla hills; people who have visited this place answer ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TOURISM_52</ENGLISH>
-<ENGLISH>ENG_HEALTH_42</ENGLISH>
-<ENGLISH>ENG_HEALTH_303</ENGLISH>
-<ENGLISH>ENG_LOAN_665</ENGLISH>
-<ENGLISH>ENG_GK_343</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -778,10 +551,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>What training/experience do medical person have?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TOURISM_106</ENGLISH>
-<ENGLISH>ENG_INSURANCE_101a</ENGLISH>
-<ENGLISH>ENG_INSURANCE_18</ENGLISH>
-<ENGLISH>ENG_HEALTH_94</ENGLISH>
-<ENGLISH>ENG_INSURANCE_19</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -789,10 +558,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can a customer get a welcome kit containing ATM card, check book, internet pass at the time of opening the account?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_14</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_185</ENGLISH>
-<ENGLISH>ENG_BANK_521</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_265</ENGLISH>
-<ENGLISH>ENG_BANK_12</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -800,10 +565,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>"Hw much do I insure myself for?"</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_123</ENGLISH>
-<ENGLISH>ENG_INSURANCE_784</ENGLISH>
-<ENGLISH>ENG_INSURANCE_946</ENGLISH>
-<ENGLISH>ENG_WEB_16</ENGLISH>
-<ENGLISH>ENG_INSURANCE_276</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -811,9 +572,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Who lit the torch to start Atlanta's 1996 Olympic fests?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_109</ENGLISH>
-<ENGLISH>ENG_SPORTS_104</ENGLISH>
-<ENGLISH>ENG_SPORTS_96</ENGLISH>
-<ENGLISH>ENG_GK_377</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -821,10 +579,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Do I need Malaria tablets?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_213</ENGLISH>
-<ENGLISH>ENG_INSURANCE_870</ENGLISH>
-<ENGLISH>ENG_LOAN_326</ENGLISH>
-<ENGLISH>ENG_VISA_121</ENGLISH>
-<ENGLISH>ENG_VISA_416</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -832,7 +586,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>how 2 preapare Chili Like Frisch's</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_457</ENGLISH>
-<ENGLISH>ENG_RECIPES_902</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -840,10 +593,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>tranquilizer diazepam better known as?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_164</ENGLISH>
-<ENGLISH>ENG_SPORTS_249</ENGLISH>
-<ENGLISH>ENG_SPORTS_152</ENGLISH>
-<ENGLISH>ENG_GK_25</ENGLISH>
-<ENGLISH>ENG_GK_81</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -851,9 +600,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>credit life ins a good buy?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_1056</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1025</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1030</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1173</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -861,9 +607,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>how 2 preapare Hard Rock Cafe Pig Sandwich</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_549</ENGLISH>
-<ENGLISH>ENG_RECIPES_546</ENGLISH>
-<ENGLISH>ENG_RECIPES_545</ENGLISH>
-<ENGLISH>ENG_RECIPES_547</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -871,9 +614,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>sponsor arrange for the accomod?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_383</ENGLISH>
-<ENGLISH>ENG_VISA_121</ENGLISH>
-<ENGLISH>ENG_VISA_193</ENGLISH>
-<ENGLISH>ENG_VISA_467</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -881,8 +621,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Under the general perm available what is the mode of payment for purchase of residential / commercial property in India by NRI / PIO ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_45</ENGLISH>
-<ENGLISH>ENG_BANK_41</ENGLISH>
-<ENGLISH>ENG_BANK_53</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -890,9 +628,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>I wanta career in marine engineering i am presently studying as 3rd yr mechanical engineer from pune university. do tell abt institutes offering such courses and right to join such courses</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_733</ENGLISH>
-<ENGLISH>ENG_CAREER_673</ENGLISH>
-<ENGLISH>ENG_CAREER_577</ENGLISH>
-<ENGLISH>ENG_CAREER_703</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -900,9 +635,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>studying BE aeronautical engg,fin year.wanna go in maintenance field.can u tell me the details of how 2 get the licene and the approx salary....tank u?.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_503</ENGLISH>
-<ENGLISH>ENG_CAREER_774</ENGLISH>
-<ENGLISH>ENG_CAREER_477</ENGLISH>
-<ENGLISH>ENG_CAREER_764</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -910,9 +642,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>How 2 prepare Tomato Soup</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_153</ENGLISH>
-<ENGLISH>ENG_RECIPES_254</ENGLISH>
-<ENGLISH>ENG_RECIPES_107</ENGLISH>
-<ENGLISH>ENG_RECIPES_264</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -920,10 +649,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>i am diploma holder in chemical engg.now i am doing job in environ as officer in ETP (effluent treatment plant). now i want to do diploma or degree in environment at distance education pleas tell me the institute.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_657</ENGLISH>
-<ENGLISH>ENG_CAREER_638</ENGLISH>
-<ENGLISH>ENG_CAREER_632</ENGLISH>
-<ENGLISH>ENG_CAREER_653</ENGLISH>
-<ENGLISH>ENG_CAREER_590</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -931,10 +656,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>State Yellowstone River rise in?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_361</ENGLISH>
-<ENGLISH>ENG_GK_7</ENGLISH>
-<ENGLISH>ENG_GK_48</ENGLISH>
-<ENGLISH>ENG_GK_89</ENGLISH>
-<ENGLISH>ENG_GK_140</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -942,9 +663,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>keep a couple bottles that long.  should I add extra sulfite?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_9</ENGLISH>
-<ENGLISH>ENG_HEALTH_12</ENGLISH>
-<ENGLISH>ENG_HEALTH_3</ENGLISH>
-<ENGLISH>ENG_INSURANCE_813</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -952,9 +670,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Where 2 Interlibrary Loan?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_68</ENGLISH>
-<ENGLISH>ENG_LOAN_82</ENGLISH>
-<ENGLISH>ENG_LOAN_1</ENGLISH>
-<ENGLISH>ENG_LOAN_66</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -962,10 +677,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>When 2 pay my student loan(s)?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_678</ENGLISH>
-<ENGLISH>ENG_LOAN_683</ENGLISH>
-<ENGLISH>ENG_LOAN_677</ENGLISH>
-<ENGLISH>ENG_LOAN_483</ENGLISH>
-<ENGLISH>ENG_LOAN_665</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -973,8 +684,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>How does bypass surgery treat coronary artery disease?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_355</ENGLISH>
-<ENGLISH>ENG_HEALTH_356</ENGLISH>
-<ENGLISH>ENG_HEALTH_357</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -982,8 +691,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>level of security in telecommunication?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TELECOMMUNICATION_8</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_89</ENGLISH>
-<ENGLISH>ENG_BANK_291</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -991,9 +698,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can I upgrade my reseller plan at any time?price to upgrade?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_WEB_77</ENGLISH>
-<ENGLISH>ENG_WEB_65</ENGLISH>
-<ENGLISH>ENG_WEB_76</ENGLISH>
-<ENGLISH>ENG_INSURANCE_134</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1001,9 +705,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>mad max real name?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_567</ENGLISH>
-<ENGLISH>ENG_HEALTH_36</ENGLISH>
-<ENGLISH>ENG_BANK_549</ENGLISH>
-<ENGLISH>ENG_LOAN_31</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1011,7 +712,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>how to preapare Olive Garden San Marco</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_729</ENGLISH>
-<ENGLISH>ENG_RECIPES_730</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1019,9 +719,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>sport in which you could get into a headlock?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_391</ENGLISH>
-<ENGLISH>ENG_GK_392</ENGLISH>
-<ENGLISH>ENG_GK_393</ENGLISH>
-<ENGLISH>ENG_GK_388</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1029,8 +726,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>What is sitespecific mngmnt of soil pH</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_144</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_143</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_4</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1038,9 +733,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>How does the Reserve Bank estimate the demand for bankntes?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_578</ENGLISH>
-<ENGLISH>ENG_BANK_579</ENGLISH>
-<ENGLISH>ENG_BANK_737</ENGLISH>
-<ENGLISH>ENG_BANK_574</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1048,8 +740,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>what 2 do to enter into banking service?i'm a b.com graduate.what exams 2 look for and from where?......(abhishek banerjee)</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_820</ENGLISH>
-<ENGLISH>ENG_CAREER_524</ENGLISH>
-<ENGLISH>ENG_INSURANCE_815</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1057,9 +747,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>what id i scedule career counseling sesion and then cancle?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_46</ENGLISH>
-<ENGLISH>ENG_CAREER_45</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_39</ENGLISH>
-<ENGLISH>ENG_CAREER_34</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1067,9 +754,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>who Yigal Amir assassinate in 1995?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_253</ENGLISH>
-<ENGLISH>ENG_SPORTS_254</ENGLISH>
-<ENGLISH>ENG_SPORTS_57</ENGLISH>
-<ENGLISH>ENG_SPORTS_133</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1077,8 +761,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>deductible?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_348</ENGLISH>
-<ENGLISH>ENG_INSURANCE_505</ENGLISH>
-<ENGLISH>ENG_INSURANCE_219</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1086,10 +768,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Is it legal for my insurer to cancel my health coverage retroactively?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_236</ENGLISH>
-<ENGLISH>ENG_INSURANCE_231</ENGLISH>
-<ENGLISH>ENG_INSURANCE_235</ENGLISH>
-<ENGLISH>ENG_INSURANCE_883</ENGLISH>
-<ENGLISH>ENG_INSURANCE_249</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1097,10 +775,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can I chng the tenure and amount of loan taken aft the loan amount has been disbursed?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_639</ENGLISH>
-<ENGLISH>ENG_LOAN_374</ENGLISH>
-<ENGLISH>ENG_LOAN_371</ENGLISH>
-<ENGLISH>ENG_LOAN_626</ENGLISH>
-<ENGLISH>ENG_LOAN_656</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1108,9 +782,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Personality dimensions?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_PERSONALITY_DEVELOPMENT_75</ENGLISH>
-<ENGLISH>ENG_SPORTS_696</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_3</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_8</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1118,10 +789,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>What amfibian did Pliny the Elder suggest be tied to the jaw, t make teeth firmer?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_217</ENGLISH>
-<ENGLISH>ENG_SPORTS_222</ENGLISH>
-<ENGLISH>ENG_SPORTS_232</ENGLISH>
-<ENGLISH>ENG_SPORTS_557</ENGLISH>
-<ENGLISH>ENG_SPORTS_494</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1129,8 +796,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Who is at risk?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_330</ENGLISH>
-<ENGLISH>ENG_INSURANCE_337</ENGLISH>
-<ENGLISH>ENG_INSURANCE_562</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1138,9 +803,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can any one use ILL?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_3</ENGLISH>
-<ENGLISH>ENG_LOAN_141</ENGLISH>
-<ENGLISH>ENG_CAREER_233</ENGLISH>
-<ENGLISH>ENG_INSURANCE_251</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1148,8 +810,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>I have more than 2 adults traveling in my party, but I am unable to enter all the details on the same quote. What can I do?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_815</ENGLISH>
-<ENGLISH>ENG_CAREER_360</ENGLISH>
-<ENGLISH>ENG_INSURANCE_276</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1157,10 +817,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Can I claim for any in patient bill immediately on getting a policy?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_64</ENGLISH>
-<ENGLISH>ENG_INSURANCE_66</ENGLISH>
-<ENGLISH>ENG_INSURANCE_280</ENGLISH>
-<ENGLISH>ENG_INSURANCE_14</ENGLISH>
-<ENGLISH>ENG_INSURANCE_126</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1168,7 +824,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Hw is my loan elijibility determind?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_316</ENGLISH>
-<ENGLISH>ENG_LOAN_543</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1176,8 +831,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>Who can take LIC policy/s ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_1006</ENGLISH>
-<ENGLISH>ENG_INSURANCE_411</ENGLISH>
-<ENGLISH>ENG_INSURANCE_565</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1185,8 +838,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>how 2 preapare Chasen's Restorant Carot Soufle</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_443</ENGLISH>
-<ENGLISH>ENG_RECIPES_401</ENGLISH>
-<ENGLISH>ENG_RECIPES_511</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1194,9 +845,6 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>symptoms for anthrax?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_435</ENGLISH>
-<ENGLISH>ENG_HEALTH_55</ENGLISH>
-<ENGLISH>ENG_HEALTH_64</ENGLISH>
-<ENGLISH>ENG_HEALTH_76</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1204,21 +852,16 @@ I am a final year student and want to pursue computers as my career i am intrste
 <SMS_TEXT>cost to refinance student loan rates?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_499</ENGLISH>
-<ENGLISH>ENG_LOAN_500</ENGLISH>
-<ENGLISH>ENG_LOAN_498</ENGLISH>
-<ENGLISH>ENG_LOAN_66</ENGLISH>
-<ENGLISH>ENG_LOAN_542</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
 <SMS_QUERY_ID>ENGLISH_NR_122</SMS_QUERY_ID>
-<SMS_TEXT>Could you please suggest me some courses? 
+<SMS_TEXT>Respected Sir/Madam,
+I,Amrita,am a student of Science.I have secured 85.67% in my HSC(Sc.)board exam.I am very confussed of what to do next.I am not interes in computers or medicine.I want to do smth which can make my future very bright.
+Could you please suggest me some courses? 
 Please reply soon.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_114</ENGLISH>
-<ENGLISH>ENG_CAREER_888</ENGLISH>
-<ENGLISH>ENG_CAREER_173</ENGLISH>
-<ENGLISH>ENG_CAREER_495</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1226,9 +869,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>How 2answer tough interview ques?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_35</ENGLISH>
-<ENGLISH>ENG_CAREER_370</ENGLISH>
-<ENGLISH>ENG_VISA_331</ENGLISH>
-<ENGLISH>ENG_VISA_332</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1236,10 +876,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>I'm having dffclty finding flights. When ex must I arive?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_197</ENGLISH>
-<ENGLISH>ENG_VISA_195</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1038</ENGLISH>
-<ENGLISH>ENG_VISA_62</ENGLISH>
-<ENGLISH>ENG_VISA_196</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1247,9 +883,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>What guarantees me that a responsible agriculture weather service (private sector) will be avelable in my area?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_455</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_225</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_219</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_218</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1257,9 +890,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>What American cty prdcs most of the egg rolls sold in grocery strs in the United States?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_326</ENGLISH>
-<ENGLISH>ENG_HEALTH_409</ENGLISH>
-<ENGLISH>ENG_SPORTS_250</ENGLISH>
-<ENGLISH>ENG_VISA_346</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1267,10 +897,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>after the limit of insurance is exosted under Mediclaim ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_753</ENGLISH>
-<ENGLISH>ENG_INSURANCE_752</ENGLISH>
-<ENGLISH>ENG_INSURANCE_750</ENGLISH>
-<ENGLISH>ENG_INSURANCE_763</ENGLISH>
-<ENGLISH>ENG_INSURANCE_754</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1278,9 +904,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>hw to prpre Stouffer's Corn Souffle</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_846</ENGLISH>
-<ENGLISH>ENG_RECIPES_401</ENGLISH>
-<ENGLISH>ENG_RECIPES_443</ENGLISH>
-<ENGLISH>ENG_RECIPES_221</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1288,9 +911,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>How long an EP study takes?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_402</ENGLISH>
-<ENGLISH>ENG_HEALTH_400</ENGLISH>
-<ENGLISH>ENG_HEALTH_403</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_128</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1298,8 +918,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Five big indian crcktr of colonial period?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_530</ENGLISH>
-<ENGLISH>ENG_RECIPES_521</ENGLISH>
-<ENGLISH>ENG_HEALTH_341</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1307,9 +925,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Why should I sync IRCTC mob?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INDIAN_RAILWAYS_529</ENGLISH>
-<ENGLISH>ENG_HEALTH_277</ENGLISH>
-<ENGLISH>ENG_CAREER_8</ENGLISH>
-<ENGLISH>ENG_HEALTH_268</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1317,7 +932,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>how 2 preapare Olive Garden Pasta Fagioli</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_724</ENGLISH>
-<ENGLISH>ENG_RECIPES_731</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1325,8 +939,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>documents to serve as proof of identity for individual apps and HUF applicants?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_648</ENGLISH>
-<ENGLISH>ENG_BANK_633</ENGLISH>
-<ENGLISH>ENG_BANK_629</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1334,10 +946,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>first wman chair of Indian Airlines</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_259</ENGLISH>
-<ENGLISH>ENG_GK_201</ENGLISH>
-<ENGLISH>ENG_GK_212</ENGLISH>
-<ENGLISH>ENG_GK_125</ENGLISH>
-<ENGLISH>ENG_GK_204</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1345,9 +953,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Japanese call japan</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_156</ENGLISH>
-<ENGLISH>ENG_GK_23</ENGLISH>
-<ENGLISH>ENG_VISA_275</ENGLISH>
-<ENGLISH>ENG_SPORTS_332</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1355,9 +960,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>cntry known as the Sugar Bowl of the world</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_38</ENGLISH>
-<ENGLISH>ENG_GK_81</ENGLISH>
-<ENGLISH>ENG_SPORTS_163</ENGLISH>
-<ENGLISH>ENG_GK_25</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1365,9 +967,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>I have finished my B.E civil in 1992, prsntly I'm wrking as a dsgn engnr in a prvte frm. I wld lke do pst grdte in wtr rsrcs or strctrs, cnstrction management through distance education. which university offers such course? when the admission process starts?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_723</ENGLISH>
-<ENGLISH>ENG_CAREER_713</ENGLISH>
-<ENGLISH>ENG_CAREER_714</ENGLISH>
-<ENGLISH>ENG_CAREER_791</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1375,10 +974,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>any way a remitting cstmr can track the remittance trAnsaction?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_527</ENGLISH>
-<ENGLISH>ENG_BANK_765</ENGLISH>
-<ENGLISH>ENG_BANK_528</ENGLISH>
-<ENGLISH>ENG_BANK_618</ENGLISH>
-<ENGLISH>ENG_BANK_524</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1386,8 +981,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>I have fnshd my B.E civil in 1992, prsntly i'm wrking as a dsgn engnr in a private firm. i would like do post graduate in wtr rsrcs or strctres,cnstrction mngmnt thrgh distance education. which university offers such course? when the admission process starts?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_713</ENGLISH>
-<ENGLISH>ENG_CAREER_714</ENGLISH>
-<ENGLISH>ENG_CAREER_791</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1395,9 +988,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>mst sccssfl Zimbabwean golfer of all time?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_79</ENGLISH>
-<ENGLISH>ENG_VISA_533</ENGLISH>
-<ENGLISH>ENG_INSURANCE_65</ENGLISH>
-<ENGLISH>ENG_INSURANCE_875</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1405,9 +995,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Wat are the system rqrmnts for attending a webinar?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_239</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_90</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_91</ENGLISH>
-<ENGLISH>ENG_CAREER_236</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1415,7 +1002,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>How mny teth should a normal healthy adt have?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_727</ENGLISH>
-<ENGLISH>ENG_INSURANCE_696</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1430,10 +1016,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Do I need a guarantor and who all qualifies as one?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_627</ENGLISH>
-<ENGLISH>ENG_LOAN_326</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_105</ENGLISH>
-<ENGLISH>ENG_LOAN_567</ENGLISH>
-<ENGLISH>ENG_WEB_21</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1441,8 +1023,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>how 2 preapare Red Lobster Chs Bscts Clone 1</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_793</ENGLISH>
-<ENGLISH>ENG_RECIPES_788</ENGLISH>
-<ENGLISH>ENG_RECIPES_792</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1450,9 +1030,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>What are the tpes of accnts available to the customer?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_4</ENGLISH>
-<ENGLISH>ENG_BANK_9</ENGLISH>
-<ENGLISH>ENG_BANK_174</ENGLISH>
-<ENGLISH>ENG_CAREER_366</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1460,10 +1037,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Wat Graeme Smith's bat called?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_671</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_90</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_91</ENGLISH>
-<ENGLISH>ENG_SPORTS_645</ENGLISH>
-<ENGLISH>ENG_SPORTS_593</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1471,20 +1044,17 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>first woman dat was President of the Indian National Congress</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_250</ENGLISH>
-<ENGLISH>ENG_GK_204</ENGLISH>
-<ENGLISH>ENG_GK_205</ENGLISH>
-<ENGLISH>ENG_GK_201</ENGLISH>
-<ENGLISH>ENG_GK_253</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
 <SMS_QUERY_ID>ENGLISH_NR_149</SMS_QUERY_ID>
-<SMS_TEXT>What I want to know are the options viable or you have any other alternatives which will help me in my ambition of going abroad. Which is the best one of the alternatives I have given which will make it easier to reach my goal?</SMS_TEXT>
+<SMS_TEXT>Dear Sir/Madam,
+I am 21 years old. I cmpltd my M.B.A  1st year this April from a scnd rung bsnss school. I did my project in Mcdowell and Company ltd in Hyderabad in Andhra Pradesh. This is where I reside. Therefore I do stand a chance of losing some good oppurtunities. 
+Therefore I want to take up a crse along with my second year which will increase my value in the job market. My specialisation would be in marketing. So therefore I am plnnng to take up a course in International Marketing from Pondicherry University through correspondence or a course from Chartered Institute of Marketing, U.K. 
+My aim basically is after gaining 23 years of wrk exprnce I want to try for opprtunities abrd. My area of intrests are software / service / hardware / fmcg Marketing. 
+What I want to know are the options viable or you have any other alternatives which will help me in my ambition of going abroad. Which is the best one of the alternatives I have given which will make it easier to reach my goal?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_117</ENGLISH>
-<ENGLISH>ENG_CAREER_672</ENGLISH>
-<ENGLISH>ENG_CAREER_629</ENGLISH>
-<ENGLISH>ENG_CAREER_905</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1492,9 +1062,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Do whtvr bill chrgd by hospital be given as Cashless facility?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_60</ENGLISH>
-<ENGLISH>ENG_INSURANCE_29</ENGLISH>
-<ENGLISH>ENG_INSURANCE_59</ENGLISH>
-<ENGLISH>ENG_INSURANCE_25</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1502,8 +1069,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>What is the New Base Rte in mrkt?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_572</ENGLISH>
-<ENGLISH>ENG_INSURANCE_343</ENGLISH>
-<ENGLISH>ENG_INSURANCE_344</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1511,8 +1076,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Hw do I accss my accnt or policy information online?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_423</ENGLISH>
-<ENGLISH>ENG_INSURANCE_412</ENGLISH>
-<ENGLISH>ENG_INSURANCE_827</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1527,9 +1090,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>When Edward Heath, Richard Nixon, Willie Brandt resign ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_522</ENGLISH>
-<ENGLISH>ENG_GK_300</ENGLISH>
-<ENGLISH>ENG_GK_239</ENGLISH>
-<ENGLISH>ENG_RECIPES_375</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1537,9 +1097,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Can my confirmed ticket be transferred to smbdy else?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INDIAN_RAILWAYS_199</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_50</ENGLISH>
-<ENGLISH>ENG_TOURISM_96</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_158</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1547,9 +1104,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Does health ins cvr dgnstc charges like X ray, MRI or ultrasound ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_918</ENGLISH>
-<ENGLISH>ENG_INSURANCE_257</ENGLISH>
-<ENGLISH>ENG_VISA_23</ENGLISH>
-<ENGLISH>ENG_INSURANCE_235</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1564,8 +1118,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>How to add my orgnztn to DNA's Important Organization list?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_209</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_22</ENGLISH>
-<ENGLISH>ENG_INSURANCE_39</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1573,10 +1125,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>hw 2 preapare Mcdonalds Biscuit</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_664</ENGLISH>
-<ENGLISH>ENG_RECIPES_431</ENGLISH>
-<ENGLISH>ENG_RECIPES_801</ENGLISH>
-<ENGLISH>ENG_RECIPES_403</ENGLISH>
-<ENGLISH>ENG_RECIPES_511</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1584,10 +1132,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>What is the diff between coinsurance and copayment?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_5</ENGLISH>
-<ENGLISH>ENG_INSURANCE_350</ENGLISH>
-<ENGLISH>ENG_INSURANCE_4</ENGLISH>
-<ENGLISH>ENG_GK_372</ENGLISH>
-<ENGLISH>ENG_HEALTH_488</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1595,9 +1139,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>For hw lng has crckt been played in Africa?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_669</ENGLISH>
-<ENGLISH>ENG_SPORTS_668</ENGLISH>
-<ENGLISH>ENG_SPORTS_605</ENGLISH>
-<ENGLISH>ENG_CAREER_362</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1605,9 +1146,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Wht should my ttl cholesterol level be?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_374</ENGLISH>
-<ENGLISH>ENG_HEALTH_376</ENGLISH>
-<ENGLISH>ENG_BANK_130</ENGLISH>
-<ENGLISH>ENG_HEALTH_379</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1615,10 +1153,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>What is a prxstng conditions clause and what is the effect of its inclsn in major med expense plans?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_6</ENGLISH>
-<ENGLISH>ENG_INSURANCE_4</ENGLISH>
-<ENGLISH>ENG_INSURANCE_2</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1185</ENGLISH>
-<ENGLISH>ENG_INSURANCE_351</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1626,9 +1160,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Hw to prpre Spicy Roti</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_58</ENGLISH>
-<ENGLISH>ENG_RECIPES_41</ENGLISH>
-<ENGLISH>ENG_RECIPES_56</ENGLISH>
-<ENGLISH>ENG_VISA_432</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1650,9 +1181,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>I ned a visa for India?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_68</ENGLISH>
-<ENGLISH>ENG_VISA_294</ENGLISH>
-<ENGLISH>ENG_VISA_118</ENGLISH>
-<ENGLISH>ENG_VISA_431</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1660,9 +1188,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>How does the policy buying prcss work?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_1069</ENGLISH>
-<ENGLISH>ENG_INSURANCE_584</ENGLISH>
-<ENGLISH>ENG_CAREER_370</ENGLISH>
-<ENGLISH>ENG_HEALTH_191</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1670,7 +1195,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Hw 2 prepare Dum Ka Karela</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_185</ENGLISH>
-<ENGLISH>ENG_RECIPES_237</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1678,10 +1202,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Whr should a pensioner submit dtls of investment for clmng relief from Income Tax?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_270</ENGLISH>
-<ENGLISH>ENG_VISA_450</ENGLISH>
-<ENGLISH>ENG_INSURANCE_13</ENGLISH>
-<ENGLISH>ENG_BANK_268</ENGLISH>
-<ENGLISH>ENG_INSURANCE_421</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1689,9 +1209,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Wat Online Agrcltre Dgre Programs Are Available for agriculture programs</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_170</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_171</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_156</ENGLISH>
-<ENGLISH>ENG_SPORTS_439</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1699,8 +1216,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>how to ppare Houston's Canadian Chse Soup</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_586</ENGLISH>
-<ENGLISH>ENG_RECIPES_153</ENGLISH>
-<ENGLISH>ENG_RECIPES_219</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1708,10 +1223,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>why ds the electrical cndctvty of earth atmosphere increase with altitude ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TELECOMMUNICATION_40</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_27</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_25</ENGLISH>
-<ENGLISH>ENG_GK_17</ENGLISH>
-<ENGLISH>ENG_GK_40</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1719,7 +1230,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Who invntd safety pin?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_112</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_296</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1727,10 +1237,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Who do I cntct if I hve a qstn abt the environmental regulation of farms or ranches?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_420</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_17</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_191</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_16</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_88</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1738,8 +1244,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>how to preapare Starbucks Frappuccino (Frozen)</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_842</ENGLISH>
-<ENGLISH>ENG_RECIPES_329</ENGLISH>
-<ENGLISH>ENG_RECIPES_338</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1747,10 +1251,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>having a tourist visa and studying in India?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_138</ENGLISH>
-<ENGLISH>ENG_VISA_283</ENGLISH>
-<ENGLISH>ENG_VISA_139</ENGLISH>
-<ENGLISH>ENG_VISA_285</ENGLISH>
-<ENGLISH>ENG_VISA_498</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1758,10 +1258,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>WAT IS THE LAST DATE FOR RECEIPT OF REDEMPTION APP FORM (RAF)?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_211</ENGLISH>
-<ENGLISH>ENG_BANK_213</ENGLISH>
-<ENGLISH>ENG_BANK_210</ENGLISH>
-<ENGLISH>ENG_BANK_204</ENGLISH>
-<ENGLISH>ENG_BANK_212</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1769,9 +1265,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>I M IN B.TECH 3RD YR.I WANT TO KNOW ABT DIFF PSU'S WHEN THEY ARE HELD IN ELECTRICALandELECTRONICS ENGG.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_706</ENGLISH>
-<ENGLISH>ENG_CAREER_700</ENGLISH>
-<ENGLISH>ENG_CAREER_691</ENGLISH>
-<ENGLISH>ENG_CAREER_686</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1779,9 +1272,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Which golf player's mom is from Thailand?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_378</ENGLISH>
-<ENGLISH>ENG_GK_381</ENGLISH>
-<ENGLISH>ENG_SPORTS_526</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1053</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1789,9 +1279,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>use a density scanner to determine quantity with these dna ladders?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_184</ENGLISH>
-<ENGLISH>ENG_HEALTH_182</ENGLISH>
-<ENGLISH>ENG_HEALTH_187</ENGLISH>
-<ENGLISH>ENG_HEALTH_186</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1799,9 +1286,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>Personal loan?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_307</ENGLISH>
-<ENGLISH>ENG_LOAN_300</ENGLISH>
-<ENGLISH>ENG_LOAN_306</ENGLISH>
-<ENGLISH>ENG_LOAN_311</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1809,8 +1293,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>documents submitted to you secure?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_161</ENGLISH>
-<ENGLISH>ENG_BANK_629</ENGLISH>
-<ENGLISH>ENG_BANK_630</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1825,10 +1307,6 @@ Please reply soon.</SMS_TEXT>
 <SMS_TEXT>With my reseller ctrl panel can I create accnts in real time?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_WEB_76</ENGLISH>
-<ENGLISH>ENG_WEB_77</ENGLISH>
-<ENGLISH>ENG_WEB_46</ENGLISH>
-<ENGLISH>ENG_WEB_82</ENGLISH>
-<ENGLISH>ENG_CAREER_289</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1837,10 +1315,6 @@ Please reply soon.</SMS_TEXT>
 Will you introduce me to potential employers?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_41</ENGLISH>
-<ENGLISH>ENG_TOURISM_94</ENGLISH>
-<ENGLISH>ENG_INSURANCE_814</ENGLISH>
-<ENGLISH>ENG_WEB_6</ENGLISH>
-<ENGLISH>ENG_WEB_25</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1848,7 +1322,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Hw to prpre Rava dosai</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_283</ENGLISH>
-<ENGLISH>ENG_RECIPES_311</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1856,8 +1329,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>how to preapare Rehabbed Cncnnti Chili</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_805</ENGLISH>
-<ENGLISH>ENG_RECIPES_457</ENGLISH>
-<ENGLISH>ENG_RECIPES_902</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1865,9 +1336,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Can I book my tckts through Mobile?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INDIAN_RAILWAYS_186</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_518</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_187</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_40</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1875,9 +1343,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>How much extra should I pay for my tatkal ticket?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INDIAN_RAILWAYS_267</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_217</ENGLISH>
-<ENGLISH>ENG_TOURISM_135</ENGLISH>
-<ENGLISH>ENG_VISA_204</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1885,10 +1350,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Does the Airport Authority have a role in imprvng air service?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TOURISM_130</ENGLISH>
-<ENGLISH>ENG_TOURISM_132</ENGLISH>
-<ENGLISH>ENG_TOURISM_126</ENGLISH>
-<ENGLISH>ENG_TOURISM_129</ENGLISH>
-<ENGLISH>ENG_TOURISM_109</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1896,9 +1357,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>What are the min and max amnts for which a Mediclaim policy can be taken ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_758</ENGLISH>
-<ENGLISH>ENG_INSURANCE_749</ENGLISH>
-<ENGLISH>ENG_INSURANCE_746</ENGLISH>
-<ENGLISH>ENG_SPORTS_567</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1906,8 +1364,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>hosting? why do I need it?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_WEB_22</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1098</ENGLISH>
-<ENGLISH>ENG_WEB_94</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1915,8 +1371,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>rules for lbw in cricket?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_563</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_135</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_273</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1924,10 +1378,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>How long my pssprt have to expiry to apply for a visa?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_471</ENGLISH>
-<ENGLISH>ENG_VISA_76</ENGLISH>
-<ENGLISH>ENG_VISA_325</ENGLISH>
-<ENGLISH>ENG_INSURANCE_845</ENGLISH>
-<ENGLISH>ENG_VISA_343</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1935,10 +1385,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>hw to view old balance in my account?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_165</ENGLISH>
-<ENGLISH>ENG_BANK_156</ENGLISH>
-<ENGLISH>ENG_INSURANCE_808</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_44</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_522</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1946,20 +1392,14 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>how to preapare Hidden Valley Ranch Drssng Mix/Dressing</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_562</ENGLISH>
-<ENGLISH>ENG_RECIPES_359</ENGLISH>
-<ENGLISH>ENG_RECIPES_750</ENGLISH>
-<ENGLISH>ENG_RECIPES_533</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
 <SMS_QUERY_ID>ENGLISH_NR_198</SMS_QUERY_ID>
-<SMS_TEXT>No. The fclty is avlble only for SBI VISA GOLD INTERNATIONAL DEBIT CARDS ISSUED BY THE BANK</SMS_TEXT>
+<SMS_TEXT>Can I register any of my SBI Gold Intrntnl Debit Cards for the VbV facility?
+No. The fclty is avlble only for SBI VISA GOLD INTERNATIONAL DEBIT CARDS ISSUED BY THE BANK</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_354</ENGLISH>
-<ENGLISH>ENG_BANK_222</ENGLISH>
-<ENGLISH>ENG_BANK_220</ENGLISH>
-<ENGLISH>ENG_BANK_221</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_23</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1967,9 +1407,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Wat did Babe Ruth, Rogers, Hornsby, Ted Williams and Willie Mays all do in their frst mjr league attobats?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_138</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_90</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_91</ENGLISH>
-<ENGLISH>ENG_SPORTS_129</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1977,8 +1414,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Hw do I rgstr for the rlway tcktng srvce through IRCTC mobile?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INDIAN_RAILWAYS_494</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_501</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_492</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1986,8 +1421,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Will I be tstd for HIV if I give blood?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_294</ENGLISH>
-<ENGLISH>ENG_VISA_425</ENGLISH>
-<ENGLISH>ENG_HEALTH_42</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -1995,10 +1428,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>What golfer had played 87 stright Grand Slam trnmnts untl a shlder injry frdd him 2 miss the 1996 British Open?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_88</ENGLISH>
-<ENGLISH>ENG_SPORTS_69</ENGLISH>
-<ENGLISH>ENG_SPORTS_162</ENGLISH>
-<ENGLISH>ENG_SPORTS_112</ENGLISH>
-<ENGLISH>ENG_SPORTS_76</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2006,9 +1435,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>What do insrnce brkers do?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_633</ENGLISH>
-<ENGLISH>ENG_CAREER_446</ENGLISH>
-<ENGLISH>ENG_LOAN_236</ENGLISH>
-<ENGLISH>ENG_INSURANCE_44</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2016,9 +1442,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>How Does Online Stdy Wrk</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_128</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_180</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_172</ENGLISH>
-<ENGLISH>ENG_CAREER_295</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2026,8 +1449,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>How 2 add IRCTC to my list of Partners?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INDIAN_RAILWAYS_65</ENGLISH>
-<ENGLISH>ENG_HEALTH_209</ENGLISH>
-<ENGLISH>ENG_INSURANCE_39</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2035,9 +1456,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Do I need to undergo a medical checkup every year?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_19</ENGLISH>
-<ENGLISH>ENG_INSURANCE_18</ENGLISH>
-<ENGLISH>ENG_INSURANCE_103</ENGLISH>
-<ENGLISH>ENG_VISA_133</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2059,8 +1477,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Wht do you knw abt Mstr cntrl fclty ? why it isn fms for?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TELECOMMUNICATION_43</ENGLISH>
-<ENGLISH>ENG_BANK_130</ENGLISH>
-<ENGLISH>ENG_INSURANCE_558</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2068,10 +1484,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>how 2 preapare Marie Callendar's Cake Like Corn Bread</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_655</ENGLISH>
-<ENGLISH>ENG_RECIPES_345</ENGLISH>
-<ENGLISH>ENG_RECIPES_656</ENGLISH>
-<ENGLISH>ENG_RECIPES_344</ENGLISH>
-<ENGLISH>ENG_RECIPES_493</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2079,10 +1491,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Shld the clm be sbmttd wth the insrnce cmpny or w/ TPA?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_56</ENGLISH>
-<ENGLISH>ENG_INSURANCE_50</ENGLISH>
-<ENGLISH>ENG_INSURANCE_391</ENGLISH>
-<ENGLISH>ENG_INSURANCE_15</ENGLISH>
-<ENGLISH>ENG_RECIPES_337</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2090,19 +1498,13 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>I hv seen 'instant HIVtests' being sld on the intrnt  are these rcmmndd?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_286</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_118</ENGLISH>
-<ENGLISH>ENG_INSURANCE_58</ENGLISH>
-<ENGLISH>ENG_RECIPES_205</ENGLISH>
-<ENGLISH>ENG_HEALTH_459</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
 <SMS_QUERY_ID>ENGLISH_NR_213</SMS_QUERY_ID>
-<SMS_TEXT>Wht are some of the tpcl exclsns in an employee's dishonesty policy?</SMS_TEXT>
+<SMS_TEXT>Wht are some of the tpcl exclsns in an employee's dishonesty policy? </SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_686</ENGLISH>
-<ENGLISH>ENG_BANK_130</ENGLISH>
-<ENGLISH>ENG_INSURANCE_681</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2110,9 +1512,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Can edctnl loans be avled for part  time courses/distance  learning prgrms (correspondence courses)?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_289</ENGLISH>
-<ENGLISH>ENG_CAREER_613</ENGLISH>
-<ENGLISH>ENG_CAREER_697</ENGLISH>
-<ENGLISH>ENG_CAREER_944</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2120,7 +1519,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Hw do I knw if my orgnztn is rdy to cndct a 360  degree fdback intrvntn?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_PERSONALITY_DEVELOPMENT_99</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_93</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2128,8 +1526,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>How to prepare Indn Crm of Tmto Soup</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_254</ENGLISH>
-<ENGLISH>ENG_RECIPES_153</ENGLISH>
-<ENGLISH>ENG_RECIPES_219</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2137,7 +1533,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Wht is prsnl lblty insrnce cvrge?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_895</ENGLISH>
-<ENGLISH>ENG_BANK_130</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2145,9 +1540,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>I hve a cnnctng flght on my wy hme  wat cvr do I hve if I arrve at my cnnctng arprt and fnd tht the UK airport or airspace is clsd?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_1143</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1135</ENGLISH>
-<ENGLISH>ENG_TOURISM_125</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1133</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2156,9 +1548,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 2) hw mny UGC rcgnze mstr dgree are avlble after BMM</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_65</ENGLISH>
-<ENGLISH>ENG_CAREER_180</ENGLISH>
-<ENGLISH>ENG_CAREER_914</ENGLISH>
-<ENGLISH>ENG_CAREER_871</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2166,10 +1555,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Wat is the stts of the Animal Feeding Oprtos Air Monitoring Study</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_92</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_90</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_91</ENGLISH>
-<ENGLISH>ENG_GK_2</ENGLISH>
-<ENGLISH>ENG_SPORTS_308</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2177,9 +1562,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Are thre dscnts for sccssflly cmpltng sfe bting classes?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_623</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_420</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_263</ENGLISH>
-<ENGLISH>ENG_LOAN_92</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2187,10 +1569,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>purity of gold coins sold by SBI?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_252</ENGLISH>
-<ENGLISH>ENG_BANK_255</ENGLISH>
-<ENGLISH>ENG_BANK_254</ENGLISH>
-<ENGLISH>ENG_BANK_256</ENGLISH>
-<ENGLISH>ENG_BANK_251</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2198,10 +1576,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Can I change the freq of payment fr my plcy?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_976</ENGLISH>
-<ENGLISH>ENG_LOAN_476</ENGLISH>
-<ENGLISH>ENG_LOAN_490</ENGLISH>
-<ENGLISH>ENG_INSURANCE_960</ENGLISH>
-<ENGLISH>ENG_TOURISM_81</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2209,10 +1583,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Dear Sir!! i'm thrgh with my mstrs in ntrtn. now i wnt to do a distance learning crse for hospital administration. is it possible and if not then in which institutes can I appl for the course?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_878</ENGLISH>
-<ENGLISH>ENG_CAREER_835</ENGLISH>
-<ENGLISH>ENG_CAREER_833</ENGLISH>
-<ENGLISH>ENG_CAREER_579</ENGLISH>
-<ENGLISH>ENG_CAREER_791</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2220,10 +1590,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Where did the first U.S. maj league baseball player was ChantoHo Park from?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_118</ENGLISH>
-<ENGLISH>ENG_SPORTS_129</ENGLISH>
-<ENGLISH>ENG_HEALTH_475</ENGLISH>
-<ENGLISH>ENG_SPORTS_418</ENGLISH>
-<ENGLISH>ENG_SPORTS_138</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2231,7 +1597,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Who is knwn as Haryana express?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_552</ENGLISH>
-<ENGLISH>ENG_RECIPES_756</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2239,9 +1604,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Cn foreign students with Indian Students Visa visit the prhbtd areas?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_413</ENGLISH>
-<ENGLISH>ENG_VISA_414</ENGLISH>
-<ENGLISH>ENG_VISA_409</ENGLISH>
-<ENGLISH>ENG_VISA_406</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2249,9 +1611,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>If I imprve my English, will my Personality imprve?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_PERSONALITY_DEVELOPMENT_5</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_64</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_6</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_63</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2266,9 +1625,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>What is Medical Tourism?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_232</ENGLISH>
-<ENGLISH>ENG_CAREER_872</ENGLISH>
-<ENGLISH>ENG_CAREER_874</ENGLISH>
-<ENGLISH>ENG_INSURANCE_151</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2276,10 +1632,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>India's frst man in space</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_213</ENGLISH>
-<ENGLISH>ENG_GK_297</ENGLISH>
-<ENGLISH>ENG_VISA_247</ENGLISH>
-<ENGLISH>ENG_GK_289</ENGLISH>
-<ENGLISH>ENG_LOAN_359</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2287,9 +1639,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Taking AREDS Frmltn PrEvent a Person from Developing AMD?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_104</ENGLISH>
-<ENGLISH>ENG_HEALTH_332</ENGLISH>
-<ENGLISH>ENG_HEALTH_106</ENGLISH>
-<ENGLISH>ENG_HEALTH_449</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2297,7 +1646,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Why was Min Temperature Forecast season allowed to be completed in the south states, while trmntd in the north agricultural districts</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_224</ENGLISH>
-<ENGLISH>ENG_SPORTS_259</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2305,9 +1653,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Do I need umbrella insrnce coverage?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_800</ENGLISH>
-<ENGLISH>ENG_INSURANCE_799</ENGLISH>
-<ENGLISH>ENG_INSURANCE_693</ENGLISH>
-<ENGLISH>ENG_INSURANCE_870</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2315,8 +1660,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Hw to prpre Dahi Vada (Savory Balls In Yogurt)</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_92</ENGLISH>
-<ENGLISH>ENG_RECIPES_9</ENGLISH>
-<ENGLISH>ENG_RECIPES_18</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2324,10 +1667,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Whre did Dhoni score his first Test cntry?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_499</ENGLISH>
-<ENGLISH>ENG_SPORTS_491</ENGLISH>
-<ENGLISH>ENG_SPORTS_511</ENGLISH>
-<ENGLISH>ENG_SPORTS_689</ENGLISH>
-<ENGLISH>ENG_SPORTS_588</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2335,8 +1674,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>any Cheque fclty available?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_607</ENGLISH>
-<ENGLISH>ENG_VISA_206</ENGLISH>
-<ENGLISH>ENG_BANK_544</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2344,10 +1681,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>I am a stdnt staying away from my parents. Where 2 apply for passport and wat prof of residence shall I have to furnish?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_448</ENGLISH>
-<ENGLISH>ENG_VISA_424</ENGLISH>
-<ENGLISH>ENG_CAREER_557</ENGLISH>
-<ENGLISH>ENG_VISA_342</ENGLISH>
-<ENGLISH>ENG_VISA_471</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2355,10 +1688,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Last name of NFL All Pro bros Shannon and Sterling?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_17</ENGLISH>
-<ENGLISH>ENG_SPORTS_344</ENGLISH>
-<ENGLISH>ENG_SPORTS_402</ENGLISH>
-<ENGLISH>ENG_CAREER_464</ENGLISH>
-<ENGLISH>ENG_SPORTS_41</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2366,10 +1695,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>What are the cancellation charges?how long will take to get the refund processed?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TOURISM_88</ENGLISH>
-<ENGLISH>ENG_VISA_108</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_145</ENGLISH>
-<ENGLISH>ENG_LOAN_536</ENGLISH>
-<ENGLISH>ENG_INSURANCE_484</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2377,8 +1702,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Hw is the ctry apprchng human resources in the public health system?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_272</ENGLISH>
-<ENGLISH>ENG_CAREER_222</ENGLISH>
-<ENGLISH>ENG_HEALTH_441</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2386,7 +1709,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Ds the plicy cover trps paid for with Air Miles or vouchers?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_807</ENGLISH>
-<ENGLISH>ENG_TOURISM_113</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2394,9 +1716,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Wat is a floater policy? How is it bnfcl to take it?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_154</ENGLISH>
-<ENGLISH>ENG_INSURANCE_881</ENGLISH>
-<ENGLISH>ENG_INSURANCE_418</ENGLISH>
-<ENGLISH>ENG_INSURANCE_112</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2404,9 +1723,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>how to prpare Rcss Peanut Butter Cups (Reeses)</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_785</ENGLISH>
-<ENGLISH>ENG_RECIPES_784</ENGLISH>
-<ENGLISH>ENG_RECIPES_803</ENGLISH>
-<ENGLISH>ENG_RECIPES_868</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2414,9 +1730,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>What are agrcltre wther services</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_218</ENGLISH>
-<ENGLISH>ENG_CAREER_22</ENGLISH>
-<ENGLISH>ENG_INSURANCE_636</ENGLISH>
-<ENGLISH>ENG_SPORTS_444</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2424,10 +1737,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Wat if I don't lve Australia?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_105</ENGLISH>
-<ENGLISH>ENG_VISA_88</ENGLISH>
-<ENGLISH>ENG_LOAN_72</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_90</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_91</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2435,10 +1744,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Will you grntee that my personality will imprve aft dng any of yor PERSONA RANGE OF COURSE ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_PERSONALITY_DEVELOPMENT_41</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_42</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_46</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_72</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_44</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2446,9 +1751,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>If a veteran obtns a rlse of liability, is rstrtn of entitlement auto?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_110</ENGLISH>
-<ENGLISH>ENG_LOAN_109</ENGLISH>
-<ENGLISH>ENG_LOAN_233</ENGLISH>
-<ENGLISH>ENG_INSURANCE_559</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2456,9 +1758,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Can I snd an opn app to ESA?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_422</ENGLISH>
-<ENGLISH>ENG_CAREER_423</ENGLISH>
-<ENGLISH>ENG_CAREER_431</ENGLISH>
-<ENGLISH>ENG_CAREER_432</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2466,8 +1765,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>How can I edt my candidate prfle or app for more jobs in the ftre?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_361</ENGLISH>
-<ENGLISH>ENG_CAREER_258</ENGLISH>
-<ENGLISH>ENG_CAREER_215</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2475,9 +1772,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>Hw do I book for an infant?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TOURISM_85</ENGLISH>
-<ENGLISH>ENG_INDIAN_RAILWAYS_179</ENGLISH>
-<ENGLISH>ENG_TOURISM_65</ENGLISH>
-<ENGLISH>ENG_VISA_195</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2485,8 +1779,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 <SMS_TEXT>How 2 prepare Veg Kofta</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_193</ENGLISH>
-<ENGLISH>ENG_RECIPES_61</ENGLISH>
-<ENGLISH>ENG_RECIPES_225</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2495,8 +1787,6 @@ Will you introduce me to potential employers?</SMS_TEXT>
 M or F.M?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TELECOMMUNICATION_28</ENGLISH>
-<ENGLISH>ENG_GK_120</ENGLISH>
-<ENGLISH>ENG_CAREER_681</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2504,8 +1794,6 @@ M or F.M?</SMS_TEXT>
 <SMS_TEXT>year attack on Pearl Harbour?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_469</ENGLISH>
-<ENGLISH>ENG_GK_280</ENGLISH>
-<ENGLISH>ENG_SPORTS_274</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2513,9 +1801,6 @@ M or F.M?</SMS_TEXT>
 <SMS_TEXT>Wat football league had expnsn teams in Baltimore, Las Vegas and Shreveport for the 1994 sesn?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_33</ENGLISH>
-<ENGLISH>ENG_SPORTS_367</ENGLISH>
-<ENGLISH>ENG_SPORTS_28</ENGLISH>
-<ENGLISH>ENG_SPORTS_43</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2523,8 +1808,6 @@ M or F.M?</SMS_TEXT>
 <SMS_TEXT>intrst rates going to reduce agn?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_597</ENGLISH>
-<ENGLISH>ENG_BANK_584</ENGLISH>
-<ENGLISH>ENG_LOAN_634</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2532,8 +1815,6 @@ M or F.M?</SMS_TEXT>
 <SMS_TEXT>how to preapare Red Lobster Cheese Biscuits Vers W/ Mays</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_795</ENGLISH>
-<ENGLISH>ENG_RECIPES_792</ENGLISH>
-<ENGLISH>ENG_RECIPES_799</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2542,10 +1823,6 @@ M or F.M?</SMS_TEXT>
 can be used in my organization?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_PERSONALITY_DEVELOPMENT_22</ENGLISH>
-<ENGLISH>ENG_LOAN_638</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_94</ENGLISH>
-<ENGLISH>ENG_HEALTH_209</ENGLISH>
-<ENGLISH>ENG_BANK_703</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2553,7 +1830,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>how 2 preapare Olive Garden Apple Praline Cheesecake</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_714</ENGLISH>
-<ENGLISH>ENG_RECIPES_720</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2561,9 +1837,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Can an insrnce cmpny dclne to give cvr under their insurance policy?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_142</ENGLISH>
-<ENGLISH>ENG_INSURANCE_648</ENGLISH>
-<ENGLISH>ENG_INSURANCE_763</ENGLISH>
-<ENGLISH>ENG_INSURANCE_65</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2571,8 +1844,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Wat is the prcss to be fllwd post submission of documents for Claim?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_573</ENGLISH>
-<ENGLISH>ENG_LOAN_625</ENGLISH>
-<ENGLISH>ENG_INSURANCE_390</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2580,9 +1851,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>What 2 furnish for effecting remittance?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_554</ENGLISH>
-<ENGLISH>ENG_BANK_524</ENGLISH>
-<ENGLISH>ENG_BANK_291</ENGLISH>
-<ENGLISH>ENG_BANK_304</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2590,8 +1858,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Are there diff types of drug plns?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_357</ENGLISH>
-<ENGLISH>ENG_INSURANCE_217</ENGLISH>
-<ENGLISH>ENG_SPORTS_205</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2599,11 +1865,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Are thr any wthdrwl lmts?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_489</ENGLISH>
-<ENGLISH>ENG_CAREER_162</ENGLISH>
-<ENGLISH>ENG_CAREER_872</ENGLISH>
-<ENGLISH>ENG_HEALTH_66</ENGLISH>
-<ENGLISH>ENG_SPORTS_521</ENGLISH>
-<ENGLISH>ENG_TOURISM_35</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2611,10 +1872,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>How to prepare Aloo Palak</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_1</ENGLISH>
-<ENGLISH>ENG_RECIPES_62</ENGLISH>
-<ENGLISH>ENG_RECIPES_206</ENGLISH>
-<ENGLISH>ENG_RECIPES_207</ENGLISH>
-<ENGLISH>ENG_RECIPES_237</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2622,9 +1879,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>children pay for visas?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_474</ENGLISH>
-<ENGLISH>ENG_VISA_89</ENGLISH>
-<ENGLISH>ENG_VISA_367</ENGLISH>
-<ENGLISH>ENG_HEALTH_479</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2632,8 +1886,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>How many behavioral sttmnts under each competency?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_PERSONALITY_DEVELOPMENT_116</ENGLISH>
-<ENGLISH>ENG_TOURISM_105</ENGLISH>
-<ENGLISH>ENG_GK_435</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2641,8 +1893,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Broadband ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TELECOMMUNICATION_78</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_92</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_108</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2650,8 +1900,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>objctve of the PSS Act, 2007 ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_723</ENGLISH>
-<ENGLISH>ENG_BANK_722</ENGLISH>
-<ENGLISH>ENG_BANK_734</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2659,9 +1907,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Whch pol is best for me?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_1126</ENGLISH>
-<ENGLISH>ENG_CAREER_905</ENGLISH>
-<ENGLISH>ENG_CAREER_473</ENGLISH>
-<ENGLISH>ENG_CAREER_846</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2669,7 +1914,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>someone 2 talk with about choosing a major?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_449</ENGLISH>
-<ENGLISH>ENG_CAREER_364</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2677,8 +1921,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Hw do I pprch ICICI Bank for a Car Loan?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_448</ENGLISH>
-<ENGLISH>ENG_LOAN_325</ENGLISH>
-<ENGLISH>ENG_VISA_442</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2693,10 +1935,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>how to preapare Ranch Style Dressing Mix W/Variations</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_782</ENGLISH>
-<ENGLISH>ENG_RECIPES_562</ENGLISH>
-<ENGLISH>ENG_RECIPES_359</ENGLISH>
-<ENGLISH>ENG_RECIPES_750</ENGLISH>
-<ENGLISH>ENG_RECIPES_764</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2704,9 +1942,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>necessary to get property insurance, while availing a hme loan ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_372</ENGLISH>
-<ENGLISH>ENG_LOAN_321</ENGLISH>
-<ENGLISH>ENG_LOAN_285</ENGLISH>
-<ENGLISH>ENG_LOAN_349</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2714,9 +1949,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Wat former Soviet newspaper had to dpnd on cash frm the Greek Communist Party to stay alive in the 1990s?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_242</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_90</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_91</ENGLISH>
-<ENGLISH>ENG_GK_317</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2724,9 +1956,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Wat Visa requirements for India?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_58</ENGLISH>
-<ENGLISH>ENG_VISA_37</ENGLISH>
-<ENGLISH>ENG_VISA_282</ENGLISH>
-<ENGLISH>ENG_VISA_362</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2734,20 +1963,15 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>meaning "Temperament"?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_PERSONALITY_DEVELOPMENT_73</ENGLISH>
-<ENGLISH>ENG_INSURANCE_771</ENGLISH>
-<ENGLISH>ENG_SPORTS_328</ENGLISH>
-<ENGLISH>ENG_SPORTS_235</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
 <SMS_QUERY_ID>ENGLISH_NR_279</SMS_QUERY_ID>
-<SMS_TEXT>course requirements?</SMS_TEXT>
+<SMS_TEXT>graduate from biotechnology program, can I go on to the Ph.D. in
+Biological Sciences? will any of my courses count toward the Ph.D.
+course requirements?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_58</ENGLISH>
-<ENGLISH>ENG_CAREER_592</ENGLISH>
-<ENGLISH>ENG_CAREER_368</ENGLISH>
-<ENGLISH>ENG_VISA_37</ENGLISH>
-<ENGLISH>ENG_VISA_52</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2755,9 +1979,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>After rchng India, how do I go about with my trip?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TOURISM_11</ENGLISH>
-<ENGLISH>ENG_INSURANCE_40</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1141</ENGLISH>
-<ENGLISH>ENG_VISA_514</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2765,9 +1986,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Wat trtmnt is offrd in the public health sector?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_273</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_90</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_91</ENGLISH>
-<ENGLISH>ENG_CAREER_559</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2775,9 +1993,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>I hve dne BE (Production), got the job in small company. And also done softwares projects in Visual Basic. This is for my parents demand. But i wanna to make my career in hotel line any like hoteling, manfacturing of chips etc. So please help me in this situation. Looking for my career thr' your suggestion</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_162</ENGLISH>
-<ENGLISH>ENG_CAREER_174</ENGLISH>
-<ENGLISH>ENG_CAREER_646</ENGLISH>
-<ENGLISH>ENG_CAREER_835</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2785,9 +2000,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Fthr of Malayalam Lang:</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_323</ENGLISH>
-<ENGLISH>ENG_GK_326</ENGLISH>
-<ENGLISH>ENG_GK_325</ENGLISH>
-<ENGLISH>ENG_GK_340</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2795,8 +2007,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>SIR I AM A BSC Nsg 3rd Yr student in kerala and also a Dpharm holder i want to know abt MBA in HOSP ADMINISTRATION admision job opportunities prt time prgrms in india and distanteducation facilities , distant education facility in pharmacy bachelor progm , and wat all r the othr PG pgm I can do other than nsg in the field of medical 7 rltd crss?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_876</ENGLISH>
-<ENGLISH>ENG_CAREER_79</ENGLISH>
-<ENGLISH>ENG_CAREER_915</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2804,9 +2014,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Where 2 get Rsrvtn/cancelation reqs form?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INDIAN_RAILWAYS_206</ENGLISH>
-<ENGLISH>ENG_LOAN_471</ENGLISH>
-<ENGLISH>ENG_BANK_639</ENGLISH>
-<ENGLISH>ENG_BANK_177</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2814,9 +2021,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Wat hppns aft I hve paid the last EMI?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_649</ENGLISH>
-<ENGLISH>ENG_LOAN_369</ENGLISH>
-<ENGLISH>ENG_LOAN_630</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_90</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2824,10 +2028,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Could any one rcmmnd a good guesthouse in North Goa?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TOURISM_57</ENGLISH>
-<ENGLISH>ENG_BANK_751</ENGLISH>
-<ENGLISH>ENG_VISA_228</ENGLISH>
-<ENGLISH>ENG_CAREER_476</ENGLISH>
-<ENGLISH>ENG_CAREER_167</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2835,10 +2035,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Wat is the up gradation scheme? its salient features?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INDIAN_RAILWAYS_184</ENGLISH>
-<ENGLISH>ENG_BANK_6</ENGLISH>
-<ENGLISH>ENG_BANK_110</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_90</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_91</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2846,7 +2042,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Does the PSS Act, 2007 define what is a payment oblgtn payment instruction, payment sys and other commonly used terms like elctrnc fndtrnsfr, gross sttlment system, netting, settlement, systemic risk, system participant and system provider?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_726</ENGLISH>
-<ENGLISH>ENG_BANK_722</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2854,8 +2049,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>how to preapare Quick Chili W/Homemade Chili Seasoning Mix</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_781</ENGLISH>
-<ENGLISH>ENG_RECIPES_830</ENGLISH>
-<ENGLISH>ENG_RECIPES_574</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2863,10 +2056,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Middle Eastern country's name includes the name of it's first ruler?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_282</ENGLISH>
-<ENGLISH>ENG_SPORTS_260</ENGLISH>
-<ENGLISH>ENG_SPORTS_344</ENGLISH>
-<ENGLISH>ENG_GK_261</ENGLISH>
-<ENGLISH>ENG_SPORTS_201</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2874,9 +2063,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>any probable defence challenges to dna profiling?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_173</ENGLISH>
-<ENGLISH>ENG_HEALTH_172</ENGLISH>
-<ENGLISH>ENG_HEALTH_170</ENGLISH>
-<ENGLISH>ENG_HEALTH_171</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2884,8 +2070,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>360  degree feedback ever inappropriate?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_PERSONALITY_DEVELOPMENT_117</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_93</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_96</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2893,10 +2077,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Hw do I mk a pment to the Option to Purchase PaidUp Additions (OPP) rider on my policy?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_839</ENGLISH>
-<ENGLISH>ENG_INSURANCE_436</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1111</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1034</ENGLISH>
-<ENGLISH>ENG_INSURANCE_135</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2904,9 +2084,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>If I make any mods to my car, should I advice Allianz?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_673</ENGLISH>
-<ENGLISH>ENG_INSURANCE_649</ENGLISH>
-<ENGLISH>ENG_CAREER_105</ENGLISH>
-<ENGLISH>ENG_INSURANCE_652</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2914,8 +2091,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>What kinds of jbs (and salaries) available for SCM graduates?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_194</ENGLISH>
-<ENGLISH>ENG_CAREER_13</ENGLISH>
-<ENGLISH>ENG_INSURANCE_346</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2923,8 +2098,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>What is a mitochondrial disese?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_91</ENGLISH>
-<ENGLISH>ENG_HEALTH_93</ENGLISH>
-<ENGLISH>ENG_HEALTH_95</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2932,8 +2105,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>HW DO I RCRD MY NEW ADDRSS?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_218</ENGLISH>
-<ENGLISH>ENG_INSURANCE_672</ENGLISH>
-<ENGLISH>ENG_BANK_221</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2941,10 +2112,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Can I app for the sprng term or MA in Biotech?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_57</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1030</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1078</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_55</ENGLISH>
-<ENGLISH>ENG_CAREER_511</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2952,7 +2119,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>How old is Johnny Walker Black Label?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_489</ENGLISH>
-<ENGLISH>ENG_SPORTS_500</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2960,10 +2126,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>how to prpre Burger King Bk Broiler</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_432</ENGLISH>
-<ENGLISH>ENG_RECIPES_430</ENGLISH>
-<ENGLISH>ENG_RECIPES_434</ENGLISH>
-<ENGLISH>ENG_RECIPES_433</ENGLISH>
-<ENGLISH>ENG_RECIPES_431</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2978,10 +2140,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>best way to stay infrmd on news that's imprtnt to my actuarial prsts?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_391</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1033</ENGLISH>
-<ENGLISH>ENG_CAREER_378</ENGLISH>
-<ENGLISH>ENG_HEALTH_389</ENGLISH>
-<ENGLISH>ENG_LOAN_560</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2989,9 +2147,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Shld 360  dgree feedback be usd for prfrmnce apprsl or remuneration?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_PERSONALITY_DEVELOPMENT_97</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_93</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_117</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_96</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -2999,9 +2154,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>how to preapare Tastycake Peanut Butter Kandy Kakes</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_868</ENGLISH>
-<ENGLISH>ENG_RECIPES_784</ENGLISH>
-<ENGLISH>ENG_RECIPES_785</ENGLISH>
-<ENGLISH>ENG_RECIPES_803</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3009,10 +2161,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>surrender a whole life policy for its csh val?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_1179</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1178</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1180</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1173</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1177</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3020,9 +2168,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>How 2 reg my SBI Gold International Debit Card for the fclty?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_220</ENGLISH>
-<ENGLISH>ENG_BANK_221</ENGLISH>
-<ENGLISH>ENG_BANK_222</ENGLISH>
-<ENGLISH>ENG_BANK_139</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3030,9 +2175,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>procedure to be fllwe to app for cover undr an Overseas Mediclaim policy?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_766</ENGLISH>
-<ENGLISH>ENG_INSURANCE_764</ENGLISH>
-<ENGLISH>ENG_INSURANCE_761</ENGLISH>
-<ENGLISH>ENG_INSURANCE_746</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3040,10 +2182,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>What is good team sprit in sports?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_504</ENGLISH>
-<ENGLISH>ENG_SPORTS_94</ENGLISH>
-<ENGLISH>ENG_SPORTS_616</ENGLISH>
-<ENGLISH>ENG_SPORTS_50</ENGLISH>
-<ENGLISH>ENG_SPORTS_699</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3051,10 +2189,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>wrk in India with business visa?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_294</ENGLISH>
-<ENGLISH>ENG_VISA_285</ENGLISH>
-<ENGLISH>ENG_VISA_295</ENGLISH>
-<ENGLISH>ENG_VISA_296</ENGLISH>
-<ENGLISH>ENG_VISA_517</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3062,7 +2196,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Wat should a retiring person do 2 draw his/her pension from a SBI branch?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_240</ENGLISH>
-<ENGLISH>ENG_BANK_273</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3070,10 +2203,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>change my beneficiaries?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_1044</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1045</ENGLISH>
-<ENGLISH>ENG_INSURANCE_960</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1112</ENGLISH>
-<ENGLISH>ENG_TOURISM_81</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3081,21 +2210,13 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>times Gandhiji visited Kerala :</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_329</ENGLISH>
-<ENGLISH>ENG_GK_362</ENGLISH>
-<ENGLISH>ENG_GK_331</ENGLISH>
-<ENGLISH>ENG_GK_330</ENGLISH>
-<ENGLISH>ENG_GK_343</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
 <SMS_QUERY_ID>ENGLISH_NR_314</SMS_QUERY_ID>
-<SMS_TEXT>What are the min and max policy durations?</SMS_TEXT>
+<SMS_TEXT>What are the min and max policy durations?  </SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_713</ENGLISH>
-<ENGLISH>ENG_INSURANCE_253</ENGLISH>
-<ENGLISH>ENG_SPORTS_567</ENGLISH>
-<ENGLISH>ENG_INSURANCE_73</ENGLISH>
-<ENGLISH>ENG_INSURANCE_125</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3103,19 +2224,15 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>redemption procedure?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_376</ENGLISH>
-<ENGLISH>ENG_BANK_710</ENGLISH>
-<ENGLISH>ENG_INSURANCE_998</ENGLISH>
-<ENGLISH>ENG_BANK_204</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
 <SMS_QUERY_ID>ENGLISH_NR_316</SMS_QUERY_ID>
-<SMS_TEXT>Pl reply me.</SMS_TEXT>
+<SMS_TEXT>Dear Sir/Madam, 
+I am MSc (CS) holder, fresher. Is this is a time to take up a crse or training in IBM AS/400. get a job if a fresher. 
+Pl reply me.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_130</ENGLISH>
-<ENGLISH>ENG_CAREER_173</ENGLISH>
-<ENGLISH>ENG_CAREER_656</ENGLISH>
-<ENGLISH>ENG_CAREER_667</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3123,10 +2240,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>What are NAT, DNA, RNA and PCR tests?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_284</ENGLISH>
-<ENGLISH>ENG_HEALTH_198</ENGLISH>
-<ENGLISH>ENG_HEALTH_319</ENGLISH>
-<ENGLISH>ENG_HEALTH_172</ENGLISH>
-<ENGLISH>ENG_HEALTH_170</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3134,9 +2247,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>What should I do aftr logging in?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_127</ENGLISH>
-<ENGLISH>ENG_CAREER_105</ENGLISH>
-<ENGLISH>ENG_INSURANCE_556</ENGLISH>
-<ENGLISH>ENG_HEALTH_428</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3144,9 +2254,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>What are my payment optns?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_480</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1095</ENGLISH>
-<ENGLISH>ENG_INSURANCE_130</ENGLISH>
-<ENGLISH>ENG_INSURANCE_31</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3154,9 +2261,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Is it pssble for B.Tech Automobile Engg grdts to app for calls for Mechanical Engg?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_751</ENGLISH>
-<ENGLISH>ENG_CAREER_587</ENGLISH>
-<ENGLISH>ENG_CAREER_670</ENGLISH>
-<ENGLISH>ENG_CAREER_146</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3164,10 +2268,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>what nme did the Domino's Pizza get its start?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_313</ENGLISH>
-<ENGLISH>ENG_SPORTS_551</ENGLISH>
-<ENGLISH>ENG_SPORTS_623</ENGLISH>
-<ENGLISH>ENG_INTERNAL_DEVICES_11</ENGLISH>
-<ENGLISH>ENG_BANK_602</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3175,9 +2275,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>How 2 Enroll My Child In My Job Bsd Health Plan?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_225</ENGLISH>
-<ENGLISH>ENG_INSURANCE_197</ENGLISH>
-<ENGLISH>ENG_HEALTH_38</ENGLISH>
-<ENGLISH>ENG_INSURANCE_112</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3192,21 +2289,13 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Italiam Traveller Marco Polo visited Kerala in :</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_331</ENGLISH>
-<ENGLISH>ENG_GK_329</ENGLISH>
-<ENGLISH>ENG_GK_330</ENGLISH>
-<ENGLISH>ENG_GK_343</ENGLISH>
-<ENGLISH>ENG_GK_237</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
 <SMS_QUERY_ID>ENGLISH_NR_325</SMS_QUERY_ID>
-<SMS_TEXT>country the Land of White Elephant?</SMS_TEXT>
+<SMS_TEXT> country the Land of White Elephant?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_96</ENGLISH>
-<ENGLISH>ENG_GK_98</ENGLISH>
-<ENGLISH>ENG_GK_35</ENGLISH>
-<ENGLISH>ENG_GK_80</ENGLISH>
-<ENGLISH>ENG_GK_97</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3214,8 +2303,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>I am a final year student of LLB. (a) please tell me about the scope of LLM and various institutions which give admission on merit and entrances and also their addresses to contact them for further enquiries. (b) would it be better to give state judiciary (pcsj) exams directly after LLB or LLM.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_947</ENGLISH>
-<ENGLISH>ENG_CAREER_914</ENGLISH>
-<ENGLISH>ENG_CAREER_695</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3230,10 +2317,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>first player to captain two different NHL championship teams?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_55</ENGLISH>
-<ENGLISH>ENG_SPORTS_63</ENGLISH>
-<ENGLISH>ENG_SPORTS_60</ENGLISH>
-<ENGLISH>ENG_SPORTS_52</ENGLISH>
-<ENGLISH>ENG_LOAN_354</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3241,8 +2324,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>how to preapare Outback Bread</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_743</ENGLISH>
-<ENGLISH>ENG_RECIPES_749</ENGLISH>
-<ENGLISH>ENG_RECIPES_742</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3250,9 +2331,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>any Study related outside the Points Based System (PBS)?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_396</ENGLISH>
-<ENGLISH>ENG_VISA_357</ENGLISH>
-<ENGLISH>ENG_BANK_752</ENGLISH>
-<ENGLISH>ENG_CAREER_783</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3260,9 +2338,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Harry Potter Books author?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_101</ENGLISH>
-<ENGLISH>ENG_LOAN_93</ENGLISH>
-<ENGLISH>ENG_SPORTS_386</ENGLISH>
-<ENGLISH>ENG_GK_1102</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3270,10 +2345,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>tourism managemet and its scope</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_862</ENGLISH>
-<ENGLISH>ENG_CAREER_813</ENGLISH>
-<ENGLISH>ENG_CAREER_872</ENGLISH>
-<ENGLISH>ENG_INSURANCE_232</ENGLISH>
-<ENGLISH>ENG_CAREER_680</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3281,9 +2352,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>I am a female age 29,having teaching exp. of 3 years in a pvt. school.i am teaching class vth to 8th, my qualification is MA(history)b.ed. pls. tell me what can do now to grow your CAREER.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_460</ENGLISH>
-<ENGLISH>ENG_CAREER_96</ENGLISH>
-<ENGLISH>ENG_CAREER_581</ENGLISH>
-<ENGLISH>ENG_CAREER_745</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3291,10 +2359,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>teacher lectures in the class. is the classroom a full duplex communication sys</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TELECOMMUNICATION_17</ENGLISH>
-<ENGLISH>ENG_CAREER_16</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_37</ENGLISH>
-<ENGLISH>ENG_INSURANCE_84</ENGLISH>
-<ENGLISH>ENG_SPORTS_609</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3302,9 +2366,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>How many rounds played 2 be eligible for a handicap?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_80</ENGLISH>
-<ENGLISH>ENG_SPORTS_554</ENGLISH>
-<ENGLISH>ENG_SPORTS_668</ENGLISH>
-<ENGLISH>ENG_GK_415</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3312,9 +2373,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Hi i'm Amogh A Churi.I'm now studying in Bsc IT in 2nd year. I have completed Diploma in Computer Technology after 10th. I want to give IPS examination.So please you tell me what is the procedure for admission and it's neccessary to give 12th examination.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_544</ENGLISH>
-<ENGLISH>ENG_CAREER_574</ENGLISH>
-<ENGLISH>ENG_CAREER_720</ENGLISH>
-<ENGLISH>ENG_CAREER_592</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3322,18 +2380,13 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>only women and children victims of sex trafficking?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_222</ENGLISH>
-<ENGLISH>ENG_HEALTH_224</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
 <SMS_QUERY_ID>ENGLISH_NR_338</SMS_QUERY_ID>
-<SMS_TEXT>What 2 do in cse of a claim?</SMS_TEXT>
+<SMS_TEXT>What 2 do in cse of a claim? </SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_388</ENGLISH>
-<ENGLISH>ENG_INSURANCE_44</ENGLISH>
-<ENGLISH>ENG_INSURANCE_963</ENGLISH>
-<ENGLISH>ENG_INSURANCE_276</ENGLISH>
-<ENGLISH>ENG_INSURANCE_41</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3341,9 +2394,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Einstein's working place (office) in the Patent Office in Bern? open to the public today?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_1106</ENGLISH>
-<ENGLISH>ENG_GK_1105</ENGLISH>
-<ENGLISH>ENG_VISA_463</ENGLISH>
-<ENGLISH>ENG_GK_1108</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3352,8 +2402,6 @@ can be used in my organization?</SMS_TEXT>
   a) Fiber Quality                            b) Wavelength.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TELECOMMUNICATION_73</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_52</ENGLISH>
-<ENGLISH>ENG_LOAN_145</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3361,8 +2409,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Have you received my app yet?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_180</ENGLISH>
-<ENGLISH>ENG_BANK_145</ENGLISH>
-<ENGLISH>ENG_BANK_125</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3370,9 +2416,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>year Japanese bomb Pearl Harbour?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_470</ENGLISH>
-<ENGLISH>ENG_GK_4</ENGLISH>
-<ENGLISH>ENG_GK_23</ENGLISH>
-<ENGLISH>ENG_GK_156</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3387,10 +2430,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>I have accnts in some other branch?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_137</ENGLISH>
-<ENGLISH>ENG_BANK_149</ENGLISH>
-<ENGLISH>ENG_VISA_284</ENGLISH>
-<ENGLISH>ENG_BANK_136</ENGLISH>
-<ENGLISH>ENG_BANK_314</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3398,10 +2437,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>The frst President of Egypt</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_72</ENGLISH>
-<ENGLISH>ENG_GK_61</ENGLISH>
-<ENGLISH>ENG_GK_105</ENGLISH>
-<ENGLISH>ENG_GK_201</ENGLISH>
-<ENGLISH>ENG_GK_206</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3409,10 +2444,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>who did fastest 50 in the one day cricket?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_599</ENGLISH>
-<ENGLISH>ENG_SPORTS_582</ENGLISH>
-<ENGLISH>ENG_SPORTS_618</ENGLISH>
-<ENGLISH>ENG_SPORTS_642</ENGLISH>
-<ENGLISH>ENG_SPORTS_703</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3420,9 +2451,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>consolidate fed and priv student loans together?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_485</ENGLISH>
-<ENGLISH>ENG_LOAN_483</ENGLISH>
-<ENGLISH>ENG_LOAN_690</ENGLISH>
-<ENGLISH>ENG_LOAN_687</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3430,10 +2458,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>I hve done BE in IT, but i am intrstd in frnsc scnce. What are the opts i can have? What is computer forensic and what are the qualifs reqs for that? Is there any test or exam in India through which i can obtain training?also do i have the eligibility to pursue criminology at a higher degree level after BE in IT?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_53</ENGLISH>
-<ENGLISH>ENG_CAREER_82</ENGLISH>
-<ENGLISH>ENG_CAREER_79</ENGLISH>
-<ENGLISH>ENG_CAREER_55</ENGLISH>
-<ENGLISH>ENG_CAREER_116</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3441,10 +2465,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>hw to preapare Kfc Extra Tasty Crispy Chicken</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_624</ENGLISH>
-<ENGLISH>ENG_RECIPES_625</ENGLISH>
-<ENGLISH>ENG_RECIPES_616</ENGLISH>
-<ENGLISH>ENG_RECIPES_630</ENGLISH>
-<ENGLISH>ENG_RECIPES_412</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3452,10 +2472,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>I have compltd BSc dgree in Geology in 2007 and now I want to get admission in M.Tech in Geology in a reputed college. names of the concerned colleges.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_568</ENGLISH>
-<ENGLISH>ENG_CAREER_709</ENGLISH>
-<ENGLISH>ENG_CAREER_603</ENGLISH>
-<ENGLISH>ENG_CAREER_762</ENGLISH>
-<ENGLISH>ENG_LOAN_278</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3463,9 +2479,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>personality "The Peacemaker" ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_PERSONALITY_DEVELOPMENT_60</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_3</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_8</ENGLISH>
-<ENGLISH>ENG_PERSONALITY_DEVELOPMENT_26</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3473,8 +2486,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Medicare pay dent serv?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_215</ENGLISH>
-<ENGLISH>ENG_INSURANCE_205</ENGLISH>
-<ENGLISH>ENG_INSURANCE_207</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3482,10 +2493,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Should I be worried if I have an arrhythmia?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_399</ENGLISH>
-<ENGLISH>ENG_VISA_212</ENGLISH>
-<ENGLISH>ENG_TOURISM_60</ENGLISH>
-<ENGLISH>ENG_HEALTH_288</ENGLISH>
-<ENGLISH>ENG_INSURANCE_696</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3493,10 +2500,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>What Olympic event saw Josia Thugwane become the first black man from South Africa to win a gold medal, in 1996?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_96</ENGLISH>
-<ENGLISH>ENG_SPORTS_97</ENGLISH>
-<ENGLISH>ENG_SPORTS_93</ENGLISH>
-<ENGLISH>ENG_SPORTS_106</ENGLISH>
-<ENGLISH>ENG_SPORTS_107</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3504,10 +2507,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>contest of team strength was an official Olympic evnt from 1900 to 1920?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_106</ENGLISH>
-<ENGLISH>ENG_SPORTS_97</ENGLISH>
-<ENGLISH>ENG_SPORTS_104</ENGLISH>
-<ENGLISH>ENG_SPORTS_498</ENGLISH>
-<ENGLISH>ENG_SPORTS_96</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3515,9 +2514,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Does one need to prvide any security for availing stdnt or edu loan?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_663</ENGLISH>
-<ENGLISH>ENG_LOAN_269</ENGLISH>
-<ENGLISH>ENG_LOAN_325</ENGLISH>
-<ENGLISH>ENG_BANK_304</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3525,8 +2521,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>types of Olives 2 plant in India</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_AGRICULTURE_137</ENGLISH>
-<ENGLISH>ENG_INSURANCE_404</ENGLISH>
-<ENGLISH>ENG_SPORTS_329</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3534,8 +2528,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>how to preapare Outback Steakhouse Coral Reef 'rita</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_748</ENGLISH>
-<ENGLISH>ENG_RECIPES_745</ENGLISH>
-<ENGLISH>ENG_RECIPES_747</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3543,8 +2535,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>injections trnsmt HIVinfection?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_467</ENGLISH>
-<ENGLISH>ENG_VISA_214</ENGLISH>
-<ENGLISH>ENG_HEALTH_466</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3552,9 +2542,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>way 2 pay Airlines Company accept?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TOURISM_111</ENGLISH>
-<ENGLISH>ENG_INSURANCE_532</ENGLISH>
-<ENGLISH>ENG_TOURISM_116</ENGLISH>
-<ENGLISH>ENG_INSURANCE_873</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3562,7 +2549,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>my employer has not paid me the money he owes me. What 2 do?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_103</ENGLISH>
-<ENGLISH>ENG_VISA_92</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3570,9 +2556,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Who was Sally Field's daughter in Steel Magnolias?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_295</ENGLISH>
-<ENGLISH>ENG_SPORTS_286</ENGLISH>
-<ENGLISH>ENG_SPORTS_293</ENGLISH>
-<ENGLISH>ENG_SPORTS_415</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3580,7 +2563,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Wat if my floating rate loan is fully disbursed?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_578</ENGLISH>
-<ENGLISH>ENG_LOAN_362</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3588,8 +2570,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>AIDS also effect our region?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_457</ENGLISH>
-<ENGLISH>ENG_INSURANCE_15</ENGLISH>
-<ENGLISH>ENG_CAREER_43</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3597,10 +2577,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>How 2 reapply after a visa has been rfsd?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_350</ENGLISH>
-<ENGLISH>ENG_CAREER_362</ENGLISH>
-<ENGLISH>ENG_SPORTS_669</ENGLISH>
-<ENGLISH>ENG_VISA_352</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1125</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3608,8 +2584,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>types of payment I can use in telecommunication?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TELECOMMUNICATION_7</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_6</ENGLISH>
-<ENGLISH>ENG_AGRICULTURE_134</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3617,9 +2591,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>tell me about Psychometric Test in var competitive examinations for engineers?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_740</ENGLISH>
-<ENGLISH>ENG_CAREER_109</ENGLISH>
-<ENGLISH>ENG_CAREER_580</ENGLISH>
-<ENGLISH>ENG_CAREER_716</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3627,8 +2598,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>foreign national of nonIndian origin acquire residential property on a lease in India?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_39</ENGLISH>
-<ENGLISH>ENG_BANK_42</ENGLISH>
-<ENGLISH>ENG_BANK_71</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3636,8 +2605,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>How 2 save money on my boat insrnc?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_622</ENGLISH>
-<ENGLISH>ENG_INSURANCE_481</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1104</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3645,8 +2612,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Reduce or change my EMI?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_630</ENGLISH>
-<ENGLISH>ENG_INSURANCE_692</ENGLISH>
-<ENGLISH>ENG_HEALTH_89</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3654,8 +2619,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>LLB through correspondence. Pls give me the name of universities</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_918</ENGLISH>
-<ENGLISH>ENG_CAREER_914</ENGLISH>
-<ENGLISH>ENG_CAREER_904</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3670,9 +2633,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>article dspprd from my list of available articles. What happened?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_15</ENGLISH>
-<ENGLISH>ENG_INTERNAL_DEVICES_54</ENGLISH>
-<ENGLISH>ENG_LOAN_58</ENGLISH>
-<ENGLISH>ENG_CAREER_116</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3680,10 +2640,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>factrs the Reserve Bank will cnsdr while dcdng on an app submitted for authorztn?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_732</ENGLISH>
-<ENGLISH>ENG_BANK_574</ENGLISH>
-<ENGLISH>ENG_BANK_579</ENGLISH>
-<ENGLISH>ENG_BANK_578</ENGLISH>
-<ENGLISH>ENG_BANK_739</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3691,8 +2647,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>condom prEvent from contracting HIV?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_332</ENGLISH>
-<ENGLISH>ENG_HEALTH_449</ENGLISH>
-<ENGLISH>ENG_HEALTH_463</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3700,10 +2654,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Do you sell indvdl pols and group pols?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_35</ENGLISH>
-<ENGLISH>ENG_GK_103</ENGLISH>
-<ENGLISH>ENG_INSURANCE_331</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1157</ENGLISH>
-<ENGLISH>ENG_WEB_4</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3711,10 +2661,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>team virendersehwag makes his ODI debut?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_520</ENGLISH>
-<ENGLISH>ENG_SPORTS_494</ENGLISH>
-<ENGLISH>ENG_SPORTS_515</ENGLISH>
-<ENGLISH>ENG_SPORTS_491</ENGLISH>
-<ENGLISH>ENG_SPORTS_588</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3722,7 +2668,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>How to prepare Mava Burfi</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_37</ENGLISH>
-<ENGLISH>ENG_RECIPES_26</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3730,8 +2675,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>I am an Econ grad. I want to go for Master of Business Economics(MBE).major institutions? MBE a worthy PG?job opportunities? Is MBA better than MBE? Please answer my question soon as I want to take a decision soon.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_841</ENGLISH>
-<ENGLISH>ENG_TOURISM_62</ENGLISH>
-<ENGLISH>ENG_CAREER_922</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3739,7 +2682,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>occupation of cotton candy mchne invntr William James Morrison?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_179</ENGLISH>
-<ENGLISH>ENG_RECIPES_560</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3747,10 +2689,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>What do I need when applying for an Indian visa when holding a Pakistani passp?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_VISA_481</ENGLISH>
-<ENGLISH>ENG_INSURANCE_978</ENGLISH>
-<ENGLISH>ENG_LOAN_277</ENGLISH>
-<ENGLISH>ENG_VISA_146</ENGLISH>
-<ENGLISH>ENG_VISA_416</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3758,9 +2696,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>What is the max loan repay duration or period being offered?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_LOAN_609</ENGLISH>
-<ENGLISH>ENG_LOAN_80</ENGLISH>
-<ENGLISH>ENG_LOAN_404</ENGLISH>
-<ENGLISH>ENG_LOAN_301</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3768,10 +2703,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Wat is the fee chrgd for transfer of funds?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_BANK_551</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_90</ENGLISH>
-<ENGLISH>ENG_TELECOMMUNICATION_91</ENGLISH>
-<ENGLISH>ENG_BANK_548</ENGLISH>
-<ENGLISH>ENG_BANK_306</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3779,8 +2710,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>What air ambulance?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_TOURISM_99</ENGLISH>
-<ENGLISH>ENG_TOURISM_109</ENGLISH>
-<ENGLISH>ENG_TOURISM_113</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3788,8 +2717,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>How 2 respondents be chosen?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_PERSONALITY_DEVELOPMENT_104</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1043</ENGLISH>
-<ENGLISH>ENG_RECIPES_511</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3797,10 +2724,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>name of Moscow's largest dprtmnt store?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_SPORTS_283</ENGLISH>
-<ENGLISH>ENG_HEALTH_229</ENGLISH>
-<ENGLISH>ENG_SPORTS_210</ENGLISH>
-<ENGLISH>ENG_GK_19</ENGLISH>
-<ENGLISH>ENG_GK_43</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3808,9 +2731,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Hi This is pankaj from uttarakhand i wanna do MCA. my date of birth is 2nd jan 1981 but my problem is i obtained only 43%marks in BSc.can i do my MAC if yes then? institute/college name and fee structure?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_883</ENGLISH>
-<ENGLISH>ENG_VISA_339</ENGLISH>
-<ENGLISH>ENG_INTERNAL_DEVICES_28</ENGLISH>
-<ENGLISH>ENG_CAREER_147</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3818,9 +2738,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>how to preapare Red Lobster Easy Cheesecake</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_RECIPES_798</ENGLISH>
-<ENGLISH>ENG_RECIPES_783</ENGLISH>
-<ENGLISH>ENG_RECIPES_788</ENGLISH>
-<ENGLISH>ENG_RECIPES_792</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3828,9 +2745,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Who will receive the claim amount if the policyholder dies during the time of treatment ?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_INSURANCE_268</ENGLISH>
-<ENGLISH>ENG_INSURANCE_760</ENGLISH>
-<ENGLISH>ENG_INSURANCE_929</ENGLISH>
-<ENGLISH>ENG_INSURANCE_716</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3838,10 +2752,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Lrgst Forest State in India?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_318</ENGLISH>
-<ENGLISH>ENG_GK_305</ENGLISH>
-<ENGLISH>ENG_GK_306</ENGLISH>
-<ENGLISH>ENG_GK_246</ENGLISH>
-<ENGLISH>ENG_GK_316</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3849,9 +2759,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>The best way I know to prove the HIVhypothesis wrng is to infect otherwise perfectly hlthy people with HIV, don't give them any treatment, and see what happens. I know this type of research has been done with animals. Since you can't exprmnt on other people, why don't you infect yourself? Maybe you can recruit some followers and have a "population" for a real experiment.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_324</ENGLISH>
-<ENGLISH>ENG_HEALTH_42</ENGLISH>
-<ENGLISH>ENG_CAREER_672</ENGLISH>
-<ENGLISH>ENG_SPORTS_132</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3859,10 +2766,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>The frst Indian Air Chief Marshal</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_229</ENGLISH>
-<ENGLISH>ENG_GK_258</ENGLISH>
-<ENGLISH>ENG_GK_215</ENGLISH>
-<ENGLISH>ENG_GK_230</ENGLISH>
-<ENGLISH>ENG_GK_254</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3870,10 +2773,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>The frst wmn pilot in Indian Air Force</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_252</ENGLISH>
-<ENGLISH>ENG_GK_229</ENGLISH>
-<ENGLISH>ENG_CAREER_495</ENGLISH>
-<ENGLISH>ENG_GK_367</ENGLISH>
-<ENGLISH>ENG_INSURANCE_1162</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3888,9 +2787,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Getting One Correspondence and One Regualar Degree (UG or PG) in same year is valid. Moreover Please give detail of Universities/Institutes offering M.Tech (Computer Science) thrgh correspondence.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_595</ENGLISH>
-<ENGLISH>ENG_CAREER_918</ENGLISH>
-<ENGLISH>ENG_CAREER_735</ENGLISH>
-<ENGLISH>ENG_CAREER_768</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3898,9 +2794,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>You say that 90perc. of Aids patients are still men. In Africa the ratio between men and women is 1 to 1 and in Eastern Europe, i.e. Romania, is 6 to 4. Why this difference?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_HEALTH_320</ENGLISH>
-<ENGLISH>ENG_HEALTH_9</ENGLISH>
-<ENGLISH>ENG_INSURANCE_602</ENGLISH>
-<ENGLISH>ENG_HEALTH_488</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3915,9 +2808,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>Einstein involvment the construction of the atomic bomb?</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_GK_1116</ENGLISH>
-<ENGLISH>ENG_GK_4</ENGLISH>
-<ENGLISH>ENG_GK_287</ENGLISH>
-<ENGLISH>ENG_GK_1072</ENGLISH>
 </MATCHES>
 </SMS>
 <SMS>
@@ -3925,9 +2815,6 @@ can be used in my organization?</SMS_TEXT>
 <SMS_TEXT>I have compltd my three years diploma crse in Electronics and Telecomunication Engineering with 80 % marks. Now, I wish to appear in BE/B.Tech (2nd year) exam as an external candidate means to say that I wish to obtain the BE/B.Tech degree thro correspondece/as and external candidate. Kindly let me know the names of Universities and Colleges and their procedure. Thanks.</SMS_TEXT>
 <MATCHES>
 <ENGLISH>ENG_CAREER_648</ENGLISH>
-<ENGLISH>ENG_CAREER_743</ENGLISH>
-<ENGLISH>ENG_CAREER_668</ENGLISH>
-<ENGLISH>ENG_CAREER_730</ENGLISH>
 </MATCHES>
 </SMS>
 </QUERIES>

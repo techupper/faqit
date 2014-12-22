@@ -33,9 +33,9 @@ public class FaqIt {
 					System.out.println("Result: " + result);
 				}
 			} else {
-				if (args.length == 2 && args[0].equalsIgnoreCase("l2rInput")) {
+				if (args.length == 3 && args[0].equalsIgnoreCase("l2rInput")) {
 					FAQImporter.produceL2RInput(Ranker.getStorageManager(),
-							args[1], Ranker.getNumFeatures());
+							args[1], Ranker.getNumFeatures(), args[2].equalsIgnoreCase("true")? true : false);
 				} else if (args.length == 2
 						&& args[0].equalsIgnoreCase("trainingInput")) {
 					FAQImporter.produceTrainingInput(

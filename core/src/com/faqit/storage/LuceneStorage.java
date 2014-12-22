@@ -114,24 +114,60 @@ public class LuceneStorage implements Storage {
 		} catch (ParseException | IOException e) {
 			throw new RetrieveEntriesException(e.getMessage());
 		}
-		
+
 		return topEntries;
 	}
-	
-	public String getQuestionByFaqId(String faqid) throws RetrieveEntriesException{
+
+	public String getQuestionByFaqId(String faqid)
+			throws RetrieveEntriesException {
 		String result = null;
 		try {
 			IndexReader indexReader;
 			Query query = new QueryParser(ID_FIELD, analyzer).parse(faqid);
 			indexReader = DirectoryReader.open(directory);
 			indexSearcher = new IndexSearcher(indexReader);
-			TopScoreDocCollector collector = TopScoreDocCollector.create(NUMBER_OF_HITS, true);
+			TopScoreDocCollector collector = TopScoreDocCollector.create(
+					NUMBER_OF_HITS, true);
 			indexSearcher.search(query, collector);
-			result = indexSearcher.doc(collector.topDocs().scoreDocs[0].doc).get(QUESTION_FIELD);
+			result = indexSearcher.doc(collector.topDocs().scoreDocs[0].doc)
+					.get(QUESTION_FIELD);
 		} catch (IOException | ParseException e) {
 			throw new RetrieveEntriesException(e.getMessage());
 		}
 		return result;
+	}
+
+	@Override
+	public Float getIfIdfByFaqId(String faqid, String userInput) throws RetrieveEntriesException {
+		try {
+			Query query = new QueryParser(QUESTION_FIELD, analyzer)
+			.parse(QueryParser.escape(userInput));
+
+			IndexReader indexReader = DirectoryReader.open(directory);
+			indexSearcher = new IndexSearcher(indexReader);
+		
+			TopScoreDocCollector collector = TopScoreDocCollector.create(
+					NUMBER_OF_HITS, true);
+		
+			indexSearcher.search(query, collector);
+		
+			ScoreDoc[] hits = collector.topDocs().scoreDocs;
+		
+			for (int i = 0; i < hits.length; i++) {
+		
+				int docId = hits[i].doc;
+				Document document = indexSearcher.doc(docId);
+		
+				if (document.get(ID_FIELD).compareTo(faqid) == 0){
+					return hits[i].score;
+				}
+			}
+			
+			return 0f;
+
+		} catch (IOException | ParseException e) {
+			throw new RetrieveEntriesException(e.getMessage());
+		}
 	}
 
 	private Long getSumTotalTermFreq() throws SumTotalTermFreqException {
@@ -149,13 +185,14 @@ public class LuceneStorage implements Storage {
 		double result;
 		try {
 			IndexReader indexReader = DirectoryReader.open(directory);
-			result = indexReader.totalTermFreq(new Term(ANSWER_FIELD, termText))
+			result = indexReader
+					.totalTermFreq(new Term(ANSWER_FIELD, termText))
 					+ indexReader.totalTermFreq(new Term(QUESTION_FIELD,
 							termText));
 		} catch (IOException e) {
 			throw new TotalTermFreqException();
-		} 
-		return (double) ((result != 0l)? result : 0.000001) ;
+		}
+		return (double) ((result != 0l) ? result : 0.000001);
 	}
 
 	@Override
@@ -164,4 +201,5 @@ public class LuceneStorage implements Storage {
 		return Math.log(this.getSumTotalTermFreq()
 				/ this.getTotalTermFreq(term));
 	}
+
 }
