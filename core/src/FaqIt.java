@@ -10,6 +10,13 @@ import com.faqit.similarity.measures.exception.SimilarityMeasureException;
 import com.faqit.storage.FAQImporter;
 import com.faqit.storage.exception.RetrieveEntriesException;
 
+/**
+ * This is the client (entry point) using the FaqIt application.
+ * 
+ * @author FabioRibeiro
+ * @author PauloMarques
+ * 
+ */
 public class FaqIt {
 	private static final boolean DEBUG = true;
 
@@ -30,7 +37,7 @@ public class FaqIt {
 					} else {
 						result = Ranker.performQuery(query);
 					}
-					System.out.println("Result: " + result);
+					System.out.println("Answer: " + result + "\n");
 				}
 			} else {
 				if (args.length == 3 && args[0].equalsIgnoreCase("l2rInput")) {
@@ -46,7 +53,7 @@ public class FaqIt {
 				| RetrieveEntriesException | SimilarityMeasureException e) {
 			System.out.println(e.getMessage());
 		} finally {
-			System.out.println("Goodbye!");
+			System.out.println("\nGoodbye!");
 		}
 	}
 }

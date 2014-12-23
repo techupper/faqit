@@ -269,7 +269,7 @@ public class FAQImporter {
 	}
 
 	private static String getFeatures(String st1, String st2, int numFeatures)
-			throws SimilarityMeasureException {
+			throws SimilarityMeasureException, IOException {
 		StringBuilder sb = new StringBuilder(CHARS_PER_LINE);
 
 		for (int i = 0; i < numFeatures; i++) {

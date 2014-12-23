@@ -27,8 +27,7 @@ public class Ranker {
 	private static final Float ANSWER_WEIGHT = 0f;
 	private static final Float QUESTION_WEIGHT = 1f - ANSWER_WEIGHT;
 	private static final String STANDARD_EXCEPTION_MSG = "At the moment it is not possible to process your query: ";
-	// private static final String L2R_MODEL_PATH =
-	// "./external libs/ranklib/model/standard.model";
+
 
 	private static Storage storageManager;
 	private static boolean initialized = false;
@@ -40,20 +39,20 @@ public class Ranker {
 	private Ranker() {
 		measures = new ArrayList<SimilarityMeasure>();
 		// TODO should we make this parameterized by using an xml config file?
-		SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
-		measures.add(sm1);
+		//SimilarityMeasure sm1 = new NGramOverlapMeasure(1f);
+		//measures.add(sm1);
 		//SimilarityMeasure sm2 = new LSAMeasure(1f);
 		//measures.add(sm2);
 		//SimilarityMeasure sm3 = new ICWeightedOverlapMeasure(1f);
 		//measures.add(sm3);
 		//SimilarityMeasure sm4 = new AlignedLemmaOverlapMeasure(1f);
 		//measures.add(sm4);
-		//SimilarityMeasure sm5 = new SimonWhiteMeasure(1f);
-		//measures.add(sm5);
+		SimilarityMeasure sm5 = new SimonWhiteMeasure(0.8f);
+		measures.add(sm5);
 		//SimilarityMeasure sm6 = new GreedyMatchingLinMeasure(1f);
 		//measures.add(sm6);
-		//SimilarityMeasure sm7 = new MongeElkanMeasure(1f);
-		//measures.add(sm7);
+		SimilarityMeasure sm7 = new MongeElkanMeasure(0.2f);
+		measures.add(sm7);
 		//SimilarityMeasure sm8 = new ChapmanLengthDeviationMeasure(1f);
 		//measures.add(sm8);
 	}
@@ -95,7 +94,7 @@ public class Ranker {
 			throw new RankerGeneralException(
 					"Ranker was not initialized. Call Ranker.Init()");
 		}
-		String result = "<Empty>";
+		String result = "I do not have enough information to answer your question.";
 		try {
 			// 2. Wait for user query and retrieve N most similar entries based
 			// on IF-IDF
@@ -108,9 +107,9 @@ public class Ranker {
 						if (sm.getWeight() == 0f)
 							continue;
 						entry.setScore(entry.getScore()
-								+ (sm.score(entry.getAnswer(), query)
-								* ANSWER_WEIGHT
-								+ sm.score(entry.getQuestion(), query)
+								//+ (sm.score(entry.getAnswer(), query)
+								//* ANSWER_WEIGHT
+								+ (sm.score(TextToolkit.tokenizeNRemoveStopWords(entry.getQuestion()), TextToolkit.tokenizeNRemoveStopWords(query))
 								* QUESTION_WEIGHT)*sm.getWeight());
 					}
 				}
@@ -118,16 +117,16 @@ public class Ranker {
 			// 4. Apply Learning to rank algorithm to learn weights
 			rank(topEntries);
 
-			// 5. Return the top 1 similar question
+			// 5. Return the top 1 answer for the most similar question
 			if (topEntries.size() > 0) {
-				result = topEntries.get(0).getQuestion();
+				result = topEntries.get(0).getAnswer();
 			}
 
 			if (debug) {
 				dumpEntries(query, topEntries);
 			}
 
-		} catch (RetrieveEntriesException | SimilarityMeasureException e) {
+		} catch (RetrieveEntriesException | SimilarityMeasureException | IOException e) {
 			throw new RankerGeneralException(STANDARD_EXCEPTION_MSG
 					+ e.getMessage());
 		}
@@ -139,8 +138,8 @@ public class Ranker {
 		return storageManager;
 	}
 	
-	public static Float getFeature(String st1, String st2, int numFeature) throws SimilarityMeasureException{
-		return measures.get(numFeature - 1).score(st1, st2);
+	public static Float getFeature(String st1, String st2, int numFeature) throws SimilarityMeasureException, IOException{
+		return measures.get(numFeature - 1).score(TextToolkit.tokenizeNRemoveStopWords(st1), TextToolkit.tokenizeNRemoveStopWords(st2));
 	}
 
 	// TODO to use a learning to rank approach
@@ -163,16 +162,17 @@ public class Ranker {
 	}
 
 	private static void dumpEntries(String query, List<Entry> topEntries) {
-		String storageResults = "Results retrieved by Storage: \n";
+		String storageResults = "Results: ORDER (SCORE) : QUESTION \n\n";
 
 		if (topEntries.isEmpty()) {
 			storageResults += "<No similar entries for " + query + ">";
 		} else {
 			int i = 1;
 			for (Entry e : topEntries) {
-				storageResults += "\t" + i + ": " + "score = " + e.getScore()
-						+ " : " + " ifidf = " + e.getBaseScore() + " : "
-						+ e.getQuestion() + "\n";
+				//storageResults += "\t" + i + ": " + "score = " + e.getScore()
+				//		+ " : " + " ifidf = " + e.getBaseScore() + " : "
+				//		+ e.getQuestion() + "\n";
+				storageResults += i + "(" + e.getScore() + ") : " + e.getQuestion() + "\n" ;
 				i++;
 			}
 		}

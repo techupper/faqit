@@ -62,6 +62,10 @@ public class NGramOverlapMeasure extends SimilarityMeasure {
 				commonNGrams++;
 			}
 		}
+		if(numNGramsT1 == 0 || numNGramsT2 == 0){
+			//System.out.println(t1 + "\n" + t2 + "\n\n");
+			return 0f;
+		}
 		return (0.5f * (commonNGrams / numNGramsT1))
 				+ (0.5f * (commonNGrams / numNGramsT2));
 	}
